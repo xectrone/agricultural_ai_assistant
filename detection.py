@@ -4,13 +4,17 @@ import wikipediaapi
 import logging
 import os
 import uuid  # For generating unique filenames
+import sys   # For console logging
 from flask import Flask, request, jsonify
 
-# Set up logging
+# Set up logging to log both to file and console
 logging.basicConfig(
-    filename='logs/app.log',
     level=logging.DEBUG,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('logs/app.log'),
+        logging.StreamHandler(sys.stdout)  # Log to console
+    ]
 )
 
 # Initialize the image classification pipeline with the Hugging Face model

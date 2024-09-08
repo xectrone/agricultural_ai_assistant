@@ -1,5 +1,5 @@
 # app.py
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import os
 from detection import detect_plant_diseases
 import logging
@@ -9,6 +9,11 @@ app = Flask(__name__)
 
 # Create a directory for temporary files if it doesn't exist
 os.makedirs('temp', exist_ok=True)
+
+@app.route('/')
+def index():
+    # Render the HTML template
+    return render_template('index.html')
 
 @app.route('/detect', methods=['POST'])
 def detect_disease():
@@ -30,5 +35,4 @@ def detect_disease():
     return jsonify({"results": results})
 
 if __name__ == "__main__":
-    # For production, run the app with a production server (e.g., Gunicorn)
     app.run(host='0.0.0.0', port=5000, debug=False)
