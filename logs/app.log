@@ -1,0 +1,611 @@
+2024-09-07 20:12:56,071 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-07 20:14:16,912 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-07 20:14:17,910 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-07 20:14:17,925 - INFO - Image classification pipeline initialized.
+2024-09-07 20:17:11,907 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-07 20:18:28,596 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-07 20:18:29,631 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-07 20:18:29,631 - INFO - Image classification pipeline initialized.
+2024-09-07 20:18:29,631 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-07 20:18:29,631 - INFO - Wikipedia API initialized.
+2024-09-07 20:18:29,662 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2024-09-07 20:18:29,662 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-07 20:20:08,918 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-07 20:20:09,203 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-07 20:20:09,607 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-07 20:20:09,607 - INFO - Image classification pipeline initialized.
+2024-09-07 20:20:09,607 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-07 20:20:09,607 - INFO - Wikipedia API initialized.
+2024-09-07 20:20:09,655 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2024-09-07 20:20:09,655 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-07 20:20:09,659 - INFO -  * Restarting with stat
+2024-09-07 20:20:15,399 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-07 20:20:15,696 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-07 20:20:16,464 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-07 20:20:16,480 - INFO - Image classification pipeline initialized.
+2024-09-07 20:20:16,480 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-07 20:20:16,480 - INFO - Wikipedia API initialized.
+2024-09-07 20:20:16,495 - WARNING -  * Debugger is active!
+2024-09-07 20:20:16,511 - INFO -  * Debugger PIN: 117-788-759
+2024-09-07 20:20:36,540 - INFO - 127.0.0.1 - - [07/Sep/2024 20:20:36] "[31m[1mPOST /detect HTTP/1.1[0m" 400 -
+2024-09-07 20:20:53,526 - INFO - 127.0.0.1 - - [07/Sep/2024 20:20:53] "[31m[1mPOST /detect HTTP/1.1[0m" 400 -
+2024-09-07 20:21:36,960 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-09-07 20:21:36,960 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-07 20:21:36,960 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-07 20:21:36,961 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-09-07 20:21:36,961 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+2024-09-07 20:21:41,126 - INFO - Image classification results: [{'label': 'Grape___Black_rot', 'score': 0.9807454347610474}, {'label': 'Grape___healthy', 'score': 0.8228490352630615}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.6965424418449402}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.685350239276886}, {'label': 'Potato___Early_blight', 'score': 0.5624564290046692}]
+2024-09-07 20:21:41,126 - DEBUG - Normalized label: Grape___Black_rot to Grape: Black Rot
+2024-09-07 20:21:41,126 - DEBUG - Normalized label: Grape: Black Rot to Grape: Black Rot
+2024-09-07 20:21:41,126 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Black Rot&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-07 20:21:41,126 - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
+2024-09-07 20:21:41,612 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Black+Rot&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-07 20:21:41,612 - WARNING - No description found for Grape: Black Rot
+2024-09-07 20:21:41,612 - DEBUG - Normalized label: Grape___healthy to Grape: Healthy
+2024-09-07 20:21:41,612 - DEBUG - Normalized label: Grape: Healthy to Grape: Healthy
+2024-09-07 20:21:41,612 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Healthy&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-07 20:21:41,928 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Healthy&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-07 20:21:41,928 - WARNING - No description found for Grape: Healthy
+2024-09-07 20:21:41,928 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-07 20:21:41,928 - DEBUG - Normalized label: Grape: Leaf Blight (Isariopsis Leaf Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-07 20:21:41,928 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Leaf Blight (Isariopsis Leaf Spot)&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-07 20:21:42,254 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Leaf+Blight+%28Isariopsis+Leaf+Spot%29&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-07 20:21:42,255 - WARNING - No description found for Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-07 20:21:42,255 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry: Leaf Scorch
+2024-09-07 20:21:42,256 - DEBUG - Normalized label: Strawberry: Leaf Scorch to Strawberry: Leaf Scorch
+2024-09-07 20:21:42,256 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Strawberry: Leaf Scorch&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-07 20:21:42,575 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Strawberry%3A+Leaf+Scorch&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-07 20:21:42,575 - WARNING - No description found for Strawberry: Leaf Scorch
+2024-09-07 20:21:42,575 - DEBUG - Normalized label: Potato___Early_blight to Potato: Early Blight
+2024-09-07 20:21:42,575 - DEBUG - Normalized label: Potato: Early Blight to Potato: Early Blight
+2024-09-07 20:21:42,575 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Potato: Early Blight&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-07 20:21:42,883 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Potato%3A+Early+Blight&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 503
+2024-09-07 20:21:42,883 - WARNING - No description found for Potato: Early Blight
+2024-09-07 20:21:42,883 - INFO - Detection and enhancement complete.
+2024-09-07 20:21:42,883 - INFO - 127.0.0.1 - - [07/Sep/2024 20:21:42] "POST /detect HTTP/1.1" 200 -
+2024-09-07 20:53:11,832 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-07 20:53:12,619 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-07 20:53:14,450 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-07 20:53:14,460 - INFO - Image classification pipeline initialized.
+2024-09-07 20:53:14,461 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-07 20:53:14,461 - INFO - Wikipedia API initialized.
+2024-09-07 20:53:14,553 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2024-09-07 20:53:14,554 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-07 20:53:14,566 - INFO -  * Restarting with stat
+2024-09-07 20:53:41,242 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-07 20:53:41,883 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-07 20:53:42,291 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-07 20:53:42,299 - INFO - Image classification pipeline initialized.
+2024-09-07 20:53:42,299 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-07 20:53:42,300 - INFO - Wikipedia API initialized.
+2024-09-07 20:53:42,319 - WARNING -  * Debugger is active!
+2024-09-07 20:53:42,336 - INFO -  * Debugger PIN: 117-788-759
+2024-09-07 21:04:24,589 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-09-07 21:04:24,589 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-07 21:04:24,589 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-07 21:04:24,589 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-09-07 21:04:24,589 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+2024-09-07 21:04:29,737 - INFO - Image classification results: [{'label': 'Grape___Black_rot', 'score': 0.9807454347610474}, {'label': 'Grape___healthy', 'score': 0.8228490352630615}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.6965424418449402}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.685350239276886}, {'label': 'Potato___Early_blight', 'score': 0.5624564290046692}]
+2024-09-07 21:04:29,738 - DEBUG - Normalized label: Grape___Black_rot to Grape: Black Rot
+2024-09-07 21:04:29,739 - DEBUG - Normalized label: Grape: Black Rot to Grape: Black Rot
+2024-09-07 21:04:29,739 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Black Rot&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-07 21:04:29,747 - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
+2024-09-07 21:04:30,385 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Black+Rot&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 500
+2024-09-07 21:04:30,389 - WARNING - No description found for Grape: Black Rot
+2024-09-07 21:04:30,389 - DEBUG - Normalized label: Grape___healthy to Grape: Healthy
+2024-09-07 21:04:30,390 - DEBUG - Normalized label: Grape: Healthy to Grape: Healthy
+2024-09-07 21:04:30,390 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Healthy&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-07 21:04:30,909 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Healthy&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 495
+2024-09-07 21:04:30,911 - WARNING - No description found for Grape: Healthy
+2024-09-07 21:04:30,911 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-07 21:04:30,911 - DEBUG - Normalized label: Grape: Leaf Blight (Isariopsis Leaf Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-07 21:04:30,911 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Leaf Blight (Isariopsis Leaf Spot)&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-07 21:04:31,224 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Leaf+Blight+%28Isariopsis+Leaf+Spot%29&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 524
+2024-09-07 21:04:31,226 - WARNING - No description found for Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-07 21:04:31,226 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry: Leaf Scorch
+2024-09-07 21:04:31,226 - DEBUG - Normalized label: Strawberry: Leaf Scorch to Strawberry: Leaf Scorch
+2024-09-07 21:04:31,226 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Strawberry: Leaf Scorch&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-07 21:04:31,547 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Strawberry%3A+Leaf+Scorch&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 506
+2024-09-07 21:04:31,549 - WARNING - No description found for Strawberry: Leaf Scorch
+2024-09-07 21:04:31,549 - DEBUG - Normalized label: Potato___Early_blight to Potato: Early Blight
+2024-09-07 21:04:31,549 - DEBUG - Normalized label: Potato: Early Blight to Potato: Early Blight
+2024-09-07 21:04:31,549 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Potato: Early Blight&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-07 21:04:31,885 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Potato%3A+Early+Blight&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 503
+2024-09-07 21:04:31,886 - WARNING - No description found for Potato: Early Blight
+2024-09-07 21:04:31,887 - INFO - Detection and enhancement complete.
+2024-09-07 21:04:31,893 - INFO - 127.0.0.1 - - [07/Sep/2024 21:04:31] "POST /detect HTTP/1.1" 200 -
+2024-09-07 22:26:30,375 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-07 22:26:30,713 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-07 22:26:31,272 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-07 22:26:31,286 - INFO - Image classification pipeline initialized.
+2024-09-07 22:26:31,286 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-07 22:26:31,286 - INFO - Wikipedia API initialized.
+2024-09-07 22:26:31,331 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2024-09-07 22:26:31,331 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-07 22:26:31,334 - INFO -  * Restarting with stat
+2024-09-07 22:26:37,173 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-07 22:26:37,472 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-07 22:26:37,859 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-07 22:26:37,867 - INFO - Image classification pipeline initialized.
+2024-09-07 22:26:37,867 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-07 22:26:37,867 - INFO - Wikipedia API initialized.
+2024-09-07 22:26:37,894 - WARNING -  * Debugger is active!
+2024-09-07 22:26:37,913 - INFO -  * Debugger PIN: 117-788-759
+2024-09-08 09:08:43,241 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 09:08:43,570 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 09:08:44,279 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 09:08:44,298 - INFO - Image classification pipeline initialized.
+2024-09-08 09:08:44,298 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 09:08:44,299 - INFO - Wikipedia API initialized.
+2024-09-08 09:08:44,377 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-09-08 09:08:44,377 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-08 09:08:44,382 - INFO -  * Restarting with stat
+2024-09-08 09:08:57,357 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 09:08:57,997 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 09:08:58,448 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 09:08:58,454 - INFO - Image classification pipeline initialized.
+2024-09-08 09:08:58,454 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 09:08:58,454 - INFO - Wikipedia API initialized.
+2024-09-08 09:08:58,476 - WARNING -  * Debugger is active!
+2024-09-08 09:08:58,498 - INFO -  * Debugger PIN: 117-788-759
+2024-09-08 09:15:47,917 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 09:15:48,641 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 09:15:49,536 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 09:15:49,546 - INFO - Image classification pipeline initialized.
+2024-09-08 09:15:49,546 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 09:15:49,546 - INFO - Wikipedia API initialized.
+2024-09-08 09:15:49,594 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-09-08 09:15:49,595 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-08 09:15:49,598 - INFO -  * Restarting with stat
+2024-09-08 09:15:55,862 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 09:15:56,528 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 09:15:57,314 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 09:15:57,323 - INFO - Image classification pipeline initialized.
+2024-09-08 09:15:57,323 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 09:15:57,323 - INFO - Wikipedia API initialized.
+2024-09-08 09:15:57,354 - WARNING -  * Debugger is active!
+2024-09-08 09:15:57,378 - INFO -  * Debugger PIN: 117-788-759
+2024-09-08 09:17:27,442 - INFO - 127.0.0.1 - - [08/Sep/2024 09:17:27] "[33mGET / HTTP/1.1[0m" 404 -
+2024-09-08 09:17:27,918 - INFO - 127.0.0.1 - - [08/Sep/2024 09:17:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-08 09:18:09,630 - INFO - 127.0.0.1 - - [08/Sep/2024 09:18:09] "[33mGET / HTTP/1.1[0m" 404 -
+2024-09-08 09:19:23,687 - INFO -  * Detected change in 'c:\\Users\\VIPER\\Documents\\Projects\\Python\\Testing\\Test013 ( Final Year Project V1)\\app.py', reloading
+2024-09-08 09:19:24,314 - INFO -  * Restarting with stat
+2024-09-08 09:19:49,017 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 09:19:49,306 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 09:19:50,296 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 09:19:50,303 - INFO - Image classification pipeline initialized.
+2024-09-08 09:19:50,303 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 09:19:50,304 - INFO - Wikipedia API initialized.
+2024-09-08 09:19:50,353 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-09-08 09:19:50,353 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-08 09:19:50,358 - INFO -  * Restarting with stat
+2024-09-08 09:19:58,243 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 09:19:58,508 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 09:19:58,930 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 09:19:58,937 - INFO - Image classification pipeline initialized.
+2024-09-08 09:19:58,938 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 09:19:58,938 - INFO - Wikipedia API initialized.
+2024-09-08 09:19:58,960 - WARNING -  * Debugger is active!
+2024-09-08 09:19:58,973 - INFO -  * Debugger PIN: 117-788-759
+2024-09-08 09:20:01,852 - INFO - 127.0.0.1 - - [08/Sep/2024 09:20:01] "[33mGET / HTTP/1.1[0m" 404 -
+2024-09-08 09:26:33,238 - INFO - 127.0.0.1 - - [08/Sep/2024 09:26:33] "[33mGET / HTTP/1.1[0m" 404 -
+2024-09-08 09:26:33,540 - INFO - 127.0.0.1 - - [08/Sep/2024 09:26:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-08 09:30:21,872 - INFO -  * Detected change in 'c:\\Users\\VIPER\\Documents\\Projects\\Python\\Testing\\Test013 ( Final Year Project V1)\\app\\__init__.py', reloading
+2024-09-08 09:30:22,606 - INFO -  * Restarting with stat
+2024-09-08 09:41:20,919 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 09:41:21,599 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 09:41:22,434 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 09:41:22,439 - INFO - Image classification pipeline initialized.
+2024-09-08 09:41:22,440 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 09:41:22,440 - INFO - Wikipedia API initialized.
+2024-09-08 09:41:22,469 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-09-08 09:41:22,470 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-08 09:41:22,472 - INFO -  * Restarting with stat
+2024-09-08 09:41:29,172 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 09:41:29,433 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 09:41:30,306 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 09:41:30,312 - INFO - Image classification pipeline initialized.
+2024-09-08 09:41:30,312 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 09:41:30,312 - INFO - Wikipedia API initialized.
+2024-09-08 09:41:30,326 - WARNING -  * Debugger is active!
+2024-09-08 09:41:30,338 - INFO -  * Debugger PIN: 117-788-759
+2024-09-08 09:41:44,391 - INFO -  * Detected change in 'c:\\Users\\VIPER\\Documents\\Projects\\Python\\Testing\\Test013 ( Final Year Project V1)\\app\\detection.py', reloading
+2024-09-08 09:41:45,074 - INFO -  * Restarting with stat
+2024-09-08 09:41:54,367 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 09:41:55,145 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 09:41:55,994 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 09:41:56,000 - INFO - Image classification pipeline initialized.
+2024-09-08 09:41:56,000 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 09:41:56,001 - INFO - Wikipedia API initialized.
+2024-09-08 09:41:56,024 - WARNING -  * Debugger is active!
+2024-09-08 09:41:56,040 - INFO -  * Debugger PIN: 117-788-759
+2024-09-08 09:43:20,393 - INFO -  * Detected change in 'c:\\Users\\VIPER\\Documents\\Projects\\Python\\Testing\\Test013 ( Final Year Project V1)\\app\\routes.py', reloading
+2024-09-08 09:43:21,066 - INFO -  * Restarting with stat
+2024-09-08 09:45:56,156 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 09:45:56,474 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 09:45:56,873 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 09:45:56,878 - INFO - Image classification pipeline initialized.
+2024-09-08 09:45:56,879 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 09:45:56,879 - INFO - Wikipedia API initialized.
+2024-09-08 09:45:56,881 - INFO - Starting the Flask application.
+2024-09-08 09:45:56,903 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-09-08 09:45:56,903 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-08 09:45:56,906 - INFO -  * Restarting with stat
+2024-09-08 09:46:03,388 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 09:46:06,327 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 09:46:07,322 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 09:46:07,330 - INFO - Image classification pipeline initialized.
+2024-09-08 09:46:07,331 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 09:46:07,331 - INFO - Wikipedia API initialized.
+2024-09-08 09:46:07,337 - INFO - Starting the Flask application.
+2024-09-08 09:46:07,357 - WARNING -  * Debugger is active!
+2024-09-08 09:46:07,369 - INFO -  * Debugger PIN: 117-788-759
+2024-09-08 09:47:49,293 - INFO -  * Detected change in 'c:\\Users\\VIPER\\Documents\\Projects\\Python\\Testing\\Test013 ( Final Year Project V1)\\app.py', reloading
+2024-09-08 09:47:50,057 - INFO -  * Restarting with stat
+2024-09-08 09:48:33,723 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 09:48:34,314 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 09:48:35,001 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 09:48:35,008 - INFO - Image classification pipeline initialized.
+2024-09-08 09:48:35,008 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 09:48:35,009 - INFO - Wikipedia API initialized.
+2024-09-08 09:48:35,013 - INFO - Starting the Flask application.
+2024-09-08 09:48:35,036 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-09-08 09:48:35,036 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-08 09:48:35,041 - INFO -  * Restarting with stat
+2024-09-08 09:48:40,856 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 09:48:41,651 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 09:48:42,450 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 09:48:42,455 - INFO - Image classification pipeline initialized.
+2024-09-08 09:48:42,455 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 09:48:42,456 - INFO - Wikipedia API initialized.
+2024-09-08 09:48:42,461 - INFO - Starting the Flask application.
+2024-09-08 09:48:42,485 - WARNING -  * Debugger is active!
+2024-09-08 09:48:42,497 - INFO -  * Debugger PIN: 117-788-759
+2024-09-08 09:48:47,767 - INFO -  * Detected change in 'c:\\Users\\VIPER\\Documents\\Projects\\Python\\Testing\\Test013 ( Final Year Project V1)\\app.py', reloading
+2024-09-08 09:48:48,446 - INFO -  * Restarting with stat
+2024-09-08 09:48:56,350 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 09:48:56,763 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 09:48:57,425 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 09:48:57,431 - INFO - Image classification pipeline initialized.
+2024-09-08 09:48:57,431 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 09:48:57,431 - INFO - Wikipedia API initialized.
+2024-09-08 09:48:57,434 - INFO - Starting the Flask application.
+2024-09-08 09:48:57,446 - WARNING -  * Debugger is active!
+2024-09-08 09:48:57,460 - INFO -  * Debugger PIN: 117-788-759
+2024-09-08 09:51:57,708 - INFO - Detection endpoint called.
+2024-09-08 09:51:57,730 - INFO - Image saved to temp\e79eb391-bdc5-4b2a-9750-b5bfef526d74.jpg
+2024-09-08 09:51:57,951 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-09-08 09:51:57,951 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-08 09:51:57,951 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-08 09:51:57,951 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-09-08 09:51:57,951 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+2024-09-08 09:52:02,503 - INFO - Image classification results: [{'label': 'Grape___Black_rot', 'score': 0.9807454347610474}, {'label': 'Grape___healthy', 'score': 0.8228490352630615}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.6965424418449402}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.685350239276886}, {'label': 'Potato___Early_blight', 'score': 0.5624564290046692}]
+2024-09-08 09:52:02,504 - DEBUG - Normalized label: Grape___Black_rot to Grape: Black Rot
+2024-09-08 09:52:02,504 - DEBUG - Normalized label: Grape: Black Rot to Grape: Black Rot
+2024-09-08 09:52:02,504 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Black Rot&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 09:52:02,507 - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
+2024-09-08 09:52:03,468 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Black+Rot&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 09:52:03,471 - WARNING - No description found for Grape: Black Rot
+2024-09-08 09:52:03,471 - DEBUG - Normalized label: Grape___healthy to Grape: Healthy
+2024-09-08 09:52:03,472 - DEBUG - Normalized label: Grape: Healthy to Grape: Healthy
+2024-09-08 09:52:03,472 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Healthy&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 09:52:03,805 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Healthy&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 09:52:03,806 - WARNING - No description found for Grape: Healthy
+2024-09-08 09:52:03,806 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 09:52:03,806 - DEBUG - Normalized label: Grape: Leaf Blight (Isariopsis Leaf Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 09:52:03,806 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Leaf Blight (Isariopsis Leaf Spot)&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 09:52:04,123 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Leaf+Blight+%28Isariopsis+Leaf+Spot%29&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 09:52:04,125 - WARNING - No description found for Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 09:52:04,125 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry: Leaf Scorch
+2024-09-08 09:52:04,125 - DEBUG - Normalized label: Strawberry: Leaf Scorch to Strawberry: Leaf Scorch
+2024-09-08 09:52:04,125 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Strawberry: Leaf Scorch&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 09:52:04,443 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Strawberry%3A+Leaf+Scorch&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 506
+2024-09-08 09:52:04,444 - WARNING - No description found for Strawberry: Leaf Scorch
+2024-09-08 09:52:04,444 - DEBUG - Normalized label: Potato___Early_blight to Potato: Early Blight
+2024-09-08 09:52:04,444 - DEBUG - Normalized label: Potato: Early Blight to Potato: Early Blight
+2024-09-08 09:52:04,445 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Potato: Early Blight&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 09:52:04,792 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Potato%3A+Early+Blight&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 503
+2024-09-08 09:52:04,793 - WARNING - No description found for Potato: Early Blight
+2024-09-08 09:52:04,793 - INFO - Detection and enhancement complete.
+2024-09-08 09:52:04,794 - DEBUG - Detection results: [{'label': 'Grape: Black Rot', 'confidence': '98.07%', 'description': 'No description available for this disease.'}, {'label': 'Grape: Healthy', 'confidence': '82.28%', 'description': 'No description available for this disease.'}, {'label': 'Grape: Leaf Blight (Isariopsis Leaf Spot)', 'confidence': '69.65%', 'description': 'No description available for this disease.'}, {'label': 'Strawberry: Leaf Scorch', 'confidence': '68.54%', 'description': 'No description available for this disease.'}, {'label': 'Potato: Early Blight', 'confidence': '56.25%', 'description': 'No description available for this disease.'}]
+2024-09-08 09:52:04,795 - INFO - Temporary file temp\e79eb391-bdc5-4b2a-9750-b5bfef526d74.jpg removed after processing.
+2024-09-08 09:52:04,797 - INFO - 127.0.0.1 - - [08/Sep/2024 09:52:04] "POST /detect HTTP/1.1" 200 -
+2024-09-08 09:59:18,293 - INFO -  * Detected change in 'c:\\Users\\VIPER\\Documents\\Projects\\Python\\Testing\\Test013 ( Final Year Project V1)\\app.py', reloading
+2024-09-08 09:59:19,132 - INFO -  * Restarting with stat
+2024-09-08 09:59:27,934 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 09:59:28,292 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 09:59:28,778 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 09:59:28,782 - INFO - Image classification pipeline initialized.
+2024-09-08 09:59:28,783 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 09:59:28,783 - INFO - Wikipedia API initialized.
+2024-09-08 09:59:28,785 - INFO - Starting the Flask application.
+2024-09-08 09:59:28,805 - WARNING -  * Debugger is active!
+2024-09-08 09:59:28,820 - INFO -  * Debugger PIN: 117-788-759
+2024-09-08 10:01:50,943 - INFO -  * Detected change in 'c:\\Users\\VIPER\\Documents\\Projects\\Python\\Testing\\Test013 ( Final Year Project V1)\\app.py', reloading
+2024-09-08 10:01:51,637 - INFO -  * Restarting with stat
+2024-09-08 10:01:58,979 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 10:01:59,774 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 10:02:00,584 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 10:02:00,590 - INFO - Image classification pipeline initialized.
+2024-09-08 10:02:00,591 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 10:02:00,591 - INFO - Wikipedia API initialized.
+2024-09-08 10:02:00,594 - INFO - Starting the Flask application.
+2024-09-08 10:02:00,608 - WARNING -  * Debugger is active!
+2024-09-08 10:02:00,623 - INFO -  * Debugger PIN: 117-788-759
+2024-09-08 10:03:46,690 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 10:03:47,251 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 10:03:47,708 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 10:03:47,715 - INFO - Image classification pipeline initialized.
+2024-09-08 10:03:47,715 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 10:03:47,716 - INFO - Wikipedia API initialized.
+2024-09-08 10:03:47,720 - INFO - Starting the Flask application.
+2024-09-08 10:03:47,755 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-09-08 10:03:47,755 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-08 10:03:47,759 - INFO -  * Restarting with stat
+2024-09-08 10:03:58,107 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 10:03:58,767 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 10:03:59,806 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 10:03:59,814 - INFO - Image classification pipeline initialized.
+2024-09-08 10:03:59,814 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 10:03:59,814 - INFO - Wikipedia API initialized.
+2024-09-08 10:03:59,820 - INFO - Starting the Flask application.
+2024-09-08 10:03:59,840 - WARNING -  * Debugger is active!
+2024-09-08 10:03:59,865 - INFO -  * Debugger PIN: 117-788-759
+2024-09-08 10:10:38,107 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 10:10:38,461 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 10:10:38,899 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 10:10:38,908 - INFO - Image classification pipeline initialized.
+2024-09-08 10:10:38,908 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 10:10:38,908 - INFO - Wikipedia API initialized.
+2024-09-08 10:10:38,927 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-09-08 10:10:38,927 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-08 10:12:57,345 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 10:12:57,682 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 10:12:58,092 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 10:12:58,102 - INFO - Image classification pipeline initialized.
+2024-09-08 10:12:58,103 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 10:12:58,103 - INFO - Wikipedia API initialized.
+2024-09-08 10:12:58,128 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-09-08 10:12:58,128 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-08 10:13:24,214 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-09-08 10:13:24,214 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-08 10:13:24,214 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-08 10:13:24,214 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-09-08 10:13:24,214 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+2024-09-08 10:13:28,201 - INFO - Image classification results: [{'label': 'Grape___Black_rot', 'score': 0.9807454347610474}, {'label': 'Grape___healthy', 'score': 0.8228490352630615}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.6965424418449402}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.685350239276886}, {'label': 'Potato___Early_blight', 'score': 0.5624564290046692}]
+2024-09-08 10:13:28,201 - DEBUG - Normalized label: Grape___Black_rot to Grape: Black Rot
+2024-09-08 10:13:28,201 - DEBUG - Normalized label: Grape: Black Rot to Grape: Black Rot
+2024-09-08 10:13:28,201 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Black Rot&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:13:28,201 - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
+2024-09-08 10:13:28,669 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Black+Rot&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:13:28,685 - WARNING - No description found for Grape: Black Rot
+2024-09-08 10:13:28,685 - DEBUG - Normalized label: Grape___healthy to Grape: Healthy
+2024-09-08 10:13:28,685 - DEBUG - Normalized label: Grape: Healthy to Grape: Healthy
+2024-09-08 10:13:28,685 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Healthy&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:13:29,045 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Healthy&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:13:29,045 - WARNING - No description found for Grape: Healthy
+2024-09-08 10:13:29,045 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 10:13:29,045 - DEBUG - Normalized label: Grape: Leaf Blight (Isariopsis Leaf Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 10:13:29,045 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Leaf Blight (Isariopsis Leaf Spot)&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:13:29,362 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Leaf+Blight+%28Isariopsis+Leaf+Spot%29&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:13:29,362 - WARNING - No description found for Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 10:13:29,362 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry: Leaf Scorch
+2024-09-08 10:13:29,362 - DEBUG - Normalized label: Strawberry: Leaf Scorch to Strawberry: Leaf Scorch
+2024-09-08 10:13:29,362 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Strawberry: Leaf Scorch&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:13:29,694 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Strawberry%3A+Leaf+Scorch&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:13:29,696 - WARNING - No description found for Strawberry: Leaf Scorch
+2024-09-08 10:13:29,696 - DEBUG - Normalized label: Potato___Early_blight to Potato: Early Blight
+2024-09-08 10:13:29,696 - DEBUG - Normalized label: Potato: Early Blight to Potato: Early Blight
+2024-09-08 10:13:29,696 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Potato: Early Blight&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:13:30,000 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Potato%3A+Early+Blight&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:13:30,000 - WARNING - No description found for Potato: Early Blight
+2024-09-08 10:13:30,000 - INFO - Detection and enhancement complete.
+2024-09-08 10:13:30,000 - INFO - Detection completed.
+2024-09-08 10:13:30,017 - INFO - 127.0.0.1 - - [08/Sep/2024 10:13:30] "POST /detect HTTP/1.1" 200 -
+2024-09-08 10:14:09,152 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 10:14:09,800 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 10:14:10,219 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 10:14:10,219 - INFO - Image classification pipeline initialized.
+2024-09-08 10:14:10,219 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 10:14:10,219 - INFO - Wikipedia API initialized.
+2024-09-08 10:14:10,235 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-09-08 10:14:10,235 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-08 10:14:21,895 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-09-08 10:14:21,895 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-08 10:14:21,895 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-08 10:14:21,895 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-09-08 10:14:21,896 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+2024-09-08 10:14:23,652 - INFO - Image classification results: [{'label': 'Grape___Black_rot', 'score': 0.9807454347610474}, {'label': 'Grape___healthy', 'score': 0.8228490352630615}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.6965424418449402}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.685350239276886}, {'label': 'Potato___Early_blight', 'score': 0.5624564290046692}]
+2024-09-08 10:14:23,652 - DEBUG - Normalized label: Grape___Black_rot to Grape: Black Rot
+2024-09-08 10:14:23,652 - DEBUG - Normalized label: Grape: Black Rot to Grape: Black Rot
+2024-09-08 10:14:23,652 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Black Rot&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:14:23,654 - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
+2024-09-08 10:14:24,103 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Black+Rot&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 500
+2024-09-08 10:14:24,106 - WARNING - No description found for Grape: Black Rot
+2024-09-08 10:14:24,106 - DEBUG - Normalized label: Grape___healthy to Grape: Healthy
+2024-09-08 10:14:24,106 - DEBUG - Normalized label: Grape: Healthy to Grape: Healthy
+2024-09-08 10:14:24,106 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Healthy&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:14:24,426 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Healthy&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:14:24,427 - WARNING - No description found for Grape: Healthy
+2024-09-08 10:14:24,427 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 10:14:24,427 - DEBUG - Normalized label: Grape: Leaf Blight (Isariopsis Leaf Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 10:14:24,428 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Leaf Blight (Isariopsis Leaf Spot)&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:14:24,754 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Leaf+Blight+%28Isariopsis+Leaf+Spot%29&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:14:24,756 - WARNING - No description found for Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 10:14:24,756 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry: Leaf Scorch
+2024-09-08 10:14:24,756 - DEBUG - Normalized label: Strawberry: Leaf Scorch to Strawberry: Leaf Scorch
+2024-09-08 10:14:24,756 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Strawberry: Leaf Scorch&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:14:25,064 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Strawberry%3A+Leaf+Scorch&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 506
+2024-09-08 10:14:25,066 - WARNING - No description found for Strawberry: Leaf Scorch
+2024-09-08 10:14:25,066 - DEBUG - Normalized label: Potato___Early_blight to Potato: Early Blight
+2024-09-08 10:14:25,066 - DEBUG - Normalized label: Potato: Early Blight to Potato: Early Blight
+2024-09-08 10:14:25,066 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Potato: Early Blight&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:14:25,447 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Potato%3A+Early+Blight&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 503
+2024-09-08 10:14:25,449 - WARNING - No description found for Potato: Early Blight
+2024-09-08 10:14:25,449 - INFO - Detection and enhancement complete.
+2024-09-08 10:14:25,452 - INFO - 127.0.0.1 - - [08/Sep/2024 10:14:25] "POST /detect HTTP/1.1" 200 -
+2024-09-08 10:16:07,854 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 10:16:08,878 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 10:16:09,733 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 10:16:09,744 - INFO - Image classification pipeline initialized.
+2024-09-08 10:16:09,745 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 10:16:09,745 - INFO - Wikipedia API initialized.
+2024-09-08 10:16:09,755 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-09-08 10:16:09,755 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-08 10:17:18,161 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-09-08 10:17:18,161 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-08 10:17:18,161 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-08 10:17:18,161 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-09-08 10:17:18,161 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+2024-09-08 10:17:22,482 - INFO - Image classification results: [{'label': 'Grape___Black_rot', 'score': 0.9807454347610474}, {'label': 'Grape___healthy', 'score': 0.8228490352630615}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.6965424418449402}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.685350239276886}, {'label': 'Potato___Early_blight', 'score': 0.5624564290046692}]
+2024-09-08 10:17:22,483 - DEBUG - Normalized label: Grape___Black_rot to Grape: Black Rot
+2024-09-08 10:17:22,483 - DEBUG - Normalized label: Grape: Black Rot to Grape: Black Rot
+2024-09-08 10:17:22,483 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Black Rot&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:17:22,486 - DEBUG - Starting new HTTPS connection (1): en.wikipedia.org:443
+2024-09-08 10:17:23,103 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Black+Rot&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:17:23,109 - WARNING - No description found for Grape: Black Rot
+2024-09-08 10:17:23,109 - DEBUG - Normalized label: Grape___healthy to Grape: Healthy
+2024-09-08 10:17:23,109 - DEBUG - Normalized label: Grape: Healthy to Grape: Healthy
+2024-09-08 10:17:23,109 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Healthy&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:17:23,458 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Healthy&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:17:23,459 - WARNING - No description found for Grape: Healthy
+2024-09-08 10:17:23,459 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 10:17:23,459 - DEBUG - Normalized label: Grape: Leaf Blight (Isariopsis Leaf Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 10:17:23,460 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Leaf Blight (Isariopsis Leaf Spot)&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:17:23,803 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Leaf+Blight+%28Isariopsis+Leaf+Spot%29&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:17:23,803 - WARNING - No description found for Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 10:17:23,803 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry: Leaf Scorch
+2024-09-08 10:17:23,803 - DEBUG - Normalized label: Strawberry: Leaf Scorch to Strawberry: Leaf Scorch
+2024-09-08 10:17:23,803 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Strawberry: Leaf Scorch&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:17:24,144 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Strawberry%3A+Leaf+Scorch&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:17:24,145 - WARNING - No description found for Strawberry: Leaf Scorch
+2024-09-08 10:17:24,146 - DEBUG - Normalized label: Potato___Early_blight to Potato: Early Blight
+2024-09-08 10:17:24,146 - DEBUG - Normalized label: Potato: Early Blight to Potato: Early Blight
+2024-09-08 10:17:24,146 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Potato: Early Blight&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:17:24,489 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Potato%3A+Early+Blight&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 503
+2024-09-08 10:17:24,493 - WARNING - No description found for Potato: Early Blight
+2024-09-08 10:17:24,494 - INFO - Detection and enhancement complete.
+2024-09-08 10:17:24,503 - INFO - 127.0.0.1 - - [08/Sep/2024 10:17:24] "POST /detect HTTP/1.1" 200 -
+2024-09-08 10:17:29,922 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-09-08 10:17:29,922 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-08 10:17:29,922 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-08 10:17:29,922 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-09-08 10:17:29,922 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+2024-09-08 10:17:32,661 - INFO - Image classification results: [{'label': 'Grape___Black_rot', 'score': 0.9807454347610474}, {'label': 'Grape___healthy', 'score': 0.8228490352630615}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.6965424418449402}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.685350239276886}, {'label': 'Potato___Early_blight', 'score': 0.5624564290046692}]
+2024-09-08 10:17:32,677 - DEBUG - Normalized label: Grape___Black_rot to Grape: Black Rot
+2024-09-08 10:17:32,677 - DEBUG - Normalized label: Grape: Black Rot to Grape: Black Rot
+2024-09-08 10:17:32,677 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Black Rot&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:17:33,013 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Black+Rot&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:17:33,029 - WARNING - No description found for Grape: Black Rot
+2024-09-08 10:17:33,029 - DEBUG - Normalized label: Grape___healthy to Grape: Healthy
+2024-09-08 10:17:33,029 - DEBUG - Normalized label: Grape: Healthy to Grape: Healthy
+2024-09-08 10:17:33,029 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Healthy&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:17:33,366 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Healthy&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:17:33,366 - WARNING - No description found for Grape: Healthy
+2024-09-08 10:17:33,366 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 10:17:33,366 - DEBUG - Normalized label: Grape: Leaf Blight (Isariopsis Leaf Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 10:17:33,366 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Leaf Blight (Isariopsis Leaf Spot)&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:17:33,738 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Leaf+Blight+%28Isariopsis+Leaf+Spot%29&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:17:33,738 - WARNING - No description found for Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 10:17:33,738 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry: Leaf Scorch
+2024-09-08 10:17:33,738 - DEBUG - Normalized label: Strawberry: Leaf Scorch to Strawberry: Leaf Scorch
+2024-09-08 10:17:33,738 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Strawberry: Leaf Scorch&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:17:34,095 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Strawberry%3A+Leaf+Scorch&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 506
+2024-09-08 10:17:34,095 - WARNING - No description found for Strawberry: Leaf Scorch
+2024-09-08 10:17:34,095 - DEBUG - Normalized label: Potato___Early_blight to Potato: Early Blight
+2024-09-08 10:17:34,095 - DEBUG - Normalized label: Potato: Early Blight to Potato: Early Blight
+2024-09-08 10:17:34,095 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Potato: Early Blight&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:17:34,434 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Potato%3A+Early+Blight&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:17:34,434 - WARNING - No description found for Potato: Early Blight
+2024-09-08 10:17:34,434 - INFO - Detection and enhancement complete.
+2024-09-08 10:17:34,434 - INFO - 127.0.0.1 - - [08/Sep/2024 10:17:34] "POST /detect HTTP/1.1" 200 -
+2024-09-08 10:21:15,322 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2024-09-08 10:21:15,322 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-08 10:21:15,322 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2024-09-08 10:21:15,322 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2024-09-08 10:21:15,322 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+2024-09-08 10:21:17,293 - INFO - Image classification results: [{'label': 'Grape___Black_rot', 'score': 0.9807454347610474}, {'label': 'Grape___healthy', 'score': 0.8228490352630615}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.6965424418449402}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.685350239276886}, {'label': 'Potato___Early_blight', 'score': 0.5624564290046692}]
+2024-09-08 10:21:17,293 - DEBUG - Normalized label: Grape___Black_rot to Grape: Black Rot
+2024-09-08 10:21:17,293 - DEBUG - Normalized label: Grape: Black Rot to Grape: Black Rot
+2024-09-08 10:21:17,293 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Black Rot&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:21:17,293 - DEBUG - Resetting dropped connection: en.wikipedia.org
+2024-09-08 10:21:17,876 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Black+Rot&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:21:17,877 - WARNING - No description found for Grape: Black Rot
+2024-09-08 10:21:17,877 - DEBUG - Normalized label: Grape___healthy to Grape: Healthy
+2024-09-08 10:21:17,877 - DEBUG - Normalized label: Grape: Healthy to Grape: Healthy
+2024-09-08 10:21:17,877 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Healthy&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:21:18,207 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Healthy&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 495
+2024-09-08 10:21:18,207 - WARNING - No description found for Grape: Healthy
+2024-09-08 10:21:18,207 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 10:21:18,207 - DEBUG - Normalized label: Grape: Leaf Blight (Isariopsis Leaf Spot) to Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 10:21:18,207 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Grape: Leaf Blight (Isariopsis Leaf Spot)&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:21:18,534 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Grape%3A+Leaf+Blight+%28Isariopsis+Leaf+Spot%29&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:21:18,534 - WARNING - No description found for Grape: Leaf Blight (Isariopsis Leaf Spot)
+2024-09-08 10:21:18,534 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry: Leaf Scorch
+2024-09-08 10:21:18,534 - DEBUG - Normalized label: Strawberry: Leaf Scorch to Strawberry: Leaf Scorch
+2024-09-08 10:21:18,534 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Strawberry: Leaf Scorch&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:21:18,867 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Strawberry%3A+Leaf+Scorch&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:21:18,883 - WARNING - No description found for Strawberry: Leaf Scorch
+2024-09-08 10:21:18,883 - DEBUG - Normalized label: Potato___Early_blight to Potato: Early Blight
+2024-09-08 10:21:18,883 - DEBUG - Normalized label: Potato: Early Blight to Potato: Early Blight
+2024-09-08 10:21:18,883 - INFO - Request URL: https://en.wikipedia.org/w/api.php?action=query&prop=info&titles=Potato: Early Blight&inprop=protection|talkid|watched|watchers|visitingwatchers|notificationtimestamp|subjectid|url|readable|preload|displaytitle
+2024-09-08 10:21:19,212 - DEBUG - https://en.wikipedia.org:443 "GET /w/api.php?action=query&prop=info&titles=Potato%3A+Early+Blight&inprop=protection%7Ctalkid%7Cwatched%7Cwatchers%7Cvisitingwatchers%7Cnotificationtimestamp%7Csubjectid%7Curl%7Creadable%7Cpreload%7Cdisplaytitle&format=json&redirects=1 HTTP/11" 200 None
+2024-09-08 10:21:19,227 - WARNING - No description found for Potato: Early Blight
+2024-09-08 10:21:19,227 - INFO - Detection and enhancement complete.
+2024-09-08 10:21:19,227 - INFO - 127.0.0.1 - - [08/Sep/2024 10:21:19] "POST /detect HTTP/1.1" 200 -
+2024-09-08 10:22:09,417 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-08 10:22:10,298 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-08 10:22:10,801 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-08 10:22:10,806 - INFO - Image classification pipeline initialized.
+2024-09-08 10:22:10,807 - INFO - Wikipedia: language=en, user_agent: agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com) (Wikipedia-API/0.7.1; https://github.com/martin-majlis/Wikipedia-API/), extract_format=1
+2024-09-08 10:22:10,807 - INFO - Wikipedia API initialized.
+2024-09-08 10:22:10,825 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-09-08 10:22:10,826 - INFO - [33mPress CTRL+C to quit[0m

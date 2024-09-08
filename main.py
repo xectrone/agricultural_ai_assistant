@@ -15,7 +15,8 @@ def humanize_label(label):
 # Function to fetch description dynamically from Wikipedia
 def get_disease_description_dynamic(label):
     try:
-        page = wiki.page(label)
+        page = wiki.page(label.split(':')[1])
+        print(label)
         if page.exists():
             summary = page.summary[0:500]  # Limit the summary to the first 500 characters
             return summary
@@ -31,11 +32,11 @@ def enhance_results(results):
         label = humanize_label(result['label'])
         score = result['score'] * 100  # Convert to percentage
         description = get_disease_description_dynamic(label)
-        print(f"Detected: {label} with match of {score:.2f}%")
+        print(f"Detected: {label} with confidence of {score:.2f}%")
         print(f"Description: {description}\n")
 
 # Example: Classify an image (Replace 'your_image_path.jpg' with the actual image path)
-image_path = "res/grape3.jpg"
+image_path = "temp/grape.jpg"
 results = pipe(image_path)
 
 # Enhance and print results
