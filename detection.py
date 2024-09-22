@@ -1,11 +1,9 @@
 # detection.py
 from transformers import pipeline
-import wikipediaapi
 import logging
-import os
-import uuid  # For generating unique filenames
 import sys   # For console logging
 from flask import Flask, request, jsonify
+import json
 
 # Set up logging to log both to file and console
 logging.basicConfig(
@@ -21,30 +19,55 @@ logging.basicConfig(
 pipe = pipeline("image-classification", model="Abhiram4/PlantDiseaseDetectorVit2")
 logging.info("Image classification pipeline initialized.")
 
-# Initialize Wikipedia API with a custom user agent
-wiki = wikipediaapi.Wikipedia(user_agent="agricultural_ai_assistant/1.0 (spidergeneticks@gmail.com)")
-
-logging.info("Wikipedia API initialized.")
+# Load the disease descriptions from the JSON file
+with open('disease_description.json', 'r') as f:
+    disease_descriptions = json.load(f)
+logging.info("Disease descriptions loaded from JSON.")
 
 def normalize_label(label):
-    normalized = label.replace('___', ': ').replace('_', ' ').title()
+    normalized = label.replace('___', '___').replace('_', ' ').title()  # Keep triple underscores as they are for the JSON keys
     logging.debug(f"Normalized label: {label} to {normalized}")
     return normalized
 
-def get_disease_description_dynamic(label):
+def get_disease_description_from_json(label):
+    # Check if the raw label exists in the JSON dictionary
+    if label in disease_descriptions:
+        disease_info = disease_descriptions[label]
+        description = disease_info.get("Description", "No description available.")
+        cause = disease_info.get("Cause", "No cause information available.")
+        treatment = disease_info.get("Treatment", "No treatment information available.")
+        prevention = disease_info.get("Prevention", "No prevention information available.")
+        return {
+            "description": description,
+            "cause": cause,
+            "treatment": treatment,
+            "prevention": prevention
+        }
+    
+    # If the raw label doesn't match, normalize it and check again
     normalized_label = normalize_label(label)
-    try:
-        page = wiki.page(normalized_label)
-        if page.exists():
-            summary = page.summary[0:500]  # Limit the summary to the first 500 characters
-            logging.info(f"Description found for {normalized_label}")
-            return summary
-        else:
-            logging.warning(f"No description found for {normalized_label}")
-            return "No description available for this disease."
-    except Exception as e:
-        logging.error(f"Error fetching description for {normalized_label}: {str(e)}")
-        return f"Error fetching description: {str(e)}"
+    if normalized_label in disease_descriptions:
+        disease_info = disease_descriptions[normalized_label]
+        description = disease_info.get("Description", "No description available.")
+        cause = disease_info.get("Cause", "No cause information available.")
+        treatment = disease_info.get("Treatment", "No treatment information available.")
+        prevention = disease_info.get("Prevention", "No prevention information available.")
+        return {
+            "description": description,
+            "cause": cause,
+            "treatment": treatment,
+            "prevention": prevention
+        }
+
+    # If neither the raw nor normalized label matches, return default values
+    logging.warning(f"No description found for {label}")
+    return {
+        "description": "No description available for this disease.",
+        "cause": "N/A",
+        "treatment": "N/A",
+        "prevention": "N/A"
+    }
+
 
 def detect_plant_diseases(image_path):
     try:
@@ -52,16 +75,20 @@ def detect_plant_diseases(image_path):
         results = pipe(image_path)
         logging.info(f"Image classification results: {results}")
 
-        # Enhance results with descriptions
+        # Enhance results with descriptions from JSON
         enhanced_results = []
         for result in results:
-            label = normalize_label(result['label'])
+            label = result['label']  # Use the raw label from the model output
             score = result['score'] * 100  # Convert to percentage
-            description = get_disease_description_dynamic(label)
+            description_info = get_disease_description_from_json(label)
+            
             enhanced_results.append({
-                "label": label,
+                "label": normalize_label(label),  # Keep the raw label in the result
                 "confidence": f"{score:.2f}%",
-                "description": description
+                "description": description_info['description'],
+                "cause": description_info['cause'],
+                "treatment": description_info['treatment'],
+                "prevention": description_info['prevention']
             })
 
         logging.info("Detection and enhancement complete.")
@@ -70,4 +97,3 @@ def detect_plant_diseases(image_path):
     except Exception as e:
         logging.error(f"Error in detecting plant diseases: {str(e)}")
         return {"error": "An error occurred during detection."}
-
