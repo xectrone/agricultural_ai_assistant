@@ -4208,3 +4208,133 @@
 2024-09-22 12:49:01,763 - DEBUG - Normalized label: Potato___Early_blight to Potato   Early Blight
 2024-09-22 12:49:01,763 - INFO - Detection and enhancement complete.
 2024-09-22 12:49:01,771 - INFO - 127.0.0.1 - - [22/Sep/2024 12:49:01] "POST /detect HTTP/1.1" 200 -
+2024-09-24 19:18:45,351 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-24 19:18:45,719 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-24 19:18:46,469 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-24 19:18:46,492 - INFO - Image classification pipeline initialized.
+2024-09-24 19:18:46,513 - INFO - Disease descriptions loaded from JSON.
+2024-09-24 19:18:46,579 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-09-24 19:18:46,581 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-24 19:18:58,221 - INFO - 127.0.0.1 - - [24/Sep/2024 19:18:58] "GET / HTTP/1.1" 200 -
+2024-09-24 19:18:58,515 - INFO - 127.0.0.1 - - [24/Sep/2024 19:18:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-09-24 19:18:59,103 - INFO - 127.0.0.1 - - [24/Sep/2024 19:18:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-24 19:19:39,864 - DEBUG - tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 122 - value: b'SONY\x00\x00\x00'
+2024-09-24 19:19:39,864 - DEBUG - tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 130 - value: b'DSC-W150\x00\x00\x00'
+2024-09-24 19:19:39,864 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2024-09-24 19:19:39,864 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 142 - value: b"\xc0\xc6-\x00\x10'\x00\x00"
+2024-09-24 19:19:39,864 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 150 - value: b"\xc0\xc6-\x00\x10'\x00\x00"
+2024-09-24 19:19:39,864 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+2024-09-24 19:19:39,864 - DEBUG - tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 158 - value: <table: 36 bytes>
+2024-09-24 19:19:39,864 - DEBUG - tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 194 - value: b'2019-09-30T14:29:50-07:00\x00'
+2024-09-24 19:19:39,864 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\xdc\x00\x00\x00'
+2024-09-24 19:19:43,555 - INFO - Image classification results: [{'label': 'Strawberry___Leaf_scorch', 'score': 0.958938717842102}, {'label': 'Apple___Cedar_apple_rust', 'score': 0.7999706864356995}, {'label': 'Grape___healthy', 'score': 0.7209615111351013}, {'label': 'Squash___Powdery_mildew', 'score': 0.6781750321388245}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.6583305597305298}]
+2024-09-24 19:19:43,555 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2024-09-24 19:19:43,555 - DEBUG - Normalized label: Apple___Cedar_apple_rust to Apple   Cedar Apple Rust
+2024-09-24 19:19:43,555 - DEBUG - Normalized label: Grape___healthy to Grape   Healthy
+2024-09-24 19:19:43,555 - DEBUG - Normalized label: Squash___Powdery_mildew to Squash   Powdery Mildew
+2024-09-24 19:19:43,555 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape   Leaf Blight (Isariopsis Leaf Spot)
+2024-09-24 19:19:43,555 - INFO - Detection and enhancement complete.
+2024-09-24 19:19:43,555 - INFO - 127.0.0.1 - - [24/Sep/2024 19:19:43] "POST /detect HTTP/1.1" 200 -
+2024-09-24 19:21:20,442 - DEBUG - tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Panasonic\x00'
+2024-09-24 19:21:20,442 - DEBUG - tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 156 - value: b'DMC-FZ10\x00'
+2024-09-24 19:21:20,442 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2024-09-24 19:21:20,443 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 165 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2024-09-24 19:21:20,443 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 173 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2024-09-24 19:21:20,444 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+2024-09-24 19:21:20,444 - DEBUG - tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 181 - value: b'Adobe Photoshop 7.0 CE\x00'
+2024-09-24 19:21:20,445 - DEBUG - tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 204 - value: b'2004:10:19 13:20:26\x00'
+2024-09-24 19:21:20,445 - DEBUG - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+2024-09-24 19:21:20,445 - DEBUG - tag: unknown (50341) - type: undefined (7) Tag Location: 130 - Data Location: 224 - value: <table: 208 bytes>
+2024-09-24 19:21:20,447 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\xb0\x01\x00\x00'
+2024-09-24 19:21:21,760 - INFO - Image classification results: [{'label': 'Strawberry___Leaf_scorch', 'score': 0.9925256967544556}, {'label': 'Tomato___Septoria_leaf_spot', 'score': 0.6070094108581543}, {'label': 'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot', 'score': 0.5831923484802246}, {'label': 'Apple___Cedar_apple_rust', 'score': 0.5776548385620117}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.5628113150596619}]
+2024-09-24 19:21:21,761 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2024-09-24 19:21:21,761 - DEBUG - Normalized label: Tomato___Septoria_leaf_spot to Tomato   Septoria Leaf Spot
+2024-09-24 19:21:21,762 - DEBUG - Normalized label: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot to Corn (Maize)   Cercospora Leaf Spot Gray Leaf Spot
+2024-09-24 19:21:21,762 - DEBUG - Normalized label: Apple___Cedar_apple_rust to Apple   Cedar Apple Rust
+2024-09-24 19:21:21,763 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape   Leaf Blight (Isariopsis Leaf Spot)
+2024-09-24 19:21:21,763 - INFO - Detection and enhancement complete.
+2024-09-24 19:21:21,764 - INFO - 127.0.0.1 - - [24/Sep/2024 19:21:21] "POST /detect HTTP/1.1" 200 -
+2024-09-24 19:21:31,999 - DEBUG - tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Panasonic\x00'
+2024-09-24 19:21:31,999 - DEBUG - tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 156 - value: b'DMC-FZ10\x00'
+2024-09-24 19:21:31,999 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2024-09-24 19:21:31,999 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 165 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2024-09-24 19:21:31,999 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 173 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2024-09-24 19:21:31,999 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+2024-09-24 19:21:31,999 - DEBUG - tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 181 - value: b'Adobe Photoshop 7.0 CE\x00'
+2024-09-24 19:21:31,999 - DEBUG - tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 204 - value: b'2004:10:19 13:20:26\x00'
+2024-09-24 19:21:31,999 - DEBUG - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+2024-09-24 19:21:31,999 - DEBUG - tag: unknown (50341) - type: undefined (7) Tag Location: 130 - Data Location: 224 - value: <table: 208 bytes>
+2024-09-24 19:21:31,999 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\xb0\x01\x00\x00'
+2024-09-24 19:21:33,313 - INFO - Image classification results: [{'label': 'Strawberry___Leaf_scorch', 'score': 0.9925256967544556}, {'label': 'Tomato___Septoria_leaf_spot', 'score': 0.6070094108581543}, {'label': 'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot', 'score': 0.5831923484802246}, {'label': 'Apple___Cedar_apple_rust', 'score': 0.5776548385620117}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.5628113150596619}]
+2024-09-24 19:21:33,314 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2024-09-24 19:21:33,315 - DEBUG - Normalized label: Tomato___Septoria_leaf_spot to Tomato   Septoria Leaf Spot
+2024-09-24 19:21:33,317 - DEBUG - Normalized label: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot to Corn (Maize)   Cercospora Leaf Spot Gray Leaf Spot
+2024-09-24 19:21:33,317 - DEBUG - Normalized label: Apple___Cedar_apple_rust to Apple   Cedar Apple Rust
+2024-09-24 19:21:33,319 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape   Leaf Blight (Isariopsis Leaf Spot)
+2024-09-24 19:21:33,319 - INFO - Detection and enhancement complete.
+2024-09-24 19:21:33,321 - INFO - 127.0.0.1 - - [24/Sep/2024 19:21:33] "POST /detect HTTP/1.1" 200 -
+2024-09-24 19:21:33,624 - INFO - 127.0.0.1 - - [24/Sep/2024 19:21:33] "GET / HTTP/1.1" 200 -
+2024-09-24 19:21:33,682 - INFO - 127.0.0.1 - - [24/Sep/2024 19:21:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-09-24 19:21:37,714 - DEBUG - tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Panasonic\x00'
+2024-09-24 19:21:37,715 - DEBUG - tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 156 - value: b'DMC-FZ10\x00'
+2024-09-24 19:21:37,715 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2024-09-24 19:21:37,716 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 165 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2024-09-24 19:21:37,716 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 173 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2024-09-24 19:21:37,717 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+2024-09-24 19:21:37,717 - DEBUG - tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 181 - value: b'Adobe Photoshop 7.0 CE\x00'
+2024-09-24 19:21:37,717 - DEBUG - tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 204 - value: b'2004:10:19 13:20:26\x00'
+2024-09-24 19:21:37,718 - DEBUG - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+2024-09-24 19:21:37,719 - DEBUG - tag: unknown (50341) - type: undefined (7) Tag Location: 130 - Data Location: 224 - value: <table: 208 bytes>
+2024-09-24 19:21:37,719 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\xb0\x01\x00\x00'
+2024-09-24 19:21:39,026 - INFO - Image classification results: [{'label': 'Strawberry___Leaf_scorch', 'score': 0.9925256967544556}, {'label': 'Tomato___Septoria_leaf_spot', 'score': 0.6070094108581543}, {'label': 'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot', 'score': 0.5831923484802246}, {'label': 'Apple___Cedar_apple_rust', 'score': 0.5776548385620117}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.5628113150596619}]
+2024-09-24 19:21:39,027 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2024-09-24 19:21:39,027 - DEBUG - Normalized label: Tomato___Septoria_leaf_spot to Tomato   Septoria Leaf Spot
+2024-09-24 19:21:39,028 - DEBUG - Normalized label: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot to Corn (Maize)   Cercospora Leaf Spot Gray Leaf Spot
+2024-09-24 19:21:39,028 - DEBUG - Normalized label: Apple___Cedar_apple_rust to Apple   Cedar Apple Rust
+2024-09-24 19:21:39,029 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape   Leaf Blight (Isariopsis Leaf Spot)
+2024-09-24 19:21:39,029 - INFO - Detection and enhancement complete.
+2024-09-24 19:21:39,030 - INFO - 127.0.0.1 - - [24/Sep/2024 19:21:39] "POST /detect HTTP/1.1" 200 -
+2024-09-24 19:23:52,051 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-24 19:23:53,407 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-24 19:23:53,930 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-24 19:23:53,942 - INFO - Image classification pipeline initialized.
+2024-09-24 19:23:53,946 - INFO - Disease descriptions loaded from JSON.
+2024-09-24 19:23:53,969 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-09-24 19:23:53,970 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-24 19:24:00,770 - INFO - 127.0.0.1 - - [24/Sep/2024 19:24:00] "GET / HTTP/1.1" 200 -
+2024-09-24 19:24:00,945 - INFO - 127.0.0.1 - - [24/Sep/2024 19:24:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-09-24 19:24:06,881 - DEBUG - tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Panasonic\x00'
+2024-09-24 19:24:06,896 - DEBUG - tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 156 - value: b'DMC-FZ10\x00'
+2024-09-24 19:24:06,896 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2024-09-24 19:24:06,896 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 165 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2024-09-24 19:24:06,896 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 173 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2024-09-24 19:24:06,896 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+2024-09-24 19:24:06,896 - DEBUG - tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 181 - value: b'Adobe Photoshop 7.0 CE\x00'
+2024-09-24 19:24:06,896 - DEBUG - tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 204 - value: b'2004:10:19 13:20:26\x00'
+2024-09-24 19:24:06,896 - DEBUG - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+2024-09-24 19:24:06,896 - DEBUG - tag: unknown (50341) - type: undefined (7) Tag Location: 130 - Data Location: 224 - value: <table: 208 bytes>
+2024-09-24 19:24:06,896 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\xb0\x01\x00\x00'
+2024-09-24 19:24:08,313 - INFO - Image classification results: [{'label': 'Strawberry___Leaf_scorch', 'score': 0.9925256967544556}, {'label': 'Tomato___Septoria_leaf_spot', 'score': 0.6070094108581543}, {'label': 'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot', 'score': 0.5831923484802246}, {'label': 'Apple___Cedar_apple_rust', 'score': 0.5776548385620117}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.5628113150596619}]
+2024-09-24 19:24:08,314 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2024-09-24 19:24:08,315 - DEBUG - Normalized label: Tomato___Septoria_leaf_spot to Tomato   Septoria Leaf Spot
+2024-09-24 19:24:08,315 - DEBUG - Normalized label: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot to Corn (Maize)   Cercospora Leaf Spot Gray Leaf Spot
+2024-09-24 19:24:08,316 - DEBUG - Normalized label: Apple___Cedar_apple_rust to Apple   Cedar Apple Rust
+2024-09-24 19:24:08,316 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape   Leaf Blight (Isariopsis Leaf Spot)
+2024-09-24 19:24:08,317 - INFO - Detection and enhancement complete.
+2024-09-24 19:24:08,319 - INFO - 127.0.0.1 - - [24/Sep/2024 19:24:08] "POST /detect HTTP/1.1" 200 -
+2024-09-24 19:33:13,811 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-24 19:33:14,110 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-24 19:33:14,635 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-24 19:33:14,663 - INFO - Image classification pipeline initialized.
+2024-09-24 19:33:14,678 - INFO - Disease descriptions loaded from JSON.
+2024-09-24 19:33:14,709 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-09-24 19:33:14,711 - INFO - [33mPress CTRL+C to quit[0m
