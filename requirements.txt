@@ -28,5 +28,6 @@ tqdm==4.66.5
 transformers==4.44.2
 typing_extensions==4.12.2
 urllib3==2.2.2
+waitress==3.0.0
 Werkzeug==3.0.4
 Wikipedia-API==0.7.1
