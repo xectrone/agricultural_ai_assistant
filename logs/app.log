@@ -1,0 +1,37 @@
+2024-09-29 15:16:45,151 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-29 15:16:45,856 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-29 15:16:46,549 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-29 15:16:46,559 - INFO - Image classification pipeline initialized.
+2024-09-29 15:16:46,561 - INFO - Disease descriptions loaded from JSON.
+2024-09-29 15:16:46,579 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-29 15:16:46,581 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-29 15:16:53,257 - INFO - 127.0.0.1 - - [29/Sep/2024 15:16:53] "GET / HTTP/1.1" 200 -
+2024-09-29 15:16:53,508 - INFO - 127.0.0.1 - - [29/Sep/2024 15:16:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-09-29 15:16:58,518 - DEBUG - tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Panasonic\x00'
+2024-09-29 15:16:58,519 - DEBUG - tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 156 - value: b'DMC-FZ10\x00'
+2024-09-29 15:16:58,519 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2024-09-29 15:16:58,520 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 165 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2024-09-29 15:16:58,521 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 173 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2024-09-29 15:16:58,522 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+2024-09-29 15:16:58,523 - DEBUG - tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 181 - value: b'Adobe Photoshop 7.0 CE\x00'
+2024-09-29 15:16:58,524 - DEBUG - tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 204 - value: b'2004:10:19 13:20:26\x00'
+2024-09-29 15:16:58,525 - DEBUG - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+2024-09-29 15:16:58,526 - DEBUG - tag: unknown (50341) - type: undefined (7) Tag Location: 130 - Data Location: 224 - value: <table: 208 bytes>
+2024-09-29 15:16:58,526 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\xb0\x01\x00\x00'
+2024-09-29 15:17:02,450 - INFO - Image classification results: [{'label': 'Strawberry___Leaf_scorch', 'score': 0.9925256967544556}, {'label': 'Tomato___Septoria_leaf_spot', 'score': 0.6070094108581543}, {'label': 'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot', 'score': 0.5831923484802246}, {'label': 'Apple___Cedar_apple_rust', 'score': 0.5776548385620117}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.5628113150596619}]
+2024-09-29 15:17:02,451 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2024-09-29 15:17:02,452 - DEBUG - Normalized label: Tomato___Septoria_leaf_spot to Tomato   Septoria Leaf Spot
+2024-09-29 15:17:02,454 - DEBUG - Normalized label: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot to Corn (Maize)   Cercospora Leaf Spot Gray Leaf Spot
+2024-09-29 15:17:02,455 - DEBUG - Normalized label: Apple___Cedar_apple_rust to Apple   Cedar Apple Rust
+2024-09-29 15:17:02,456 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape   Leaf Blight (Isariopsis Leaf Spot)
+2024-09-29 15:17:02,457 - INFO - Detection and enhancement complete.
+2024-09-29 15:17:02,460 - INFO - 127.0.0.1 - - [29/Sep/2024 15:17:02] "POST /detect HTTP/1.1" 200 -
+2024-09-29 15:20:59,353 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-09-29 15:21:01,131 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-09-29 15:21:01,656 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-09-29 15:21:01,677 - INFO - Image classification pipeline initialized.
+2024-09-29 15:21:01,698 - INFO - Disease descriptions loaded from JSON.
+2024-09-29 15:21:01,725 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-29 15:21:01,726 - INFO - [33mPress CTRL+C to quit[0m

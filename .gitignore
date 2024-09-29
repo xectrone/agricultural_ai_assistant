@@ -1,6 +1,6 @@
 venv/
 .vscode/
 **/__pycache__/
-*.log
+
 main.py
 main.2.py
