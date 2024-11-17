@@ -15,3 +15,7 @@ ngrok config add-authtoken 2arA8uemHkeZTWsMZUmTLygh2Kc_6nN58vALm6fTkk3hqkcqV
 ```
 ngrok http http://127.0.0.1:5000
 ```
+#### LIVE 
+```
+http://agricultural_ai_assistant.mooo.com/
+```
