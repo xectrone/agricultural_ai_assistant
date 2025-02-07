@@ -35,3 +35,1308 @@
 2024-09-29 15:21:01,725 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 2024-09-29 15:21:01,726 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 21:17:17,808 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-11-17 21:17:19,018 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2024-11-17 21:17:20,464 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2024-11-17 21:17:20,527 - INFO - Image classification pipeline initialized.
+2024-11-17 21:17:20,539 - INFO - Disease descriptions loaded from JSON.
+2024-11-17 21:17:20,867 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-17 21:17:20,889 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 23:17:52,835 - INFO - 127.0.0.1 - - [17/Nov/2024 23:17:52] "GET / HTTP/1.1" 200 -
+2024-11-17 23:17:53,174 - INFO - 127.0.0.1 - - [17/Nov/2024 23:17:53] "GET /static/styles.css HTTP/1.1" 200 -
+2024-11-17 23:17:53,648 - INFO - 127.0.0.1 - - [17/Nov/2024 23:17:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-07 18:58:58,952 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 18:58:59,737 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 18:59:00,457 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 18:59:00,476 - INFO - Image classification pipeline initialized.
+2025-02-07 18:59:00,478 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 18:59:00,498 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 18:59:00,498 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 18:59:06,584 - INFO - 127.0.0.1 - - [07/Feb/2025 18:59:06] "GET / HTTP/1.1" 200 -
+2025-02-07 18:59:07,040 - INFO - 127.0.0.1 - - [07/Feb/2025 18:59:07] "GET /static/styles.css HTTP/1.1" 200 -
+2025-02-07 18:59:07,519 - INFO - 127.0.0.1 - - [07/Feb/2025 18:59:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-07 18:59:14,200 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2025-02-07 18:59:14,200 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00\xf0\x00\x00\x00\x01'
+2025-02-07 18:59:14,200 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00\xf0\x00\x00\x00\x01'
+2025-02-07 18:59:14,200 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2025-02-07 18:59:14,200 - DEBUG - tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 102 - value: b'Luminar AI\x00'
+2025-02-07 18:59:14,200 - DEBUG - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+2025-02-07 18:59:18,316 - INFO - Image classification results: [{'label': 'Strawberry___Leaf_scorch', 'score': 0.7049946188926697}, {'label': 'Corn_(maize)___healthy', 'score': 0.651232123374939}, {'label': 'helopeltis', 'score': 0.650632917881012}, {'label': 'Potato___Late_blight', 'score': 0.6282358765602112}, {'label': 'Tomato___Late_blight', 'score': 0.5791338086128235}]
+2025-02-07 18:59:18,318 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 18:59:18,318 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 18:59:18,319 - DEBUG - Normalized label: helopeltis to Helopeltis
+2025-02-07 18:59:18,319 - DEBUG - Normalized label: Potato___Late_blight to Potato   Late Blight
+2025-02-07 18:59:18,320 - DEBUG - Normalized label: Tomato___Late_blight to Tomato   Late Blight
+2025-02-07 18:59:18,320 - INFO - Detection and enhancement complete.
+2025-02-07 18:59:18,323 - INFO - 127.0.0.1 - - [07/Feb/2025 18:59:18] "POST /detect HTTP/1.1" 200 -
+2025-02-07 19:09:27,364 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 19:09:27,791 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 19:09:28,391 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 19:09:28,391 - INFO - Image classification pipeline initialized.
+2025-02-07 19:09:28,407 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 19:09:28,427 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 19:09:28,429 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 19:09:46,612 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:46] "GET / HTTP/1.1" 200 -
+2025-02-07 19:09:46,617 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:46] "GET / HTTP/1.1" 200 -
+2025-02-07 19:09:46,718 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:46] "[33mGET /assets/css/dashmix.min.css HTTP/1.1[0m" 404 -
+2025-02-07 19:09:46,730 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:46] "[33mGET /assets/js/setTheme.js HTTP/1.1[0m" 404 -
+2025-02-07 19:09:46,752 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:46] "[33mGET /assets/js/dashmix.app.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:09:46,755 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:46] "[33mGET /assets/js/lib/jquery.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:09:46,785 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:46] "[33mGET /assets/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:09:46,818 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:46] "[33mGET /assets/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:09:46,906 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:46] "[33mGET /assets/media/photos/photo17@2x.jpg HTTP/1.1[0m" 404 -
+2025-02-07 19:09:47,459 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:47] "[33mGET /assets/media/favicons/favicon.png HTTP/1.1[0m" 404 -
+2025-02-07 19:09:47,680 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:47] "[33mGET /assets/media/favicons/favicon-192x192.png HTTP/1.1[0m" 404 -
+2025-02-07 19:09:48,320 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:48] "[33mGET /assets/css/dashmix.min.css HTTP/1.1[0m" 404 -
+2025-02-07 19:09:48,333 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:48] "[33mGET /assets/js/setTheme.js HTTP/1.1[0m" 404 -
+2025-02-07 19:09:48,336 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:48] "[33mGET /assets/js/dashmix.app.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:09:48,690 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:48] "[33mGET /assets/js/lib/jquery.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:09:48,700 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:48] "[33mGET /assets/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:09:48,702 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:48] "[33mGET /assets/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:09:48,730 - INFO - 127.0.0.1 - - [07/Feb/2025 19:09:48] "[33mGET /assets/media/photos/photo17@2x.jpg HTTP/1.1[0m" 404 -
+2025-02-07 19:09:58,407 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2025-02-07 19:09:58,407 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00\xf0\x00\x00\x00\x01'
+2025-02-07 19:09:58,407 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00\xf0\x00\x00\x00\x01'
+2025-02-07 19:09:58,407 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2025-02-07 19:09:58,407 - DEBUG - tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 102 - value: b'Luminar AI\x00'
+2025-02-07 19:09:58,407 - DEBUG - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+2025-02-07 19:10:00,485 - INFO - Image classification results: [{'label': 'Strawberry___Leaf_scorch', 'score': 0.7049946188926697}, {'label': 'Corn_(maize)___healthy', 'score': 0.651232123374939}, {'label': 'helopeltis', 'score': 0.650632917881012}, {'label': 'Potato___Late_blight', 'score': 0.6282358765602112}, {'label': 'Tomato___Late_blight', 'score': 0.5791338086128235}]
+2025-02-07 19:10:00,500 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 19:10:00,500 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 19:10:00,500 - DEBUG - Normalized label: helopeltis to Helopeltis
+2025-02-07 19:10:00,500 - DEBUG - Normalized label: Potato___Late_blight to Potato   Late Blight
+2025-02-07 19:10:00,500 - DEBUG - Normalized label: Tomato___Late_blight to Tomato   Late Blight
+2025-02-07 19:10:00,500 - INFO - Detection and enhancement complete.
+2025-02-07 19:10:00,500 - INFO - 127.0.0.1 - - [07/Feb/2025 19:10:00] "POST /detect HTTP/1.1" 200 -
+2025-02-07 19:12:30,166 - INFO - 127.0.0.1 - - [07/Feb/2025 19:12:30] "GET / HTTP/1.1" 200 -
+2025-02-07 19:12:30,291 - INFO - 127.0.0.1 - - [07/Feb/2025 19:12:30] "[33mGET /assets/css/dashmix.min.css HTTP/1.1[0m" 404 -
+2025-02-07 19:12:30,322 - INFO - 127.0.0.1 - - [07/Feb/2025 19:12:30] "[33mGET /assets/js/setTheme.js HTTP/1.1[0m" 404 -
+2025-02-07 19:12:30,370 - INFO - 127.0.0.1 - - [07/Feb/2025 19:12:30] "[33mGET /assets/js/dashmix.app.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:12:30,407 - INFO - 127.0.0.1 - - [07/Feb/2025 19:12:30] "[33mGET /assets/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:12:30,476 - INFO - 127.0.0.1 - - [07/Feb/2025 19:12:30] "[33mGET /assets/js/lib/jquery.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:12:30,550 - INFO - 127.0.0.1 - - [07/Feb/2025 19:12:30] "[33mGET /assets/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:12:30,557 - INFO - 127.0.0.1 - - [07/Feb/2025 19:12:30] "[33mGET /assets/media/photos/photo17@2x.jpg HTTP/1.1[0m" 404 -
+2025-02-07 19:13:38,129 - INFO - 127.0.0.1 - - [07/Feb/2025 19:13:38] "GET / HTTP/1.1" 200 -
+2025-02-07 19:13:38,227 - INFO - 127.0.0.1 - - [07/Feb/2025 19:13:38] "[33mGET /assets/css/dashmix.min.css HTTP/1.1[0m" 404 -
+2025-02-07 19:13:38,350 - INFO - 127.0.0.1 - - [07/Feb/2025 19:13:38] "[33mGET /assets/js/setTheme.js HTTP/1.1[0m" 404 -
+2025-02-07 19:13:38,377 - INFO - 127.0.0.1 - - [07/Feb/2025 19:13:38] "[33mGET /assets/js/dashmix.app.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:13:38,461 - INFO - 127.0.0.1 - - [07/Feb/2025 19:13:38] "[33mGET /assets/js/lib/jquery.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:13:38,544 - INFO - 127.0.0.1 - - [07/Feb/2025 19:13:38] "[33mGET /assets/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:13:38,603 - INFO - 127.0.0.1 - - [07/Feb/2025 19:13:38] "[33mGET /assets/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:13:38,614 - INFO - 127.0.0.1 - - [07/Feb/2025 19:13:38] "[33mGET /assets/media/photos/photo17@2x.jpg HTTP/1.1[0m" 404 -
+2025-02-07 19:14:00,186 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 19:14:01,121 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 19:14:01,835 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 19:14:01,842 - INFO - Image classification pipeline initialized.
+2025-02-07 19:14:01,844 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 19:14:01,862 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 19:14:01,863 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 19:14:04,040 - INFO - 127.0.0.1 - - [07/Feb/2025 19:14:04] "GET / HTTP/1.1" 200 -
+2025-02-07 19:14:04,134 - INFO - 127.0.0.1 - - [07/Feb/2025 19:14:04] "[33mGET /assets/css/dashmix.min.css HTTP/1.1[0m" 404 -
+2025-02-07 19:14:04,150 - INFO - 127.0.0.1 - - [07/Feb/2025 19:14:04] "[33mGET /assets/js/lib/jquery.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:14:04,179 - INFO - 127.0.0.1 - - [07/Feb/2025 19:14:04] "[33mGET /assets/js/dashmix.app.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:14:04,189 - INFO - 127.0.0.1 - - [07/Feb/2025 19:14:04] "[33mGET /assets/js/setTheme.js HTTP/1.1[0m" 404 -
+2025-02-07 19:14:04,209 - INFO - 127.0.0.1 - - [07/Feb/2025 19:14:04] "[33mGET /assets/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:14:04,223 - INFO - 127.0.0.1 - - [07/Feb/2025 19:14:04] "[33mGET /assets/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:14:04,348 - INFO - 127.0.0.1 - - [07/Feb/2025 19:14:04] "[33mGET /assets/media/photos/photo17@2x.jpg HTTP/1.1[0m" 404 -
+2025-02-07 19:19:57,389 - INFO - 127.0.0.1 - - [07/Feb/2025 19:19:57] "GET / HTTP/1.1" 200 -
+2025-02-07 19:19:57,491 - INFO - 127.0.0.1 - - [07/Feb/2025 19:19:57] "[33mGET /assets/css/dashmix.min.css HTTP/1.1[0m" 404 -
+2025-02-07 19:19:57,513 - INFO - 127.0.0.1 - - [07/Feb/2025 19:19:57] "[33mGET /assets/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:19:57,557 - INFO - 127.0.0.1 - - [07/Feb/2025 19:19:57] "[33mGET /assets/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:19:57,568 - INFO - 127.0.0.1 - - [07/Feb/2025 19:19:57] "[33mGET /assets/js/lib/jquery.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:19:57,582 - INFO - 127.0.0.1 - - [07/Feb/2025 19:19:57] "[33mGET /assets/js/dashmix.app.min.js HTTP/1.1[0m" 404 -
+2025-02-07 19:19:57,623 - INFO - 127.0.0.1 - - [07/Feb/2025 19:19:57] "[33mGET /assets/js/setTheme.js HTTP/1.1[0m" 404 -
+2025-02-07 19:19:57,729 - INFO - 127.0.0.1 - - [07/Feb/2025 19:19:57] "[33mGET /assets/media/photos/photo17@2x.jpg HTTP/1.1[0m" 404 -
+2025-02-07 19:20:17,646 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 19:20:18,228 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 19:20:18,847 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 19:20:18,854 - INFO - Image classification pipeline initialized.
+2025-02-07 19:20:18,856 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 19:20:18,873 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 19:20:18,878 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 19:20:21,845 - INFO - 127.0.0.1 - - [07/Feb/2025 19:20:21] "GET / HTTP/1.1" 200 -
+2025-02-07 19:20:22,116 - INFO - 127.0.0.1 - - [07/Feb/2025 19:20:22] "GET /static/css/dashmix.min.css HTTP/1.1" 200 -
+2025-02-07 19:20:22,198 - INFO - 127.0.0.1 - - [07/Feb/2025 19:20:22] "GET /static/js/pages/op_coming_soon.min.js HTTP/1.1" 200 -
+2025-02-07 19:20:22,220 - INFO - 127.0.0.1 - - [07/Feb/2025 19:20:22] "GET /static/js/setTheme.js HTTP/1.1" 200 -
+2025-02-07 19:20:22,269 - INFO - 127.0.0.1 - - [07/Feb/2025 19:20:22] "[33mGET /assets/media/photos/photo17@2x.jpg HTTP/1.1[0m" 404 -
+2025-02-07 19:20:22,329 - INFO - 127.0.0.1 - - [07/Feb/2025 19:20:22] "GET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1" 200 -
+2025-02-07 19:20:22,387 - INFO - 127.0.0.1 - - [07/Feb/2025 19:20:22] "GET /static/js/lib/jquery.min.js HTTP/1.1" 200 -
+2025-02-07 19:20:22,404 - INFO - 127.0.0.1 - - [07/Feb/2025 19:20:22] "GET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1" 200 -
+2025-02-07 19:20:22,413 - INFO - 127.0.0.1 - - [07/Feb/2025 19:20:22] "GET /static/js/dashmix.app.min.js HTTP/1.1" 200 -
+2025-02-07 19:20:22,413 - INFO - 127.0.0.1 - - [07/Feb/2025 19:20:22] "GET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1" 200 -
+2025-02-07 19:20:22,415 - INFO - 127.0.0.1 - - [07/Feb/2025 19:20:22] "GET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1" 200 -
+2025-02-07 19:20:22,772 - INFO - 127.0.0.1 - - [07/Feb/2025 19:20:22] "GET /static/media/favicons/favicon.png HTTP/1.1" 200 -
+2025-02-07 19:23:23,480 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 19:23:23,934 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 19:23:24,498 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 19:23:24,514 - INFO - Image classification pipeline initialized.
+2025-02-07 19:23:24,516 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 19:23:24,533 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 19:23:24,534 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 19:23:28,796 - INFO - 127.0.0.1 - - [07/Feb/2025 19:23:28] "GET / HTTP/1.1" 200 -
+2025-02-07 19:23:29,313 - INFO - 127.0.0.1 - - [07/Feb/2025 19:23:29] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:23:29,349 - INFO - 127.0.0.1 - - [07/Feb/2025 19:23:29] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:23:29,384 - INFO - 127.0.0.1 - - [07/Feb/2025 19:23:29] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:23:29,391 - INFO - 127.0.0.1 - - [07/Feb/2025 19:23:29] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:23:29,454 - INFO - 127.0.0.1 - - [07/Feb/2025 19:23:29] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:23:29,456 - INFO - 127.0.0.1 - - [07/Feb/2025 19:23:29] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:23:29,602 - INFO - 127.0.0.1 - - [07/Feb/2025 19:23:29] "GET /static/media/photos/photo17@2x.jpg HTTP/1.1" 200 -
+2025-02-07 19:23:29,698 - INFO - 127.0.0.1 - - [07/Feb/2025 19:23:29] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:23:29,713 - INFO - 127.0.0.1 - - [07/Feb/2025 19:23:29] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:23:29,721 - INFO - 127.0.0.1 - - [07/Feb/2025 19:23:29] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:26:23,266 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:23] "GET / HTTP/1.1" 200 -
+2025-02-07 19:26:23,361 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:23] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:26:23,406 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:23] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:26:23,417 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:23] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:26:23,431 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:23] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:26:23,472 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:23] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:26:23,527 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:23] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:26:23,554 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:23] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 19:26:23,630 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:23] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:26:23,630 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:23] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:26:23,666 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:23] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:26:23,859 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:23] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 19:26:26,698 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:26] "GET / HTTP/1.1" 200 -
+2025-02-07 19:26:26,747 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:26] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:26:26,761 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:26] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:26:26,763 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:26] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:26:26,763 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:26] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:26:26,767 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:26] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:26:26,773 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:26] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:26:26,897 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:26] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 19:26:26,902 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:26] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:26:26,952 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:26] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:26:26,974 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:26] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:26:27,304 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:27] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 19:26:46,449 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 19:26:46,792 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 19:26:47,359 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 19:26:47,375 - INFO - Image classification pipeline initialized.
+2025-02-07 19:26:47,379 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 19:26:47,397 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 19:26:47,398 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 19:26:49,514 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:49] "GET / HTTP/1.1" 200 -
+2025-02-07 19:26:49,788 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:49] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:26:49,852 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:49] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:26:49,858 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:49] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:26:49,880 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:49] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:26:49,924 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:49] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:26:49,955 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:49] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:26:49,987 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:49] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 19:26:50,073 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:50] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:26:50,086 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:50] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:26:50,090 - INFO - 127.0.0.1 - - [07/Feb/2025 19:26:50] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:30:28,682 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:28] "GET / HTTP/1.1" 200 -
+2025-02-07 19:30:28,767 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:28] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:30:28,786 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:28] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:30:28,795 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:28] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:30:28,807 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:28] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:30:28,826 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:28] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:30:28,839 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:28] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:30:28,966 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:28] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 19:30:28,979 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:28] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:30:29,004 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:29] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:30:29,036 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:29] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:30:29,237 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:29] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 19:30:29,802 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:29] "GET / HTTP/1.1" 200 -
+2025-02-07 19:30:29,853 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:29] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:30:29,858 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:29] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:30:29,861 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:29] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:30:29,868 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:29] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:30:29,876 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:29] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:30:29,902 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:29] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:30:29,990 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:29] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 19:30:30,014 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:30] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:30:30,015 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:30] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:30:30,017 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:30] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:30:30,783 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:30] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 19:30:47,387 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 19:30:47,944 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 19:30:48,579 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 19:30:48,579 - INFO - Image classification pipeline initialized.
+2025-02-07 19:30:48,579 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 19:30:48,603 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 19:30:48,604 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 19:30:50,705 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:50] "GET / HTTP/1.1" 200 -
+2025-02-07 19:30:51,057 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:51] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:30:51,114 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:51] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:30:51,122 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:51] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:30:51,125 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:51] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:30:51,146 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:51] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:30:51,176 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:51] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 19:30:51,217 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:51] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:30:51,239 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:51] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:30:51,243 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:51] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:30:51,271 - INFO - 127.0.0.1 - - [07/Feb/2025 19:30:51] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:31:57,940 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 19:32:03,307 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 19:32:03,929 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 19:32:03,929 - INFO - Image classification pipeline initialized.
+2025-02-07 19:32:03,941 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 19:32:03,956 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 19:32:03,957 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 19:32:06,362 - INFO - 127.0.0.1 - - [07/Feb/2025 19:32:06] "GET / HTTP/1.1" 200 -
+2025-02-07 19:32:06,663 - INFO - 127.0.0.1 - - [07/Feb/2025 19:32:06] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:32:06,690 - INFO - 127.0.0.1 - - [07/Feb/2025 19:32:06] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:32:06,717 - INFO - 127.0.0.1 - - [07/Feb/2025 19:32:06] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:32:06,724 - INFO - 127.0.0.1 - - [07/Feb/2025 19:32:06] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:32:06,738 - INFO - 127.0.0.1 - - [07/Feb/2025 19:32:06] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:32:06,809 - INFO - 127.0.0.1 - - [07/Feb/2025 19:32:06] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:32:06,880 - INFO - 127.0.0.1 - - [07/Feb/2025 19:32:06] "GET /static/media/photos/photo17@2x.jpg HTTP/1.1" 200 -
+2025-02-07 19:32:06,951 - INFO - 127.0.0.1 - - [07/Feb/2025 19:32:06] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:32:06,977 - INFO - 127.0.0.1 - - [07/Feb/2025 19:32:06] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:32:06,994 - INFO - 127.0.0.1 - - [07/Feb/2025 19:32:06] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:34:05,746 - INFO - 127.0.0.1 - - [07/Feb/2025 19:34:05] "GET / HTTP/1.1" 200 -
+2025-02-07 19:34:05,837 - INFO - 127.0.0.1 - - [07/Feb/2025 19:34:05] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:34:05,868 - INFO - 127.0.0.1 - - [07/Feb/2025 19:34:05] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:34:05,886 - INFO - 127.0.0.1 - - [07/Feb/2025 19:34:05] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:34:05,902 - INFO - 127.0.0.1 - - [07/Feb/2025 19:34:05] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:34:05,926 - INFO - 127.0.0.1 - - [07/Feb/2025 19:34:05] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:34:05,945 - INFO - 127.0.0.1 - - [07/Feb/2025 19:34:05] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:34:06,079 - INFO - 127.0.0.1 - - [07/Feb/2025 19:34:06] "GET /static/media/photos/photo17@2x.jpg HTTP/1.1" 200 -
+2025-02-07 19:34:06,160 - INFO - 127.0.0.1 - - [07/Feb/2025 19:34:06] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:34:06,204 - INFO - 127.0.0.1 - - [07/Feb/2025 19:34:06] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:34:06,209 - INFO - 127.0.0.1 - - [07/Feb/2025 19:34:06] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:34:06,846 - INFO - 127.0.0.1 - - [07/Feb/2025 19:34:06] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 19:41:50,013 - INFO - 127.0.0.1 - - [07/Feb/2025 19:41:50] "GET / HTTP/1.1" 200 -
+2025-02-07 19:41:50,111 - INFO - 127.0.0.1 - - [07/Feb/2025 19:41:50] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:41:50,215 - INFO - 127.0.0.1 - - [07/Feb/2025 19:41:50] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:41:50,247 - INFO - 127.0.0.1 - - [07/Feb/2025 19:41:50] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:41:50,301 - INFO - 127.0.0.1 - - [07/Feb/2025 19:41:50] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:41:50,370 - INFO - 127.0.0.1 - - [07/Feb/2025 19:41:50] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:41:50,439 - INFO - 127.0.0.1 - - [07/Feb/2025 19:41:50] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:41:50,456 - INFO - 127.0.0.1 - - [07/Feb/2025 19:41:50] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 19:41:50,518 - INFO - 127.0.0.1 - - [07/Feb/2025 19:41:50] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:41:50,535 - INFO - 127.0.0.1 - - [07/Feb/2025 19:41:50] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:41:50,541 - INFO - 127.0.0.1 - - [07/Feb/2025 19:41:50] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:41:50,925 - INFO - 127.0.0.1 - - [07/Feb/2025 19:41:50] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 19:50:11,837 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 19:50:12,323 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 19:50:13,075 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 19:50:13,077 - INFO - Image classification pipeline initialized.
+2025-02-07 19:50:13,086 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 19:50:13,129 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 19:50:13,129 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 19:50:13,129 - INFO -  * Restarting with stat
+2025-02-07 19:50:21,352 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 19:50:21,795 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 19:50:22,429 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 19:50:22,450 - INFO - Image classification pipeline initialized.
+2025-02-07 19:50:22,452 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 19:50:22,476 - WARNING -  * Debugger is active!
+2025-02-07 19:50:22,505 - INFO -  * Debugger PIN: 117-788-759
+2025-02-07 19:50:22,930 - INFO - 127.0.0.1 - - [07/Feb/2025 19:50:22] "GET / HTTP/1.1" 200 -
+2025-02-07 19:50:23,306 - INFO - 127.0.0.1 - - [07/Feb/2025 19:50:23] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:50:23,327 - INFO - 127.0.0.1 - - [07/Feb/2025 19:50:23] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:50:23,382 - INFO - 127.0.0.1 - - [07/Feb/2025 19:50:23] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:50:23,443 - INFO - 127.0.0.1 - - [07/Feb/2025 19:50:23] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:50:23,450 - INFO - 127.0.0.1 - - [07/Feb/2025 19:50:23] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:50:23,484 - INFO - 127.0.0.1 - - [07/Feb/2025 19:50:23] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:50:23,578 - INFO - 127.0.0.1 - - [07/Feb/2025 19:50:23] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 19:50:23,672 - INFO - 127.0.0.1 - - [07/Feb/2025 19:50:23] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:50:23,732 - INFO - 127.0.0.1 - - [07/Feb/2025 19:50:23] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:50:23,751 - INFO - 127.0.0.1 - - [07/Feb/2025 19:50:23] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:52:03,766 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 19:52:04,212 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 19:52:04,779 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 19:52:04,796 - INFO - Image classification pipeline initialized.
+2025-02-07 19:52:04,804 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 19:52:04,878 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 19:52:04,880 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 19:52:04,884 - INFO -  * Restarting with stat
+2025-02-07 19:52:13,845 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 19:52:14,172 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 19:52:14,761 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 19:52:14,767 - INFO - Image classification pipeline initialized.
+2025-02-07 19:52:14,768 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 19:52:14,787 - WARNING -  * Debugger is active!
+2025-02-07 19:52:14,807 - INFO -  * Debugger PIN: 117-788-759
+2025-02-07 19:52:15,135 - INFO - 127.0.0.1 - - [07/Feb/2025 19:52:15] "GET / HTTP/1.1" 200 -
+2025-02-07 19:52:15,560 - INFO - 127.0.0.1 - - [07/Feb/2025 19:52:15] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:52:15,560 - INFO - 127.0.0.1 - - [07/Feb/2025 19:52:15] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:52:15,612 - INFO - 127.0.0.1 - - [07/Feb/2025 19:52:15] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:52:15,655 - INFO - 127.0.0.1 - - [07/Feb/2025 19:52:15] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:52:15,698 - INFO - 127.0.0.1 - - [07/Feb/2025 19:52:15] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:52:15,712 - INFO - 127.0.0.1 - - [07/Feb/2025 19:52:15] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:52:15,795 - INFO - 127.0.0.1 - - [07/Feb/2025 19:52:15] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 19:52:15,887 - INFO - 127.0.0.1 - - [07/Feb/2025 19:52:15] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:52:15,903 - INFO - 127.0.0.1 - - [07/Feb/2025 19:52:15] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:52:15,908 - INFO - 127.0.0.1 - - [07/Feb/2025 19:52:15] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:54:22,957 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 19:54:23,410 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 19:54:24,019 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 19:54:24,026 - INFO - Image classification pipeline initialized.
+2025-02-07 19:54:24,028 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 19:54:24,047 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 19:54:24,048 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 19:54:27,800 - INFO - 127.0.0.1 - - [07/Feb/2025 19:54:27] "GET / HTTP/1.1" 200 -
+2025-02-07 19:54:27,926 - INFO - 127.0.0.1 - - [07/Feb/2025 19:54:27] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 19:54:28,290 - INFO - 127.0.0.1 - - [07/Feb/2025 19:54:28] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:54:28,340 - INFO - 127.0.0.1 - - [07/Feb/2025 19:54:28] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:54:28,362 - INFO - 127.0.0.1 - - [07/Feb/2025 19:54:28] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:54:28,391 - INFO - 127.0.0.1 - - [07/Feb/2025 19:54:28] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:54:28,420 - INFO - 127.0.0.1 - - [07/Feb/2025 19:54:28] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:54:28,425 - INFO - 127.0.0.1 - - [07/Feb/2025 19:54:28] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:54:28,461 - INFO - 127.0.0.1 - - [07/Feb/2025 19:54:28] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 19:54:28,536 - INFO - 127.0.0.1 - - [07/Feb/2025 19:54:28] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:54:28,547 - INFO - 127.0.0.1 - - [07/Feb/2025 19:54:28] "GET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1" 200 -
+2025-02-07 19:54:28,554 - INFO - 127.0.0.1 - - [07/Feb/2025 19:54:28] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:54:28,563 - INFO - 127.0.0.1 - - [07/Feb/2025 19:54:28] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:55:23,074 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 19:55:23,618 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 19:55:24,195 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 19:55:24,195 - INFO - Image classification pipeline initialized.
+2025-02-07 19:55:24,207 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 19:55:24,222 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 19:55:24,223 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 19:55:27,219 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:27] "GET / HTTP/1.1" 200 -
+2025-02-07 19:55:27,494 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:27] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 19:55:27,577 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:27] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:55:27,577 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:27] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:55:27,577 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:27] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:55:27,607 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:27] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:55:27,635 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:27] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:55:27,683 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:27] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:55:27,715 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:27] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 19:55:27,804 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:27] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:55:27,819 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:27] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:55:27,873 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:27] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:55:27,899 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:27] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:55:34,493 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:34] "GET / HTTP/1.1" 200 -
+2025-02-07 19:55:34,553 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:34] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:55:34,558 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:34] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:55:34,560 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:34] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 19:55:34,565 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:34] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:55:34,655 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:34] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:55:34,660 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:34] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:55:34,684 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:34] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:55:34,699 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:34] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 19:55:34,705 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:34] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:55:34,784 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:34] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:55:34,809 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:34] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:55:34,828 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:34] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:55:35,231 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:35] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 19:55:45,237 - INFO - Image classification results: [{'label': 'Strawberry___Leaf_scorch', 'score': 0.776793897151947}, {'label': 'Raspberry___healthy', 'score': 0.7582318186759949}, {'label': 'Tomato___Tomato_mosaic_virus', 'score': 0.6942777633666992}, {'label': 'Tomato___Leaf_Mold', 'score': 0.6547251343727112}, {'label': 'Corn_(maize)___healthy', 'score': 0.6227455735206604}]
+2025-02-07 19:55:45,237 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 19:55:45,237 - DEBUG - Normalized label: Raspberry___healthy to Raspberry   Healthy
+2025-02-07 19:55:45,237 - DEBUG - Normalized label: Tomato___Tomato_mosaic_virus to Tomato   Tomato Mosaic Virus
+2025-02-07 19:55:45,237 - DEBUG - Normalized label: Tomato___Leaf_Mold to Tomato   Leaf Mold
+2025-02-07 19:55:45,237 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 19:55:45,237 - INFO - Detection and enhancement complete.
+2025-02-07 19:55:45,237 - INFO - 127.0.0.1 - - [07/Feb/2025 19:55:45] "POST /detect HTTP/1.1" 200 -
+2025-02-07 19:56:03,073 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:03] "GET / HTTP/1.1" 200 -
+2025-02-07 19:56:03,137 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:03] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:56:03,142 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:03] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:56:03,153 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:03] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 19:56:03,154 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:03] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:56:03,241 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:03] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:56:03,252 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:03] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:56:03,258 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:03] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:56:03,296 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:03] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 19:56:03,318 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:03] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:56:03,377 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:03] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:56:03,397 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:03] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:56:03,402 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:03] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:56:04,210 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:04] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 19:56:16,317 - INFO - Image classification results: [{'label': 'Corn_(maize)___healthy', 'score': 0.846873939037323}, {'label': 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'score': 0.7500259876251221}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.6993861198425293}, {'label': 'Pepper,_bell___healthy', 'score': 0.6853976249694824}, {'label': 'Strawberry___healthy', 'score': 0.6274815797805786}]
+2025-02-07 19:56:16,317 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 19:56:16,317 - DEBUG - Normalized label: Tomato___Tomato_Yellow_Leaf_Curl_Virus to Tomato   Tomato Yellow Leaf Curl Virus
+2025-02-07 19:56:16,317 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 19:56:16,317 - DEBUG - Normalized label: Pepper,_bell___healthy to Pepper, Bell   Healthy
+2025-02-07 19:56:16,317 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
+2025-02-07 19:56:16,317 - INFO - Detection and enhancement complete.
+2025-02-07 19:56:16,331 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:16] "POST /detect HTTP/1.1" 200 -
+2025-02-07 19:56:38,263 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:38] "GET / HTTP/1.1" 200 -
+2025-02-07 19:56:38,387 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:38] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:56:38,393 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:38] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:56:38,440 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:38] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 19:56:38,549 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:38] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:56:38,633 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:38] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:56:38,662 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:38] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:56:38,671 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:38] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:56:38,694 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:38] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:56:38,706 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:38] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:56:38,750 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:38] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:56:38,755 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:38] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:56:38,763 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:38] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 19:56:40,299 - INFO - 127.0.0.1 - - [07/Feb/2025 19:56:40] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 19:57:14,585 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 19:57:15,131 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 19:57:15,843 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 19:57:15,843 - INFO - Image classification pipeline initialized.
+2025-02-07 19:57:15,852 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 19:57:15,871 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 19:57:15,871 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 19:57:21,925 - INFO - 127.0.0.1 - - [07/Feb/2025 19:57:21] "GET / HTTP/1.1" 200 -
+2025-02-07 19:57:22,162 - INFO - 127.0.0.1 - - [07/Feb/2025 19:57:22] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 19:57:22,266 - INFO - 127.0.0.1 - - [07/Feb/2025 19:57:22] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 19:57:22,314 - INFO - 127.0.0.1 - - [07/Feb/2025 19:57:22] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 19:57:22,328 - INFO - 127.0.0.1 - - [07/Feb/2025 19:57:22] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:57:22,417 - INFO - 127.0.0.1 - - [07/Feb/2025 19:57:22] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:57:22,444 - INFO - 127.0.0.1 - - [07/Feb/2025 19:57:22] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:57:22,449 - INFO - 127.0.0.1 - - [07/Feb/2025 19:57:22] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 19:57:22,461 - INFO - 127.0.0.1 - - [07/Feb/2025 19:57:22] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 19:57:22,632 - INFO - 127.0.0.1 - - [07/Feb/2025 19:57:22] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:57:22,668 - INFO - 127.0.0.1 - - [07/Feb/2025 19:57:22] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:57:22,685 - INFO - 127.0.0.1 - - [07/Feb/2025 19:57:22] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 19:57:22,698 - INFO - 127.0.0.1 - - [07/Feb/2025 19:57:22] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:01:00,862 - INFO - Image classification results: [{'label': 'Corn_(maize)___healthy', 'score': 0.846873939037323}, {'label': 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'score': 0.7500259876251221}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.6993861198425293}, {'label': 'Pepper,_bell___healthy', 'score': 0.6853976249694824}, {'label': 'Strawberry___healthy', 'score': 0.6274815797805786}]
+2025-02-07 20:01:00,862 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 20:01:00,862 - DEBUG - Normalized label: Tomato___Tomato_Yellow_Leaf_Curl_Virus to Tomato   Tomato Yellow Leaf Curl Virus
+2025-02-07 20:01:00,862 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 20:01:00,862 - DEBUG - Normalized label: Pepper,_bell___healthy to Pepper, Bell   Healthy
+2025-02-07 20:01:00,862 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
+2025-02-07 20:01:00,862 - INFO - Detection and enhancement complete.
+2025-02-07 20:01:00,862 - INFO - 127.0.0.1 - - [07/Feb/2025 20:01:00] "POST /detect HTTP/1.1" 200 -
+2025-02-07 20:05:31,608 - INFO - 127.0.0.1 - - [07/Feb/2025 20:05:31] "GET / HTTP/1.1" 200 -
+2025-02-07 20:05:31,699 - INFO - 127.0.0.1 - - [07/Feb/2025 20:05:31] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:05:31,702 - INFO - 127.0.0.1 - - [07/Feb/2025 20:05:31] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:05:31,706 - INFO - 127.0.0.1 - - [07/Feb/2025 20:05:31] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:05:31,716 - INFO - 127.0.0.1 - - [07/Feb/2025 20:05:31] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:05:31,916 - INFO - 127.0.0.1 - - [07/Feb/2025 20:05:31] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:05:31,925 - INFO - 127.0.0.1 - - [07/Feb/2025 20:05:31] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:05:31,928 - INFO - 127.0.0.1 - - [07/Feb/2025 20:05:31] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:05:31,958 - INFO - 127.0.0.1 - - [07/Feb/2025 20:05:31] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:05:31,982 - INFO - 127.0.0.1 - - [07/Feb/2025 20:05:31] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:05:32,051 - INFO - 127.0.0.1 - - [07/Feb/2025 20:05:32] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:05:32,065 - INFO - 127.0.0.1 - - [07/Feb/2025 20:05:32] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:05:32,079 - INFO - 127.0.0.1 - - [07/Feb/2025 20:05:32] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:05:32,591 - INFO - 127.0.0.1 - - [07/Feb/2025 20:05:32] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 20:08:18,101 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:08:18,678 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:08:19,240 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:08:19,257 - INFO - Image classification pipeline initialized.
+2025-02-07 20:08:19,262 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:08:19,274 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:08:19,275 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:08:22,491 - INFO - 127.0.0.1 - - [07/Feb/2025 20:08:22] "GET / HTTP/1.1" 200 -
+2025-02-07 20:08:22,844 - INFO - 127.0.0.1 - - [07/Feb/2025 20:08:22] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:08:22,855 - INFO - 127.0.0.1 - - [07/Feb/2025 20:08:22] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:08:22,894 - INFO - 127.0.0.1 - - [07/Feb/2025 20:08:22] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:08:22,932 - INFO - 127.0.0.1 - - [07/Feb/2025 20:08:22] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:08:22,962 - INFO - 127.0.0.1 - - [07/Feb/2025 20:08:22] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:08:22,962 - INFO - 127.0.0.1 - - [07/Feb/2025 20:08:22] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:08:23,004 - INFO - 127.0.0.1 - - [07/Feb/2025 20:08:23] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:08:23,058 - INFO - 127.0.0.1 - - [07/Feb/2025 20:08:23] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:08:23,146 - INFO - 127.0.0.1 - - [07/Feb/2025 20:08:23] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:08:23,162 - INFO - 127.0.0.1 - - [07/Feb/2025 20:08:23] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:08:23,212 - INFO - 127.0.0.1 - - [07/Feb/2025 20:08:23] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:19:22,948 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:19:23,755 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:19:24,384 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:19:24,400 - INFO - Image classification pipeline initialized.
+2025-02-07 20:19:24,400 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:19:24,400 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:19:24,400 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:19:27,576 - INFO - 127.0.0.1 - - [07/Feb/2025 20:19:27] "GET / HTTP/1.1" 200 -
+2025-02-07 20:19:27,935 - INFO - 127.0.0.1 - - [07/Feb/2025 20:19:27] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:19:28,102 - INFO - 127.0.0.1 - - [07/Feb/2025 20:19:28] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:19:28,116 - INFO - 127.0.0.1 - - [07/Feb/2025 20:19:28] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:19:28,139 - INFO - 127.0.0.1 - - [07/Feb/2025 20:19:28] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:19:28,171 - INFO - 127.0.0.1 - - [07/Feb/2025 20:19:28] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:19:28,196 - INFO - 127.0.0.1 - - [07/Feb/2025 20:19:28] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:19:28,209 - INFO - 127.0.0.1 - - [07/Feb/2025 20:19:28] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:19:28,212 - INFO - 127.0.0.1 - - [07/Feb/2025 20:19:28] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:19:28,281 - INFO - 127.0.0.1 - - [07/Feb/2025 20:19:28] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:19:28,328 - INFO - 127.0.0.1 - - [07/Feb/2025 20:19:28] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:19:28,339 - INFO - 127.0.0.1 - - [07/Feb/2025 20:19:28] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:19:43,166 - INFO - Image classification results: [{'label': 'Strawberry___Leaf_scorch', 'score': 0.776793897151947}, {'label': 'Raspberry___healthy', 'score': 0.7582318186759949}, {'label': 'Tomato___Tomato_mosaic_virus', 'score': 0.6942777633666992}, {'label': 'Tomato___Leaf_Mold', 'score': 0.6547251343727112}, {'label': 'Corn_(maize)___healthy', 'score': 0.6227455735206604}]
+2025-02-07 20:19:43,166 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 20:19:43,166 - DEBUG - Normalized label: Raspberry___healthy to Raspberry   Healthy
+2025-02-07 20:19:43,166 - DEBUG - Normalized label: Tomato___Tomato_mosaic_virus to Tomato   Tomato Mosaic Virus
+2025-02-07 20:19:43,197 - DEBUG - Normalized label: Tomato___Leaf_Mold to Tomato   Leaf Mold
+2025-02-07 20:19:43,197 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 20:19:43,208 - INFO - Detection and enhancement complete.
+2025-02-07 20:19:43,214 - INFO - 127.0.0.1 - - [07/Feb/2025 20:19:43] "POST /detect HTTP/1.1" 200 -
+2025-02-07 20:21:09,121 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:21:09,663 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:21:10,285 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:21:10,301 - INFO - Image classification pipeline initialized.
+2025-02-07 20:21:10,301 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:21:10,317 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:21:10,318 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:21:28,771 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:21:29,193 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:21:30,220 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:21:30,220 - INFO - Image classification pipeline initialized.
+2025-02-07 20:21:30,235 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:21:30,248 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:21:30,249 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:21:35,019 - INFO - 127.0.0.1 - - [07/Feb/2025 20:21:35] "GET / HTTP/1.1" 200 -
+2025-02-07 20:21:35,419 - INFO - 127.0.0.1 - - [07/Feb/2025 20:21:35] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:21:35,463 - INFO - 127.0.0.1 - - [07/Feb/2025 20:21:35] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:21:35,515 - INFO - 127.0.0.1 - - [07/Feb/2025 20:21:35] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:21:35,537 - INFO - 127.0.0.1 - - [07/Feb/2025 20:21:35] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:21:35,591 - INFO - 127.0.0.1 - - [07/Feb/2025 20:21:35] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:21:35,602 - INFO - 127.0.0.1 - - [07/Feb/2025 20:21:35] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:21:35,616 - INFO - 127.0.0.1 - - [07/Feb/2025 20:21:35] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:21:35,669 - INFO - 127.0.0.1 - - [07/Feb/2025 20:21:35] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:21:35,749 - INFO - 127.0.0.1 - - [07/Feb/2025 20:21:35] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:21:35,766 - INFO - 127.0.0.1 - - [07/Feb/2025 20:21:35] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:21:35,778 - INFO - 127.0.0.1 - - [07/Feb/2025 20:21:35] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:21:46,812 - INFO - Image classification results: [{'label': 'Strawberry___Leaf_scorch', 'score': 0.776793897151947}, {'label': 'Raspberry___healthy', 'score': 0.7582318186759949}, {'label': 'Tomato___Tomato_mosaic_virus', 'score': 0.6942777633666992}, {'label': 'Tomato___Leaf_Mold', 'score': 0.6547251343727112}, {'label': 'Corn_(maize)___healthy', 'score': 0.6227455735206604}]
+2025-02-07 20:21:46,812 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 20:21:46,812 - DEBUG - Normalized label: Raspberry___healthy to Raspberry   Healthy
+2025-02-07 20:21:46,812 - DEBUG - Normalized label: Tomato___Tomato_mosaic_virus to Tomato   Tomato Mosaic Virus
+2025-02-07 20:21:46,812 - DEBUG - Normalized label: Tomato___Leaf_Mold to Tomato   Leaf Mold
+2025-02-07 20:21:46,812 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 20:21:46,812 - INFO - Detection and enhancement complete.
+2025-02-07 20:21:46,828 - INFO - 127.0.0.1 - - [07/Feb/2025 20:21:46] "POST /detect HTTP/1.1" 200 -
+2025-02-07 20:21:46,873 - INFO - 127.0.0.1 - - [07/Feb/2025 20:21:46] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:26:09,477 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:26:09,998 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:26:10,582 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:26:10,584 - INFO - Image classification pipeline initialized.
+2025-02-07 20:26:10,594 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:26:10,611 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:26:10,612 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:26:14,698 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:14] "GET / HTTP/1.1" 200 -
+2025-02-07 20:26:14,801 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:14] "[33mGET /assets/media/avatars/avatar8.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:26:14,873 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:14] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:26:15,158 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "[33mGET /assets/media/avatars/avatar11.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:26:15,184 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "[33mGET /assets/media/avatars/avatar9.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:26:15,217 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "[33mGET /assets/media/avatars/avatar4.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:26:15,280 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:26:15,302 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:26:15,302 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:26:15,341 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:26:15,364 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:26:15,613 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:26:15,632 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "[33mGET /assets/media/avatars/avatar13.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:26:15,668 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:26:15,719 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:26:15,741 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "GET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 -
+2025-02-07 20:26:15,744 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:26:15,760 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "GET /static/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 -
+2025-02-07 20:26:15,774 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:26:15,796 - INFO - 127.0.0.1 - - [07/Feb/2025 20:26:15] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:27:34,948 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:34] "GET / HTTP/1.1" 200 -
+2025-02-07 20:27:35,058 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:27:35,069 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:27:35,076 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:27:35,224 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[33mGET /assets/media/avatars/avatar8.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:27:35,256 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:27:35,280 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[33mGET /assets/media/avatars/avatar11.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:27:35,288 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[33mGET /assets/media/avatars/avatar9.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:27:35,292 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[33mGET /assets/media/avatars/avatar4.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:27:35,297 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:27:35,593 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:27:35,652 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:27:35,730 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:27:35,801 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:27:35,832 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[36mGET /static/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1[0m" 304 -
+2025-02-07 20:27:35,855 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[36mGET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:27:35,866 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:27:35,883 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:27:35,895 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:27:35,916 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:35] "[33mGET /assets/media/avatars/avatar13.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:27:36,999 - INFO - 127.0.0.1 - - [07/Feb/2025 20:27:36] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 20:29:04,824 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:29:05,738 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:29:06,345 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:29:06,349 - INFO - Image classification pipeline initialized.
+2025-02-07 20:29:06,349 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:29:06,370 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:29:06,371 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:29:09,767 - INFO - 127.0.0.1 - - [07/Feb/2025 20:29:09] "GET / HTTP/1.1" 200 -
+2025-02-07 20:29:10,066 - INFO - 127.0.0.1 - - [07/Feb/2025 20:29:10] "[33mGET /assets/media/avatars/avatar11.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:29:10,150 - INFO - 127.0.0.1 - - [07/Feb/2025 20:29:10] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:29:10,252 - INFO - 127.0.0.1 - - [07/Feb/2025 20:29:10] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:29:10,355 - INFO - 127.0.0.1 - - [07/Feb/2025 20:29:10] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:29:10,364 - INFO - 127.0.0.1 - - [07/Feb/2025 20:29:10] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:29:10,403 - INFO - 127.0.0.1 - - [07/Feb/2025 20:29:10] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:29:10,406 - INFO - 127.0.0.1 - - [07/Feb/2025 20:29:10] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:29:10,410 - INFO - 127.0.0.1 - - [07/Feb/2025 20:29:10] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:29:10,469 - INFO - 127.0.0.1 - - [07/Feb/2025 20:29:10] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:29:10,600 - INFO - 127.0.0.1 - - [07/Feb/2025 20:29:10] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:29:10,601 - INFO - 127.0.0.1 - - [07/Feb/2025 20:29:10] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:29:10,603 - INFO - 127.0.0.1 - - [07/Feb/2025 20:29:10] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:29:10,626 - INFO - 127.0.0.1 - - [07/Feb/2025 20:29:10] "[36mGET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:29:10,656 - INFO - 127.0.0.1 - - [07/Feb/2025 20:29:10] "[36mGET /static/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1[0m" 304 -
+2025-02-07 20:31:34,237 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:31:34,704 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:31:35,347 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:31:35,347 - INFO - Image classification pipeline initialized.
+2025-02-07 20:31:35,358 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:31:35,371 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:31:35,373 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:31:37,800 - INFO - 127.0.0.1 - - [07/Feb/2025 20:31:37] "GET / HTTP/1.1" 200 -
+2025-02-07 20:31:38,249 - INFO - 127.0.0.1 - - [07/Feb/2025 20:31:38] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:31:38,298 - INFO - 127.0.0.1 - - [07/Feb/2025 20:31:38] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:31:38,328 - INFO - 127.0.0.1 - - [07/Feb/2025 20:31:38] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:31:38,387 - INFO - 127.0.0.1 - - [07/Feb/2025 20:31:38] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:31:38,397 - INFO - 127.0.0.1 - - [07/Feb/2025 20:31:38] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:31:38,401 - INFO - 127.0.0.1 - - [07/Feb/2025 20:31:38] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:31:38,416 - INFO - 127.0.0.1 - - [07/Feb/2025 20:31:38] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:31:38,471 - INFO - 127.0.0.1 - - [07/Feb/2025 20:31:38] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:31:38,586 - INFO - 127.0.0.1 - - [07/Feb/2025 20:31:38] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:31:38,595 - INFO - 127.0.0.1 - - [07/Feb/2025 20:31:38] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:31:38,639 - INFO - 127.0.0.1 - - [07/Feb/2025 20:31:38] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:31:38,648 - INFO - 127.0.0.1 - - [07/Feb/2025 20:31:38] "[36mGET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:31:38,662 - INFO - 127.0.0.1 - - [07/Feb/2025 20:31:38] "[36mGET /static/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1[0m" 304 -
+2025-02-07 20:32:35,344 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:32:35,786 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:32:36,360 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:32:36,360 - INFO - Image classification pipeline initialized.
+2025-02-07 20:32:36,369 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:32:36,386 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:32:36,387 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:32:38,426 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:38] "GET / HTTP/1.1" 200 -
+2025-02-07 20:32:38,884 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:38] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:32:38,896 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:38] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:32:38,980 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:38] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:32:39,037 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:39] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:32:39,044 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:39] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:32:39,110 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:39] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:32:39,114 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:39] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:32:39,143 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:39] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:32:39,224 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:39] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:32:39,247 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:39] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:32:39,310 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:39] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:32:39,372 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:39] "[36mGET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:32:39,393 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:39] "[36mGET /static/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1[0m" 304 -
+2025-02-07 20:32:43,914 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:43] "GET / HTTP/1.1" 200 -
+2025-02-07 20:32:43,958 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:43] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:32:43,965 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:43] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:32:43,971 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:43] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:32:43,974 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:43] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:32:44,064 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:44] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:32:44,066 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:44] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:32:44,069 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:44] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:32:44,104 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:44] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:32:44,133 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:44] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:32:44,135 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:44] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:32:44,136 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:44] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:32:44,194 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:44] "[36mGET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:32:44,222 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:44] "[36mGET /static/fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1[0m" 304 -
+2025-02-07 20:32:44,646 - INFO - 127.0.0.1 - - [07/Feb/2025 20:32:44] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 20:35:15,398 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:35:15,850 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:35:16,629 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:35:16,637 - INFO - Image classification pipeline initialized.
+2025-02-07 20:35:16,640 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:35:16,658 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:35:16,668 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:35:20,980 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:20] "GET / HTTP/1.1" 200 -
+2025-02-07 20:35:21,039 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:21] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:35:21,192 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:21] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:35:21,208 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:21] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:35:21,239 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:21] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:35:21,258 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:21] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:35:21,268 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:21] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:35:21,283 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:21] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:35:21,296 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:21] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:35:21,300 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:21] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:35:21,326 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:21] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:35:21,336 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:21] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:35:22,761 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:22] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 20:35:23,762 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:23] "GET / HTTP/1.1" 200 -
+2025-02-07 20:35:23,823 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:23] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:35:23,828 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:23] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:35:23,836 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:23] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:35:23,837 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:23] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:35:23,912 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:23] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:35:23,916 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:23] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:35:23,922 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:23] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:35:23,949 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:23] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:35:23,961 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:23] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:35:23,961 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:23] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:35:24,014 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:24] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:35:25,351 - INFO - 127.0.0.1 - - [07/Feb/2025 20:35:25] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 20:36:17,633 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:36:17,979 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:36:18,544 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:36:18,544 - INFO - Image classification pipeline initialized.
+2025-02-07 20:36:18,561 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:36:18,574 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:36:18,575 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:36:20,544 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:20] "GET / HTTP/1.1" 200 -
+2025-02-07 20:36:20,745 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:20] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:36:20,762 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:20] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:36:20,848 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:20] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:36:20,914 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:20] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:36:20,933 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:20] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:36:20,936 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:20] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:36:20,956 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:20] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:36:21,002 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:21] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:36:21,109 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:21] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:36:21,144 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:21] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:36:21,146 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:21] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:36:24,019 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:24] "GET / HTTP/1.1" 200 -
+2025-02-07 20:36:24,068 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:24] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:36:24,071 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:24] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:36:24,080 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:24] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:36:24,084 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:24] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:36:24,171 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:24] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:36:24,174 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:24] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:36:24,181 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:24] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:36:24,213 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:24] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:36:24,282 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:24] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:36:24,287 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:24] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:36:24,292 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:24] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:36:25,936 - INFO - 127.0.0.1 - - [07/Feb/2025 20:36:25] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 20:37:38,444 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:37:39,044 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:37:39,610 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:37:39,611 - INFO - Image classification pipeline initialized.
+2025-02-07 20:37:39,619 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:37:39,635 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:37:39,636 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:37:42,191 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:42] "GET / HTTP/1.1" 200 -
+2025-02-07 20:37:42,493 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:42] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:37:42,556 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:42] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:37:42,604 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:42] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:37:42,638 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:42] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:37:42,660 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:42] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:37:42,673 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:42] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:37:42,691 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:42] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:37:42,753 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:42] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:37:42,847 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:42] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:37:42,858 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:42] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:37:42,888 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:42] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:37:47,544 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:47] "GET / HTTP/1.1" 200 -
+2025-02-07 20:37:47,607 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:47] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:37:47,620 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:47] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:37:47,621 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:47] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:37:47,624 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:47] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:37:47,711 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:47] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:37:47,721 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:47] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:37:47,727 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:47] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:37:47,757 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:47] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:37:47,832 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:47] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:37:47,845 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:47] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:37:47,848 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:47] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:37:48,300 - INFO - 127.0.0.1 - - [07/Feb/2025 20:37:48] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 20:38:53,649 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:38:54,260 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:38:54,910 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:38:54,910 - INFO - Image classification pipeline initialized.
+2025-02-07 20:38:54,927 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:38:54,945 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:38:54,947 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:39:14,222 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:39:14,589 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:39:15,210 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:39:15,226 - INFO - Image classification pipeline initialized.
+2025-02-07 20:39:15,232 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:39:15,247 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:39:15,248 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:39:16,745 - INFO - 127.0.0.1 - - [07/Feb/2025 20:39:16] "GET / HTTP/1.1" 200 -
+2025-02-07 20:39:16,909 - INFO - 127.0.0.1 - - [07/Feb/2025 20:39:16] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:39:16,993 - INFO - 127.0.0.1 - - [07/Feb/2025 20:39:16] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:39:17,039 - INFO - 127.0.0.1 - - [07/Feb/2025 20:39:17] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:39:17,075 - INFO - 127.0.0.1 - - [07/Feb/2025 20:39:17] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:39:17,109 - INFO - 127.0.0.1 - - [07/Feb/2025 20:39:17] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:39:17,109 - INFO - 127.0.0.1 - - [07/Feb/2025 20:39:17] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:39:17,126 - INFO - 127.0.0.1 - - [07/Feb/2025 20:39:17] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:39:17,199 - INFO - 127.0.0.1 - - [07/Feb/2025 20:39:17] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:39:17,305 - INFO - 127.0.0.1 - - [07/Feb/2025 20:39:17] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:39:17,325 - INFO - 127.0.0.1 - - [07/Feb/2025 20:39:17] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:39:17,331 - INFO - 127.0.0.1 - - [07/Feb/2025 20:39:17] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:39:18,231 - INFO - 127.0.0.1 - - [07/Feb/2025 20:39:18] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 20:40:00,327 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:40:00,823 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:40:01,443 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:40:01,443 - INFO - Image classification pipeline initialized.
+2025-02-07 20:40:01,457 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:40:01,474 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:40:01,475 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:40:03,444 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:03] "GET / HTTP/1.1" 200 -
+2025-02-07 20:40:03,675 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:03] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:40:03,692 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:03] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:40:03,742 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:03] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:40:03,822 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:03] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:40:03,822 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:03] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:40:03,838 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:03] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:40:03,857 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:03] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:40:03,886 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:03] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:40:03,918 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:03] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:40:03,986 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:03] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:40:03,993 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:03] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:40:04,338 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:04] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 20:40:08,351 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:08] "GET / HTTP/1.1" 200 -
+2025-02-07 20:40:08,397 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:08] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:40:08,406 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:08] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:40:08,407 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:08] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:40:08,411 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:08] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:40:08,478 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:08] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:40:08,481 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:08] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:40:08,500 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:08] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:40:08,512 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:08] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:40:08,519 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:08] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:40:08,526 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:08] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:40:08,567 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:08] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:40:10,044 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:10] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 20:40:14,121 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:14] "GET / HTTP/1.1" 200 -
+2025-02-07 20:40:14,164 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:14] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:40:14,167 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:14] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:40:14,174 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:14] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:40:14,174 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:14] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:40:14,250 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:14] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:40:14,260 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:14] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:40:14,264 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:14] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:40:14,364 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:14] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:40:14,367 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:14] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:40:14,383 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:14] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:40:14,395 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:14] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:40:15,069 - INFO - 127.0.0.1 - - [07/Feb/2025 20:40:15] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 20:41:57,331 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:41:58,026 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:41:59,209 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:41:59,209 - INFO - Image classification pipeline initialized.
+2025-02-07 20:41:59,219 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:41:59,234 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:41:59,235 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:41:59,492 - INFO - 127.0.0.1 - - [07/Feb/2025 20:41:59] "GET / HTTP/1.1" 200 -
+2025-02-07 20:41:59,742 - INFO - 127.0.0.1 - - [07/Feb/2025 20:41:59] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:41:59,791 - INFO - 127.0.0.1 - - [07/Feb/2025 20:41:59] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:41:59,791 - INFO - 127.0.0.1 - - [07/Feb/2025 20:41:59] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:41:59,848 - INFO - 127.0.0.1 - - [07/Feb/2025 20:41:59] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:41:59,870 - INFO - 127.0.0.1 - - [07/Feb/2025 20:41:59] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:41:59,894 - INFO - 127.0.0.1 - - [07/Feb/2025 20:41:59] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:41:59,907 - INFO - 127.0.0.1 - - [07/Feb/2025 20:41:59] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:41:59,950 - INFO - 127.0.0.1 - - [07/Feb/2025 20:41:59] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:42:00,010 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:00] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:42:00,031 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:00] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:42:00,055 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:00] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:42:00,594 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:00] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 20:42:26,514 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 20:42:27,106 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 20:42:27,745 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 20:42:27,748 - INFO - Image classification pipeline initialized.
+2025-02-07 20:42:27,755 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 20:42:27,770 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 20:42:27,773 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 20:42:30,599 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:30] "GET / HTTP/1.1" 200 -
+2025-02-07 20:42:30,694 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:30] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:42:30,774 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:30] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:42:30,840 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:30] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:42:30,908 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:30] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:42:30,910 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:30] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:42:30,910 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:30] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:42:30,910 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:30] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:42:30,927 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:30] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:42:30,929 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:30] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:42:30,932 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:30] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:42:30,934 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:30] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:42:31,299 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:31] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 20:42:38,917 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:38] "GET / HTTP/1.1" 200 -
+2025-02-07 20:42:38,966 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:38] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 20:42:38,973 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:38] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 20:42:38,976 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:38] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:42:38,979 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:38] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 20:42:39,054 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:39] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:42:39,062 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:39] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:42:39,064 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:39] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 20:42:39,077 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:39] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 20:42:39,097 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:39] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:42:39,118 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:39] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:42:39,122 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:39] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 20:42:39,575 - INFO - 127.0.0.1 - - [07/Feb/2025 20:42:39] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 21:07:07,601 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 21:07:08,051 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 21:07:08,730 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 21:07:08,745 - INFO - Image classification pipeline initialized.
+2025-02-07 21:07:08,745 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 21:07:08,767 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 21:07:08,767 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 21:07:12,417 - INFO - 127.0.0.1 - - [07/Feb/2025 21:07:12] "GET / HTTP/1.1" 200 -
+2025-02-07 21:07:13,199 - INFO - 127.0.0.1 - - [07/Feb/2025 21:07:13] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 21:07:13,242 - INFO - 127.0.0.1 - - [07/Feb/2025 21:07:13] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 21:07:13,351 - INFO - 127.0.0.1 - - [07/Feb/2025 21:07:13] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:07:13,377 - INFO - 127.0.0.1 - - [07/Feb/2025 21:07:13] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:07:13,442 - INFO - 127.0.0.1 - - [07/Feb/2025 21:07:13] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 21:07:13,459 - INFO - 127.0.0.1 - - [07/Feb/2025 21:07:13] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:07:13,520 - INFO - 127.0.0.1 - - [07/Feb/2025 21:07:13] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:07:13,537 - INFO - 127.0.0.1 - - [07/Feb/2025 21:07:13] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 21:07:13,776 - INFO - 127.0.0.1 - - [07/Feb/2025 21:07:13] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:07:13,804 - INFO - 127.0.0.1 - - [07/Feb/2025 21:07:13] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:07:13,839 - INFO - 127.0.0.1 - - [07/Feb/2025 21:07:13] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:15:39,838 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 21:15:40,353 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 21:15:40,994 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 21:15:40,994 - INFO - Image classification pipeline initialized.
+2025-02-07 21:15:41,004 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 21:15:41,020 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 21:15:41,021 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 21:15:44,430 - INFO - 127.0.0.1 - - [07/Feb/2025 21:15:44] "GET / HTTP/1.1" 200 -
+2025-02-07 21:15:44,644 - INFO - 127.0.0.1 - - [07/Feb/2025 21:15:44] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 21:15:44,795 - INFO - 127.0.0.1 - - [07/Feb/2025 21:15:44] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 21:15:44,960 - INFO - 127.0.0.1 - - [07/Feb/2025 21:15:44] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:15:44,978 - INFO - 127.0.0.1 - - [07/Feb/2025 21:15:44] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 21:15:45,001 - INFO - 127.0.0.1 - - [07/Feb/2025 21:15:45] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:15:45,075 - INFO - 127.0.0.1 - - [07/Feb/2025 21:15:45] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:15:45,094 - INFO - 127.0.0.1 - - [07/Feb/2025 21:15:45] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:15:45,105 - INFO - 127.0.0.1 - - [07/Feb/2025 21:15:45] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 21:15:45,166 - INFO - 127.0.0.1 - - [07/Feb/2025 21:15:45] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:15:45,184 - INFO - 127.0.0.1 - - [07/Feb/2025 21:15:45] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:15:45,232 - INFO - 127.0.0.1 - - [07/Feb/2025 21:15:45] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:16:00,976 - INFO - Image classification results: [{'label': 'Corn_(maize)___healthy', 'score': 0.846873939037323}, {'label': 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'score': 0.7500259876251221}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.6993861198425293}, {'label': 'Pepper,_bell___healthy', 'score': 0.6853976249694824}, {'label': 'Strawberry___healthy', 'score': 0.6274815797805786}]
+2025-02-07 21:16:00,976 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 21:16:00,976 - DEBUG - Normalized label: Tomato___Tomato_Yellow_Leaf_Curl_Virus to Tomato   Tomato Yellow Leaf Curl Virus
+2025-02-07 21:16:00,976 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 21:16:00,976 - DEBUG - Normalized label: Pepper,_bell___healthy to Pepper, Bell   Healthy
+2025-02-07 21:16:00,992 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
+2025-02-07 21:16:00,992 - INFO - Detection and enhancement complete.
+2025-02-07 21:16:00,992 - INFO - 127.0.0.1 - - [07/Feb/2025 21:16:00] "POST /detect HTTP/1.1" 200 -
+2025-02-07 21:16:13,677 - INFO - 127.0.0.1 - - [07/Feb/2025 21:16:13] "GET / HTTP/1.1" 200 -
+2025-02-07 21:16:13,744 - INFO - 127.0.0.1 - - [07/Feb/2025 21:16:13] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 21:16:13,755 - INFO - 127.0.0.1 - - [07/Feb/2025 21:16:13] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 21:16:13,758 - INFO - 127.0.0.1 - - [07/Feb/2025 21:16:13] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:16:13,759 - INFO - 127.0.0.1 - - [07/Feb/2025 21:16:13] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 21:16:13,834 - INFO - 127.0.0.1 - - [07/Feb/2025 21:16:13] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:16:13,844 - INFO - 127.0.0.1 - - [07/Feb/2025 21:16:13] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:16:13,871 - INFO - 127.0.0.1 - - [07/Feb/2025 21:16:13] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:16:13,879 - INFO - 127.0.0.1 - - [07/Feb/2025 21:16:13] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 21:16:13,950 - INFO - 127.0.0.1 - - [07/Feb/2025 21:16:13] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:16:13,953 - INFO - 127.0.0.1 - - [07/Feb/2025 21:16:13] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:16:13,960 - INFO - 127.0.0.1 - - [07/Feb/2025 21:16:13] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:16:14,594 - INFO - 127.0.0.1 - - [07/Feb/2025 21:16:14] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 21:17:37,738 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 21:17:38,208 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 21:17:38,820 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 21:17:38,826 - INFO - Image classification pipeline initialized.
+2025-02-07 21:17:38,826 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 21:17:38,843 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 21:17:38,844 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 21:17:41,508 - INFO - 127.0.0.1 - - [07/Feb/2025 21:17:41] "GET / HTTP/1.1" 200 -
+2025-02-07 21:17:42,416 - INFO - 127.0.0.1 - - [07/Feb/2025 21:17:42] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 21:17:42,418 - INFO - 127.0.0.1 - - [07/Feb/2025 21:17:42] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 21:17:42,484 - INFO - 127.0.0.1 - - [07/Feb/2025 21:17:42] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 21:17:42,526 - INFO - 127.0.0.1 - - [07/Feb/2025 21:17:42] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:17:42,566 - INFO - 127.0.0.1 - - [07/Feb/2025 21:17:42] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:17:42,601 - INFO - 127.0.0.1 - - [07/Feb/2025 21:17:42] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:17:42,606 - INFO - 127.0.0.1 - - [07/Feb/2025 21:17:42] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:17:42,619 - INFO - 127.0.0.1 - - [07/Feb/2025 21:17:42] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 21:17:42,698 - INFO - 127.0.0.1 - - [07/Feb/2025 21:17:42] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:17:42,714 - INFO - 127.0.0.1 - - [07/Feb/2025 21:17:42] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:17:42,745 - INFO - 127.0.0.1 - - [07/Feb/2025 21:17:42] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:19:44,258 - INFO - 127.0.0.1 - - [07/Feb/2025 21:19:44] "GET / HTTP/1.1" 200 -
+2025-02-07 21:19:44,398 - INFO - 127.0.0.1 - - [07/Feb/2025 21:19:44] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 21:19:44,427 - INFO - 127.0.0.1 - - [07/Feb/2025 21:19:44] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 21:19:44,461 - INFO - 127.0.0.1 - - [07/Feb/2025 21:19:44] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 21:19:44,546 - INFO - 127.0.0.1 - - [07/Feb/2025 21:19:44] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:19:44,611 - INFO - 127.0.0.1 - - [07/Feb/2025 21:19:44] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 21:19:44,643 - INFO - 127.0.0.1 - - [07/Feb/2025 21:19:44] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:19:44,643 - INFO - 127.0.0.1 - - [07/Feb/2025 21:19:44] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:19:44,708 - INFO - 127.0.0.1 - - [07/Feb/2025 21:19:44] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:19:44,806 - INFO - 127.0.0.1 - - [07/Feb/2025 21:19:44] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:19:44,861 - INFO - 127.0.0.1 - - [07/Feb/2025 21:19:44] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:19:44,874 - INFO - 127.0.0.1 - - [07/Feb/2025 21:19:44] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:19:45,229 - INFO - 127.0.0.1 - - [07/Feb/2025 21:19:45] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 21:20:19,452 - INFO - Image classification results: [{'label': 'Corn_(maize)___healthy', 'score': 0.846873939037323}, {'label': 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'score': 0.7500259876251221}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.6993861198425293}, {'label': 'Pepper,_bell___healthy', 'score': 0.6853976249694824}, {'label': 'Strawberry___healthy', 'score': 0.6274815797805786}]
+2025-02-07 21:20:19,452 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 21:20:19,452 - DEBUG - Normalized label: Tomato___Tomato_Yellow_Leaf_Curl_Virus to Tomato   Tomato Yellow Leaf Curl Virus
+2025-02-07 21:20:19,452 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 21:20:19,452 - DEBUG - Normalized label: Pepper,_bell___healthy to Pepper, Bell   Healthy
+2025-02-07 21:20:19,452 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
+2025-02-07 21:20:19,452 - INFO - Detection and enhancement complete.
+2025-02-07 21:20:19,468 - INFO - 127.0.0.1 - - [07/Feb/2025 21:20:19] "POST /detect HTTP/1.1" 200 -
+2025-02-07 21:20:21,893 - INFO - 127.0.0.1 - - [07/Feb/2025 21:20:21] "GET / HTTP/1.1" 200 -
+2025-02-07 21:20:21,964 - INFO - 127.0.0.1 - - [07/Feb/2025 21:20:21] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 21:20:21,992 - INFO - 127.0.0.1 - - [07/Feb/2025 21:20:21] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 21:20:22,003 - INFO - 127.0.0.1 - - [07/Feb/2025 21:20:22] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 21:20:22,007 - INFO - 127.0.0.1 - - [07/Feb/2025 21:20:22] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:20:22,086 - INFO - 127.0.0.1 - - [07/Feb/2025 21:20:22] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:20:22,106 - INFO - 127.0.0.1 - - [07/Feb/2025 21:20:22] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:20:22,152 - INFO - 127.0.0.1 - - [07/Feb/2025 21:20:22] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:20:22,230 - INFO - 127.0.0.1 - - [07/Feb/2025 21:20:22] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 21:20:22,241 - INFO - 127.0.0.1 - - [07/Feb/2025 21:20:22] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:20:22,257 - INFO - 127.0.0.1 - - [07/Feb/2025 21:20:22] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:20:22,272 - INFO - 127.0.0.1 - - [07/Feb/2025 21:20:22] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:20:23,323 - INFO - 127.0.0.1 - - [07/Feb/2025 21:20:23] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 21:22:59,554 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 21:22:59,981 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 21:23:00,539 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 21:23:00,556 - INFO - Image classification pipeline initialized.
+2025-02-07 21:23:00,556 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 21:23:00,575 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 21:23:00,577 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 21:23:04,816 - INFO - 127.0.0.1 - - [07/Feb/2025 21:23:04] "GET / HTTP/1.1" 200 -
+2025-02-07 21:23:05,123 - INFO - 127.0.0.1 - - [07/Feb/2025 21:23:05] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 21:23:05,123 - INFO - 127.0.0.1 - - [07/Feb/2025 21:23:05] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:23:05,164 - INFO - 127.0.0.1 - - [07/Feb/2025 21:23:05] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 21:23:05,200 - INFO - 127.0.0.1 - - [07/Feb/2025 21:23:05] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:23:05,211 - INFO - 127.0.0.1 - - [07/Feb/2025 21:23:05] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:23:05,227 - INFO - 127.0.0.1 - - [07/Feb/2025 21:23:05] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 21:23:05,231 - INFO - 127.0.0.1 - - [07/Feb/2025 21:23:05] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:23:05,287 - INFO - 127.0.0.1 - - [07/Feb/2025 21:23:05] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 21:23:05,357 - INFO - 127.0.0.1 - - [07/Feb/2025 21:23:05] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:23:05,361 - INFO - 127.0.0.1 - - [07/Feb/2025 21:23:05] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:28:11,753 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 21:28:12,833 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 21:28:13,448 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 21:28:13,454 - INFO - Image classification pipeline initialized.
+2025-02-07 21:28:13,456 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 21:28:13,471 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 21:28:13,472 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 21:28:15,669 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:15] "GET / HTTP/1.1" 200 -
+2025-02-07 21:28:15,934 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:15] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 21:28:15,952 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:15] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 21:28:15,992 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:15] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:28:16,054 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:16] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:28:16,065 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:16] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:28:16,074 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:16] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 21:28:16,095 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:16] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:28:16,134 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:16] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 21:28:16,224 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:16] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:28:16,238 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:16] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:28:16,258 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:16] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:28:21,087 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:21] "GET / HTTP/1.1" 200 -
+2025-02-07 21:28:21,133 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:21] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 21:28:21,140 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:21] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 21:28:21,141 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:21] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:28:21,144 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:21] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 21:28:21,242 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:21] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:28:21,246 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:21] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:28:21,264 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:21] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:28:21,273 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:21] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 21:28:21,297 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:21] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:28:21,308 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:21] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:28:21,360 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:21] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:28:22,534 - INFO - 127.0.0.1 - - [07/Feb/2025 21:28:22] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 21:45:14,747 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 21:45:15,198 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 21:45:15,865 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 21:45:15,875 - INFO - Image classification pipeline initialized.
+2025-02-07 21:45:15,878 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 21:45:15,899 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 21:45:15,902 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 21:45:26,567 - INFO - 127.0.0.1 - - [07/Feb/2025 21:45:26] "GET / HTTP/1.1" 200 -
+2025-02-07 21:45:27,055 - INFO - 127.0.0.1 - - [07/Feb/2025 21:45:27] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 21:45:27,070 - INFO - 127.0.0.1 - - [07/Feb/2025 21:45:27] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 21:45:27,181 - INFO - 127.0.0.1 - - [07/Feb/2025 21:45:27] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:45:27,230 - INFO - 127.0.0.1 - - [07/Feb/2025 21:45:27] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 21:45:27,302 - INFO - 127.0.0.1 - - [07/Feb/2025 21:45:27] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:45:27,363 - INFO - 127.0.0.1 - - [07/Feb/2025 21:45:27] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:45:27,461 - INFO - 127.0.0.1 - - [07/Feb/2025 21:45:27] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:45:27,492 - INFO - 127.0.0.1 - - [07/Feb/2025 21:45:27] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 21:45:27,581 - INFO - 127.0.0.1 - - [07/Feb/2025 21:45:27] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:45:27,709 - INFO - 127.0.0.1 - - [07/Feb/2025 21:45:27] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:45:27,773 - INFO - 127.0.0.1 - - [07/Feb/2025 21:45:27] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:46:30,432 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 21:46:30,873 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 21:46:31,551 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 21:46:31,560 - INFO - Image classification pipeline initialized.
+2025-02-07 21:46:31,563 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 21:46:31,581 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 21:46:31,582 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 21:47:23,864 - INFO - 127.0.0.1 - - [07/Feb/2025 21:47:23] "GET / HTTP/1.1" 200 -
+2025-02-07 21:47:24,319 - INFO - 127.0.0.1 - - [07/Feb/2025 21:47:24] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 21:47:24,357 - INFO - 127.0.0.1 - - [07/Feb/2025 21:47:24] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 21:47:24,413 - INFO - 127.0.0.1 - - [07/Feb/2025 21:47:24] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:47:24,548 - INFO - 127.0.0.1 - - [07/Feb/2025 21:47:24] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 21:47:24,577 - INFO - 127.0.0.1 - - [07/Feb/2025 21:47:24] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:47:24,633 - INFO - 127.0.0.1 - - [07/Feb/2025 21:47:24] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:47:24,729 - INFO - 127.0.0.1 - - [07/Feb/2025 21:47:24] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:47:24,784 - INFO - 127.0.0.1 - - [07/Feb/2025 21:47:24] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 21:47:24,947 - INFO - 127.0.0.1 - - [07/Feb/2025 21:47:24] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:47:25,031 - INFO - 127.0.0.1 - - [07/Feb/2025 21:47:25] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:47:25,074 - INFO - 127.0.0.1 - - [07/Feb/2025 21:47:25] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:49:26,979 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 21:49:27,451 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 21:49:28,958 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 21:49:28,965 - INFO - Image classification pipeline initialized.
+2025-02-07 21:49:28,967 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 21:49:28,995 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 21:49:28,998 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 21:49:29,260 - INFO - 127.0.0.1 - - [07/Feb/2025 21:49:29] "GET / HTTP/1.1" 200 -
+2025-02-07 21:49:29,531 - INFO - 127.0.0.1 - - [07/Feb/2025 21:49:29] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 21:49:29,665 - INFO - 127.0.0.1 - - [07/Feb/2025 21:49:29] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 21:49:29,699 - INFO - 127.0.0.1 - - [07/Feb/2025 21:49:29] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:49:29,703 - INFO - 127.0.0.1 - - [07/Feb/2025 21:49:29] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 21:49:29,779 - INFO - 127.0.0.1 - - [07/Feb/2025 21:49:29] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:49:29,828 - INFO - 127.0.0.1 - - [07/Feb/2025 21:49:29] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:49:29,866 - INFO - 127.0.0.1 - - [07/Feb/2025 21:49:29] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 21:49:29,938 - INFO - 127.0.0.1 - - [07/Feb/2025 21:49:29] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:49:29,941 - INFO - 127.0.0.1 - - [07/Feb/2025 21:49:29] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:49:29,944 - INFO - 127.0.0.1 - - [07/Feb/2025 21:49:29] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:49:29,947 - INFO - 127.0.0.1 - - [07/Feb/2025 21:49:29] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:49:31,775 - INFO - 127.0.0.1 - - [07/Feb/2025 21:49:31] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 21:49:57,711 - INFO - Image classification results: [{'label': 'Corn_(maize)___healthy', 'score': 0.846873939037323}, {'label': 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'score': 0.7500259876251221}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.6993861198425293}, {'label': 'Pepper,_bell___healthy', 'score': 0.6853976249694824}, {'label': 'Strawberry___healthy', 'score': 0.6274815797805786}]
+2025-02-07 21:49:57,712 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 21:49:57,713 - DEBUG - Normalized label: Tomato___Tomato_Yellow_Leaf_Curl_Virus to Tomato   Tomato Yellow Leaf Curl Virus
+2025-02-07 21:49:57,714 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 21:49:57,714 - DEBUG - Normalized label: Pepper,_bell___healthy to Pepper, Bell   Healthy
+2025-02-07 21:49:57,715 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
+2025-02-07 21:49:57,716 - INFO - Detection and enhancement complete.
+2025-02-07 21:49:57,719 - INFO - 127.0.0.1 - - [07/Feb/2025 21:49:57] "POST /detect HTTP/1.1" 200 -
+2025-02-07 21:53:47,998 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 21:53:49,055 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 21:53:49,764 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 21:53:49,772 - INFO - Image classification pipeline initialized.
+2025-02-07 21:53:49,775 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 21:53:49,797 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 21:53:49,807 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 21:53:52,364 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:52] "GET / HTTP/1.1" 200 -
+2025-02-07 21:53:52,975 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:52] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 21:53:53,187 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:53] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 21:53:53,236 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:53] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:53:53,263 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:53] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 21:53:53,693 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:53] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:53:53,769 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:53] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:53:53,770 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:53] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:53:54,029 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:54] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 21:53:54,119 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:54] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:53:54,197 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:54] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:53:54,227 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:54] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:53:57,521 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:57] "GET / HTTP/1.1" 200 -
+2025-02-07 21:53:57,571 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:57] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 21:53:57,580 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:57] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 21:53:57,584 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:57] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 21:53:57,593 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:57] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:53:57,698 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:57] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:53:57,700 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:57] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:53:57,706 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:57] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 21:53:57,744 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:57] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 21:53:57,902 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:57] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:53:57,948 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:57] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:53:57,967 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:57] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 21:53:58,638 - INFO - 127.0.0.1 - - [07/Feb/2025 21:53:58] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 21:54:07,548 - INFO - Image classification results: [{'label': 'Corn_(maize)___healthy', 'score': 0.846873939037323}, {'label': 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'score': 0.7500259876251221}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.6993861198425293}, {'label': 'Pepper,_bell___healthy', 'score': 0.6853976249694824}, {'label': 'Strawberry___healthy', 'score': 0.6274815797805786}]
+2025-02-07 21:54:07,549 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 21:54:07,550 - DEBUG - Normalized label: Tomato___Tomato_Yellow_Leaf_Curl_Virus to Tomato   Tomato Yellow Leaf Curl Virus
+2025-02-07 21:54:07,551 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 21:54:07,553 - DEBUG - Normalized label: Pepper,_bell___healthy to Pepper, Bell   Healthy
+2025-02-07 21:54:07,554 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
+2025-02-07 21:54:07,555 - INFO - Detection and enhancement complete.
+2025-02-07 21:54:07,560 - INFO - 127.0.0.1 - - [07/Feb/2025 21:54:07] "POST /detect HTTP/1.1" 200 -
+2025-02-07 22:03:12,693 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:12] "GET / HTTP/1.1" 200 -
+2025-02-07 22:03:12,845 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:12] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 22:03:12,976 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:12] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:13,003 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:13] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 22:03:13,055 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:13] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:13,169 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:13] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:13,192 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:13] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:13,241 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:13] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:13,253 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:13] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 22:03:13,274 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:13] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:03:13,357 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:13] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:03:13,407 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:13] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:03:13,986 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:13] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 22:03:38,718 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 22:03:39,414 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 22:03:40,078 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 22:03:40,085 - INFO - Image classification pipeline initialized.
+2025-02-07 22:03:40,088 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 22:03:40,110 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 22:03:40,111 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 22:03:42,485 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:42] "GET / HTTP/1.1" 200 -
+2025-02-07 22:03:42,815 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:42] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 22:03:42,824 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:42] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:42,855 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:42] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 22:03:42,880 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:42] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:42,907 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:42] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:42,919 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:42] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:42,967 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:42] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:42,980 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:42] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 22:03:43,082 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:43] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:03:43,091 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:43] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:03:43,119 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:43] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:03:47,880 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:47] "GET / HTTP/1.1" 200 -
+2025-02-07 22:03:47,940 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:47] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 22:03:47,950 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:47] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 22:03:47,951 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:47] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:47,958 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:47] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:48,055 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:48] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:48,067 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:48] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:48,083 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:48] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:48,124 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:48] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:03:48,130 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:48] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 22:03:48,137 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:48] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:03:48,169 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:48] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:03:49,123 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:49] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 22:03:51,080 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:51] "GET / HTTP/1.1" 200 -
+2025-02-07 22:03:51,137 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:51] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 22:03:51,145 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:51] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:51,147 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:51] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 22:03:51,154 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:51] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:51,248 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:51] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:51,251 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:51] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:51,260 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:51] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:03:51,315 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:51] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 22:03:51,319 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:51] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:03:51,383 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:51] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:03:51,408 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:51] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:03:53,020 - INFO - 127.0.0.1 - - [07/Feb/2025 22:03:53] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 22:05:12,671 - INFO - 127.0.0.1 - - [07/Feb/2025 22:05:12] "GET / HTTP/1.1" 200 -
+2025-02-07 22:05:12,754 - INFO - 127.0.0.1 - - [07/Feb/2025 22:05:12] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 22:05:12,790 - INFO - 127.0.0.1 - - [07/Feb/2025 22:05:12] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 22:05:12,811 - INFO - 127.0.0.1 - - [07/Feb/2025 22:05:12] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 22:05:12,835 - INFO - 127.0.0.1 - - [07/Feb/2025 22:05:12] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:05:12,901 - INFO - 127.0.0.1 - - [07/Feb/2025 22:05:12] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:05:12,935 - INFO - 127.0.0.1 - - [07/Feb/2025 22:05:12] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:05:12,952 - INFO - 127.0.0.1 - - [07/Feb/2025 22:05:12] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:05:13,002 - INFO - 127.0.0.1 - - [07/Feb/2025 22:05:13] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:05:13,135 - INFO - 127.0.0.1 - - [07/Feb/2025 22:05:13] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:05:13,153 - INFO - 127.0.0.1 - - [07/Feb/2025 22:05:13] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:05:13,156 - INFO - 127.0.0.1 - - [07/Feb/2025 22:05:13] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 22:05:14,383 - INFO - 127.0.0.1 - - [07/Feb/2025 22:05:14] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 22:07:05,240 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 22:07:06,216 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 22:07:07,693 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 22:07:07,709 - INFO - Image classification pipeline initialized.
+2025-02-07 22:07:07,724 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 22:07:07,802 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 22:07:07,806 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 22:07:12,646 - INFO - 127.0.0.1 - - [07/Feb/2025 22:07:12] "GET / HTTP/1.1" 200 -
+2025-02-07 22:07:13,132 - INFO - 127.0.0.1 - - [07/Feb/2025 22:07:13] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 22:07:13,151 - INFO - 127.0.0.1 - - [07/Feb/2025 22:07:13] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 22:07:13,187 - INFO - 127.0.0.1 - - [07/Feb/2025 22:07:13] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 22:07:13,220 - INFO - 127.0.0.1 - - [07/Feb/2025 22:07:13] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:07:13,337 - INFO - 127.0.0.1 - - [07/Feb/2025 22:07:13] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:07:13,412 - INFO - 127.0.0.1 - - [07/Feb/2025 22:07:13] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:07:13,846 - INFO - 127.0.0.1 - - [07/Feb/2025 22:07:13] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:07:13,856 - INFO - 127.0.0.1 - - [07/Feb/2025 22:07:13] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 22:07:13,888 - INFO - 127.0.0.1 - - [07/Feb/2025 22:07:13] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:07:14,101 - INFO - 127.0.0.1 - - [07/Feb/2025 22:07:14] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:07:14,366 - INFO - 127.0.0.1 - - [07/Feb/2025 22:07:14] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:08:23,618 - INFO - Image classification results: [{'label': 'Corn_(maize)___healthy', 'score': 0.846873939037323}, {'label': 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'score': 0.7500259876251221}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.6993861198425293}, {'label': 'Pepper,_bell___healthy', 'score': 0.6853976249694824}, {'label': 'Strawberry___healthy', 'score': 0.6274815797805786}]
+2025-02-07 22:08:23,621 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 22:08:23,621 - DEBUG - Normalized label: Tomato___Tomato_Yellow_Leaf_Curl_Virus to Tomato   Tomato Yellow Leaf Curl Virus
+2025-02-07 22:08:23,622 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 22:08:23,623 - DEBUG - Normalized label: Pepper,_bell___healthy to Pepper, Bell   Healthy
+2025-02-07 22:08:23,624 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
+2025-02-07 22:08:23,624 - INFO - Detection and enhancement complete.
+2025-02-07 22:08:23,633 - INFO - 127.0.0.1 - - [07/Feb/2025 22:08:23] "POST /detect HTTP/1.1" 200 -
