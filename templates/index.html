@@ -132,9 +132,13 @@
                           <div class="block-header block-header-default">
                             <h3 class="block-title">Disease Detected</h3>
                           </div>
-                          <div id="results"> </div>
+                          <div id="results" style="
+                            max-height: 500px; /* Adjust height as needed */
+                            overflow-y: auto; /* Enables scrolling */
+                            margin-top: 20px; /* Adds space to prevent overlap */
+                            padding: 10px;
+                            "> </div>
                         </div>
-
                     <script>
                         document.getElementById('uploadForm').onsubmit = async function (e) {
                             e.preventDefault();
@@ -150,7 +154,7 @@
                             const resultsDiv = document.getElementById('results');
                             resultsDiv.innerHTML = '';  // Clear previous results
                             if (results && results.length > 0) {
-                                results.forEach(result => {
+                                results.slice(0, 2).forEach(result => {  // Only take the first two results
                                     const resultHTML = `
                                           <div class="block-content">
                                             <table class="table table-borderless">
@@ -179,6 +183,7 @@
                                 resultsDiv.innerHTML = '<p>No results found.</p>';
                             }
                         }
+
                     </script>
 
                   </div>
