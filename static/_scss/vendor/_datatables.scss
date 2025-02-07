@@ -1,0 +1,69 @@
+//
+// DataTables
+//
+// Overwrite/Extend styles
+// --------------------------------------------------
+
+table.table.dataTable {
+  &.table-striped > tbody > tr:nth-of-type(2n+1) > * {
+    box-shadow: inset 0 0 0 9999px lighten($light, 1.5%);
+  }
+
+  & thead > tr > th.dt-orderable-asc:hover,
+  & thead > tr > th.dt-orderable-desc:hover,
+  & thead > tr > td.dt-orderable-asc:hover,
+  & thead > tr > td.dt-orderable-desc:hover {
+    outline: none;
+  }
+
+  thead > tr {
+    > th.dt-orderable-asc span.dt-column-order:before,
+    > th.dt-orderable-desc span.dt-column-order:before, 
+    > th.dt-ordering-asc span.dt-column-order:before, 
+    > th.dt-ordering-desc span.dt-column-order:before,
+    > td.dt-orderable-asc span.dt-column-order:before,
+    > td.dt-orderable-desc span.dt-column-order:before,
+    > td.dt-ordering-asc span.dt-column-order:before,
+    > td.dt-ordering-desc span.dt-column-order:before {
+      display: none;
+    }
+    
+    > th.dt-orderable-asc span.dt-column-order:after, 
+    > th.dt-orderable-desc span.dt-column-order:after, 
+    > th.dt-ordering-asc span.dt-column-order:after, 
+    > th.dt-ordering-desc span.dt-column-order:after,
+    > td.dt-orderable-asc span.dt-column-order:after,
+    > td.dt-orderable-desc span.dt-column-order:after,
+    > td.dt-ordering-asc span.dt-column-order:after,
+    > td.dt-ordering-desc span.dt-column-order:after {
+      right: .375rem;
+      margin-top: -0.25rem;
+      font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro";
+      font-weight: $font-weight-semibold;
+      opacity: .4;
+    }
+
+    > th.dt-orderable-asc span.dt-column-order:after,
+    > th.dt-orderable-dec span.dt-column-order:after {
+      content: "\f0dc";
+    }
+
+    > th.dt-ordering-asc span.dt-column-order:after {
+      content: "\f106";
+    }
+
+    > th.dt-ordering-desc span.dt-column-order:after {
+      content: "\f107";
+    }
+  }
+}
+
+.dt-container.dt-bootstrap5 > div.row.mt-2:first-child {
+  margin-top: 0 !important;
+}
+
+@include media-breakpoint-down(md) {
+  div.dt-container div.dt-search input {
+    margin-left: 0 !important;
+  }
+}
