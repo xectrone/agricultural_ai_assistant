@@ -1340,3 +1340,229 @@
 2025-02-07 22:08:23,624 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
 2025-02-07 22:08:23,624 - INFO - Detection and enhancement complete.
 2025-02-07 22:08:23,633 - INFO - 127.0.0.1 - - [07/Feb/2025 22:08:23] "POST /detect HTTP/1.1" 200 -
+2025-02-07 22:24:16,339 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 22:24:18,060 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 22:24:18,855 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 22:24:18,864 - INFO - Image classification pipeline initialized.
+2025-02-07 22:24:18,867 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 22:24:18,890 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 22:24:18,891 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 22:24:21,574 - INFO - 127.0.0.1 - - [07/Feb/2025 22:24:21] "GET / HTTP/1.1" 200 -
+2025-02-07 22:24:21,966 - INFO - 127.0.0.1 - - [07/Feb/2025 22:24:21] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 22:24:21,975 - INFO - 127.0.0.1 - - [07/Feb/2025 22:24:21] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 22:24:22,014 - INFO - 127.0.0.1 - - [07/Feb/2025 22:24:22] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:24:22,042 - INFO - 127.0.0.1 - - [07/Feb/2025 22:24:22] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:24:22,056 - INFO - 127.0.0.1 - - [07/Feb/2025 22:24:22] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:24:22,071 - INFO - 127.0.0.1 - - [07/Feb/2025 22:24:22] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 22:24:22,089 - INFO - 127.0.0.1 - - [07/Feb/2025 22:24:22] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:24:22,139 - INFO - 127.0.0.1 - - [07/Feb/2025 22:24:22] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 22:24:22,254 - INFO - 127.0.0.1 - - [07/Feb/2025 22:24:22] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:24:22,270 - INFO - 127.0.0.1 - - [07/Feb/2025 22:24:22] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:24:22,309 - INFO - 127.0.0.1 - - [07/Feb/2025 22:24:22] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:24:36,144 - INFO - Image classification results: [{'label': 'Corn_(maize)___healthy', 'score': 0.846873939037323}, {'label': 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'score': 0.7500259876251221}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.6993861198425293}, {'label': 'Pepper,_bell___healthy', 'score': 0.6853976249694824}, {'label': 'Strawberry___healthy', 'score': 0.6274815797805786}]
+2025-02-07 22:24:36,146 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 22:24:36,147 - DEBUG - Normalized label: Tomato___Tomato_Yellow_Leaf_Curl_Virus to Tomato   Tomato Yellow Leaf Curl Virus
+2025-02-07 22:24:36,148 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 22:24:36,148 - DEBUG - Normalized label: Pepper,_bell___healthy to Pepper, Bell   Healthy
+2025-02-07 22:24:36,149 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
+2025-02-07 22:24:36,150 - INFO - Detection and enhancement complete.
+2025-02-07 22:24:36,153 - INFO - 127.0.0.1 - - [07/Feb/2025 22:24:36] "POST /detect HTTP/1.1" 200 -
+2025-02-07 22:27:47,943 - INFO - 127.0.0.1 - - [07/Feb/2025 22:27:47] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 22:31:53,242 - INFO - 127.0.0.1 - - [07/Feb/2025 22:31:53] "GET / HTTP/1.1" 200 -
+2025-02-07 22:31:53,310 - INFO - 127.0.0.1 - - [07/Feb/2025 22:31:53] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 22:31:53,364 - INFO - 127.0.0.1 - - [07/Feb/2025 22:31:53] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 22:31:53,431 - INFO - 127.0.0.1 - - [07/Feb/2025 22:31:53] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:31:53,535 - INFO - 127.0.0.1 - - [07/Feb/2025 22:31:53] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 22:31:53,620 - INFO - 127.0.0.1 - - [07/Feb/2025 22:31:53] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:31:53,622 - INFO - 127.0.0.1 - - [07/Feb/2025 22:31:53] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:31:53,671 - INFO - 127.0.0.1 - - [07/Feb/2025 22:31:53] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 22:31:53,681 - INFO - 127.0.0.1 - - [07/Feb/2025 22:31:53] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:31:53,709 - INFO - 127.0.0.1 - - [07/Feb/2025 22:31:53] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:31:53,722 - INFO - 127.0.0.1 - - [07/Feb/2025 22:31:53] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:31:53,778 - INFO - 127.0.0.1 - - [07/Feb/2025 22:31:53] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:32:04,483 - INFO - Image classification results: [{'label': 'Corn_(maize)___healthy', 'score': 0.846873939037323}, {'label': 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'score': 0.7500259876251221}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.6993861198425293}, {'label': 'Pepper,_bell___healthy', 'score': 0.6853976249694824}, {'label': 'Strawberry___healthy', 'score': 0.6274815797805786}]
+2025-02-07 22:32:04,485 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 22:32:04,486 - DEBUG - Normalized label: Tomato___Tomato_Yellow_Leaf_Curl_Virus to Tomato   Tomato Yellow Leaf Curl Virus
+2025-02-07 22:32:04,486 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 22:32:04,487 - DEBUG - Normalized label: Pepper,_bell___healthy to Pepper, Bell   Healthy
+2025-02-07 22:32:04,488 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
+2025-02-07 22:32:04,488 - INFO - Detection and enhancement complete.
+2025-02-07 22:32:04,493 - INFO - 127.0.0.1 - - [07/Feb/2025 22:32:04] "POST /detect HTTP/1.1" 200 -
+2025-02-07 22:37:45,011 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 22:37:45,859 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 22:37:46,650 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 22:37:46,668 - INFO - Image classification pipeline initialized.
+2025-02-07 22:37:46,672 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 22:37:46,700 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 22:37:46,701 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 22:39:54,739 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 22:39:55,201 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 22:39:55,975 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 22:39:55,984 - INFO - Image classification pipeline initialized.
+2025-02-07 22:39:55,986 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 22:39:56,009 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 22:39:56,011 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 22:39:59,494 - INFO - 127.0.0.1 - - [07/Feb/2025 22:39:59] "GET / HTTP/1.1" 200 -
+2025-02-07 22:40:00,144 - INFO - 127.0.0.1 - - [07/Feb/2025 22:40:00] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 22:40:00,204 - INFO - 127.0.0.1 - - [07/Feb/2025 22:40:00] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 22:40:00,394 - INFO - 127.0.0.1 - - [07/Feb/2025 22:40:00] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 22:40:00,447 - INFO - 127.0.0.1 - - [07/Feb/2025 22:40:00] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:40:00,456 - INFO - 127.0.0.1 - - [07/Feb/2025 22:40:00] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:40:00,748 - INFO - 127.0.0.1 - - [07/Feb/2025 22:40:00] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:40:00,824 - INFO - 127.0.0.1 - - [07/Feb/2025 22:40:00] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:40:00,882 - INFO - 127.0.0.1 - - [07/Feb/2025 22:40:00] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 22:40:00,915 - INFO - 127.0.0.1 - - [07/Feb/2025 22:40:00] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:40:01,039 - INFO - 127.0.0.1 - - [07/Feb/2025 22:40:01] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:40:01,113 - INFO - 127.0.0.1 - - [07/Feb/2025 22:40:01] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:40:14,583 - INFO - Image classification results: [{'label': 'Corn_(maize)___healthy', 'score': 0.846873939037323}, {'label': 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'score': 0.7500259876251221}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.6993861198425293}, {'label': 'Pepper,_bell___healthy', 'score': 0.6853976249694824}, {'label': 'Strawberry___healthy', 'score': 0.6274815797805786}]
+2025-02-07 22:40:14,584 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 22:40:14,585 - DEBUG - Normalized label: Tomato___Tomato_Yellow_Leaf_Curl_Virus to Tomato   Tomato Yellow Leaf Curl Virus
+2025-02-07 22:40:14,586 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 22:40:14,586 - DEBUG - Normalized label: Pepper,_bell___healthy to Pepper, Bell   Healthy
+2025-02-07 22:40:14,587 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
+2025-02-07 22:40:14,587 - INFO - Detection and enhancement complete.
+2025-02-07 22:40:14,591 - INFO - 127.0.0.1 - - [07/Feb/2025 22:40:14] "POST /detect HTTP/1.1" 200 -
+2025-02-07 22:43:04,297 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 22:43:05,972 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 22:43:06,609 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 22:43:06,617 - INFO - Image classification pipeline initialized.
+2025-02-07 22:43:06,620 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 22:43:06,643 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 22:43:06,644 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 22:43:09,380 - INFO - 127.0.0.1 - - [07/Feb/2025 22:43:09] "GET / HTTP/1.1" 200 -
+2025-02-07 22:43:09,885 - INFO - 127.0.0.1 - - [07/Feb/2025 22:43:09] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 22:43:09,887 - INFO - 127.0.0.1 - - [07/Feb/2025 22:43:09] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 22:43:10,020 - INFO - 127.0.0.1 - - [07/Feb/2025 22:43:10] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 22:43:10,038 - INFO - 127.0.0.1 - - [07/Feb/2025 22:43:10] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:43:10,162 - INFO - 127.0.0.1 - - [07/Feb/2025 22:43:10] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:43:10,213 - INFO - 127.0.0.1 - - [07/Feb/2025 22:43:10] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:43:10,276 - INFO - 127.0.0.1 - - [07/Feb/2025 22:43:10] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:43:10,308 - INFO - 127.0.0.1 - - [07/Feb/2025 22:43:10] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 22:43:10,358 - INFO - 127.0.0.1 - - [07/Feb/2025 22:43:10] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:43:10,500 - INFO - 127.0.0.1 - - [07/Feb/2025 22:43:10] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:43:10,527 - INFO - 127.0.0.1 - - [07/Feb/2025 22:43:10] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:43:21,044 - INFO - Image classification results: [{'label': 'Corn_(maize)___healthy', 'score': 0.846873939037323}, {'label': 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'score': 0.7500259876251221}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.6993861198425293}, {'label': 'Pepper,_bell___healthy', 'score': 0.6853976249694824}, {'label': 'Strawberry___healthy', 'score': 0.6274815797805786}]
+2025-02-07 22:43:21,045 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 22:43:21,046 - DEBUG - Normalized label: Tomato___Tomato_Yellow_Leaf_Curl_Virus to Tomato   Tomato Yellow Leaf Curl Virus
+2025-02-07 22:43:21,046 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 22:43:21,047 - DEBUG - Normalized label: Pepper,_bell___healthy to Pepper, Bell   Healthy
+2025-02-07 22:43:21,048 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
+2025-02-07 22:43:21,048 - INFO - Detection and enhancement complete.
+2025-02-07 22:43:21,052 - INFO - 127.0.0.1 - - [07/Feb/2025 22:43:21] "POST /detect HTTP/1.1" 200 -
+2025-02-07 22:45:41,752 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 22:45:42,283 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 22:45:43,002 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 22:45:43,010 - INFO - Image classification pipeline initialized.
+2025-02-07 22:45:43,012 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 22:45:43,030 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 22:45:43,033 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 22:45:46,545 - INFO - 127.0.0.1 - - [07/Feb/2025 22:45:46] "GET / HTTP/1.1" 200 -
+2025-02-07 22:45:46,964 - INFO - 127.0.0.1 - - [07/Feb/2025 22:45:46] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 22:45:47,044 - INFO - 127.0.0.1 - - [07/Feb/2025 22:45:47] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 22:45:47,052 - INFO - 127.0.0.1 - - [07/Feb/2025 22:45:47] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:45:47,142 - INFO - 127.0.0.1 - - [07/Feb/2025 22:45:47] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 22:45:47,162 - INFO - 127.0.0.1 - - [07/Feb/2025 22:45:47] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:45:47,209 - INFO - 127.0.0.1 - - [07/Feb/2025 22:45:47] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:45:47,258 - INFO - 127.0.0.1 - - [07/Feb/2025 22:45:47] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:45:47,376 - INFO - 127.0.0.1 - - [07/Feb/2025 22:45:47] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 22:45:47,510 - INFO - 127.0.0.1 - - [07/Feb/2025 22:45:47] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:45:47,578 - INFO - 127.0.0.1 - - [07/Feb/2025 22:45:47] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:45:47,634 - INFO - 127.0.0.1 - - [07/Feb/2025 22:45:47] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:46:00,377 - INFO - Image classification results: [{'label': 'Corn_(maize)___healthy', 'score': 0.846873939037323}, {'label': 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'score': 0.7500259876251221}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.6993861198425293}, {'label': 'Pepper,_bell___healthy', 'score': 0.6853976249694824}, {'label': 'Strawberry___healthy', 'score': 0.6274815797805786}]
+2025-02-07 22:46:00,379 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 22:46:00,380 - DEBUG - Normalized label: Tomato___Tomato_Yellow_Leaf_Curl_Virus to Tomato   Tomato Yellow Leaf Curl Virus
+2025-02-07 22:46:00,382 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 22:46:00,383 - DEBUG - Normalized label: Pepper,_bell___healthy to Pepper, Bell   Healthy
+2025-02-07 22:46:00,384 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
+2025-02-07 22:46:00,385 - INFO - Detection and enhancement complete.
+2025-02-07 22:46:00,390 - INFO - 127.0.0.1 - - [07/Feb/2025 22:46:00] "POST /detect HTTP/1.1" 200 -
+2025-02-07 22:53:44,234 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 22:53:45,229 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 22:53:46,447 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 22:53:46,454 - INFO - Image classification pipeline initialized.
+2025-02-07 22:53:46,457 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 22:53:46,486 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 22:53:46,487 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 22:53:49,967 - INFO - 127.0.0.1 - - [07/Feb/2025 22:53:49] "GET / HTTP/1.1" 200 -
+2025-02-07 22:53:50,445 - INFO - 127.0.0.1 - - [07/Feb/2025 22:53:50] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 22:53:50,547 - INFO - 127.0.0.1 - - [07/Feb/2025 22:53:50] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 22:53:50,582 - INFO - 127.0.0.1 - - [07/Feb/2025 22:53:50] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 22:53:50,637 - INFO - 127.0.0.1 - - [07/Feb/2025 22:53:50] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:53:50,732 - INFO - 127.0.0.1 - - [07/Feb/2025 22:53:50] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:53:50,839 - INFO - 127.0.0.1 - - [07/Feb/2025 22:53:50] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:53:50,881 - INFO - 127.0.0.1 - - [07/Feb/2025 22:53:50] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 22:53:50,934 - INFO - 127.0.0.1 - - [07/Feb/2025 22:53:50] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:53:51,028 - INFO - 127.0.0.1 - - [07/Feb/2025 22:53:51] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:53:51,134 - INFO - 127.0.0.1 - - [07/Feb/2025 22:53:51] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:53:51,216 - INFO - 127.0.0.1 - - [07/Feb/2025 22:53:51] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:54:06,512 - INFO - Image classification results: [{'label': 'Corn_(maize)___healthy', 'score': 0.846873939037323}, {'label': 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'score': 0.7500259876251221}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.6993861198425293}, {'label': 'Pepper,_bell___healthy', 'score': 0.6853976249694824}, {'label': 'Strawberry___healthy', 'score': 0.6274815797805786}]
+2025-02-07 22:54:06,514 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 22:54:06,515 - DEBUG - Normalized label: Tomato___Tomato_Yellow_Leaf_Curl_Virus to Tomato   Tomato Yellow Leaf Curl Virus
+2025-02-07 22:54:06,516 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 22:54:06,517 - DEBUG - Normalized label: Pepper,_bell___healthy to Pepper, Bell   Healthy
+2025-02-07 22:54:06,523 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
+2025-02-07 22:54:06,536 - INFO - Detection and enhancement complete.
+2025-02-07 22:54:06,557 - INFO - 127.0.0.1 - - [07/Feb/2025 22:54:06] "POST /detect HTTP/1.1" 200 -
+2025-02-07 22:55:12,174 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 22:55:13,390 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 22:55:14,690 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 22:55:14,698 - INFO - Image classification pipeline initialized.
+2025-02-07 22:55:14,701 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 22:55:14,722 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 22:55:14,725 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 22:55:17,702 - INFO - 127.0.0.1 - - [07/Feb/2025 22:55:17] "GET / HTTP/1.1" 200 -
+2025-02-07 22:55:18,114 - INFO - 127.0.0.1 - - [07/Feb/2025 22:55:18] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 22:55:18,130 - INFO - 127.0.0.1 - - [07/Feb/2025 22:55:18] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 22:55:18,167 - INFO - 127.0.0.1 - - [07/Feb/2025 22:55:18] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:55:18,344 - INFO - 127.0.0.1 - - [07/Feb/2025 22:55:18] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:55:18,381 - INFO - 127.0.0.1 - - [07/Feb/2025 22:55:18] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 22:55:18,476 - INFO - 127.0.0.1 - - [07/Feb/2025 22:55:18] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:55:18,586 - INFO - 127.0.0.1 - - [07/Feb/2025 22:55:18] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:55:18,629 - INFO - 127.0.0.1 - - [07/Feb/2025 22:55:18] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 22:55:18,851 - INFO - 127.0.0.1 - - [07/Feb/2025 22:55:18] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:55:18,892 - INFO - 127.0.0.1 - - [07/Feb/2025 22:55:18] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:55:18,942 - INFO - 127.0.0.1 - - [07/Feb/2025 22:55:18] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:55:31,012 - INFO - Image classification results: [{'label': 'Corn_(maize)___healthy', 'score': 0.846873939037323}, {'label': 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'score': 0.7500259876251221}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.6993861198425293}, {'label': 'Pepper,_bell___healthy', 'score': 0.6853976249694824}, {'label': 'Strawberry___healthy', 'score': 0.6274815797805786}]
+2025-02-07 22:55:31,013 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 22:55:31,014 - DEBUG - Normalized label: Tomato___Tomato_Yellow_Leaf_Curl_Virus to Tomato   Tomato Yellow Leaf Curl Virus
+2025-02-07 22:55:31,015 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 22:55:31,015 - DEBUG - Normalized label: Pepper,_bell___healthy to Pepper, Bell   Healthy
+2025-02-07 22:55:31,016 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
+2025-02-07 22:55:31,016 - INFO - Detection and enhancement complete.
+2025-02-07 22:55:31,020 - INFO - 127.0.0.1 - - [07/Feb/2025 22:55:31] "POST /detect HTTP/1.1" 200 -
+2025-02-07 22:56:12,806 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-07 22:56:15,867 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-02-07 22:56:16,846 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-02-07 22:56:16,855 - INFO - Image classification pipeline initialized.
+2025-02-07 22:56:16,858 - INFO - Disease descriptions loaded from JSON.
+2025-02-07 22:56:16,879 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-07 22:56:16,880 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-07 22:56:27,110 - INFO - 127.0.0.1 - - [07/Feb/2025 22:56:27] "GET / HTTP/1.1" 200 -
+2025-02-07 22:56:27,421 - INFO - 127.0.0.1 - - [07/Feb/2025 22:56:27] "[33mGET /assets/media/photos/photo19.jpg HTTP/1.1[0m" 404 -
+2025-02-07 22:56:27,688 - INFO - 127.0.0.1 - - [07/Feb/2025 22:56:27] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-02-07 22:56:27,715 - INFO - 127.0.0.1 - - [07/Feb/2025 22:56:27] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:56:27,760 - INFO - 127.0.0.1 - - [07/Feb/2025 22:56:27] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-02-07 22:56:27,822 - INFO - 127.0.0.1 - - [07/Feb/2025 22:56:27] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:56:27,944 - INFO - 127.0.0.1 - - [07/Feb/2025 22:56:27] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:56:28,015 - INFO - 127.0.0.1 - - [07/Feb/2025 22:56:28] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-02-07 22:56:28,101 - INFO - 127.0.0.1 - - [07/Feb/2025 22:56:28] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-02-07 22:56:28,125 - INFO - 127.0.0.1 - - [07/Feb/2025 22:56:28] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:56:28,171 - INFO - 127.0.0.1 - - [07/Feb/2025 22:56:28] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:56:28,215 - INFO - 127.0.0.1 - - [07/Feb/2025 22:56:28] "[36mGET /static/fonts/inter/inter-v18-latin-500.woff2 HTTP/1.1[0m" 304 -
+2025-02-07 22:56:30,644 - INFO - 127.0.0.1 - - [07/Feb/2025 22:56:30] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-02-07 22:56:38,402 - INFO - Image classification results: [{'label': 'Corn_(maize)___healthy', 'score': 0.846873939037323}, {'label': 'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'score': 0.7500259876251221}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.6993861198425293}, {'label': 'Pepper,_bell___healthy', 'score': 0.6853976249694824}, {'label': 'Strawberry___healthy', 'score': 0.6274815797805786}]
+2025-02-07 22:56:38,403 - DEBUG - Normalized label: Corn_(maize)___healthy to Corn (Maize)   Healthy
+2025-02-07 22:56:38,405 - DEBUG - Normalized label: Tomato___Tomato_Yellow_Leaf_Curl_Virus to Tomato   Tomato Yellow Leaf Curl Virus
+2025-02-07 22:56:38,405 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-02-07 22:56:38,406 - DEBUG - Normalized label: Pepper,_bell___healthy to Pepper, Bell   Healthy
+2025-02-07 22:56:38,407 - DEBUG - Normalized label: Strawberry___healthy to Strawberry   Healthy
+2025-02-07 22:56:38,408 - INFO - Detection and enhancement complete.
+2025-02-07 22:56:38,413 - INFO - 127.0.0.1 - - [07/Feb/2025 22:56:38] "POST /detect HTTP/1.1" 200 -
