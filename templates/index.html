@@ -111,7 +111,6 @@
                             <a class="link-fx fw-bold fs-1" href="index.html">
                             <span class="text-white">Agricultural </span><span class="text-primary"> AI Assistant</span>
                             </a>
-                            <p class="text-uppercase fw-bold fs-sm text-white-75">Coming Soon</p>
                         </div>
                 
                         <form id="uploadForm" method="post" enctype="multipart/form-data">                        
@@ -130,7 +129,7 @@
                         
                         <div class="block block-rounded">
                           <div class="block-header block-header-default">
-                            <h3 class="block-title">Disease Detected</h3>
+                            <h3 class="block-title">Disease Information</h3>
                           </div>
                           <div id="results" style="
                             max-height: 500px; /* Adjust height as needed */
@@ -189,6 +188,9 @@
                   </div>
                 </div>
               </div>
+              <a href="{{ url_for('logout') }}" class="btn btn-danger" style="position: absolute; top: 20px; right: 20px;">
+                Sign Out
+            </a>
             </div>
           </div>
         </div>

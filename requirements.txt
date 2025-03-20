@@ -31,3 +31,9 @@ urllib3==2.2.2
 waitress==3.0.0
 Werkzeug==3.0.4
 Wikipedia-API==0.7.1
+Flask
+Flask-SQLAlchemy
+Werkzeug
+flask_sqlalchemy
+pillow
+
