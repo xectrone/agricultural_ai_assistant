@@ -39,7 +39,7 @@ def home():
 
 @app.route("/signin", methods=["GET", "POST"])
 def signin():
-    message = None  # Initialize message
+    message = None
     if request.method == "POST":
         email = request.form.get("email")
         password = request.form.get("password")
@@ -72,15 +72,13 @@ def signup():
         db.session.add(new_user)
         db.session.commit()
 
-        # Automatically log in the user
         session["user"] = email
         session.permanent = True
 
         flash("Signup successful! Redirecting to dashboard.", "success")
-        return redirect(url_for("index"))  # Redirect to index.html
+        return redirect(url_for("index"))
 
     return render_template("op_auth_signup.html")
-
 
 @app.route("/index")
 def index():
@@ -97,12 +95,16 @@ def logout():
 
 @app.route('/detect', methods=['POST'])
 def detect_disease():
-    
-    image = request.files['image']
+    image = request.files.get('image')
+    lang = request.form.get('lang', 'en')  # Default to English if not provided
+
+    if not image:
+        return jsonify({"error": "No image uploaded."}), 400
+
     temp_filename = os.path.join(app.config["UPLOAD_FOLDER"], f"{uuid.uuid4().hex}.jpg")
     image.save(temp_filename)
 
-    results = detect_plant_diseases(temp_filename)
+    results = detect_plant_diseases(temp_filename, lang=lang)
     os.remove(temp_filename)
 
     return jsonify({"results": results})

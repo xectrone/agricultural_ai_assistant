@@ -8754,3 +8754,214 @@ werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'signup
 2025-04-04 21:34:49,840 - INFO - 127.0.0.1 - - [04/Apr/2025 21:34:49] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
 2025-04-04 21:37:45,430 - INFO -  * Detected change in 'D:\\Final year project\\Website\\New v2\\agricultural_ai_assistant\\app.py', reloading
 2025-04-04 21:37:53,389 - INFO -  * Restarting with stat
+2025-04-05 01:55:06,211 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-05 01:55:06,583 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-04-05 01:55:07,648 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-04-05 01:55:07,674 - INFO - Image classification pipeline initialized.
+2025-04-05 01:55:07,697 - INFO - Disease descriptions loaded from JSON.
+2025-04-05 01:55:07,832 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 01:55:07,832 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 01:55:07,837 - INFO -  * Restarting with stat
+2025-04-05 01:55:21,136 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-05 01:55:21,442 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-04-05 01:55:22,414 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-04-05 01:55:22,422 - INFO - Image classification pipeline initialized.
+2025-04-05 01:55:22,425 - INFO - Disease descriptions loaded from JSON.
+2025-04-05 01:55:22,509 - WARNING -  * Debugger is active!
+2025-04-05 01:55:22,521 - INFO -  * Debugger PIN: 117-788-759
+2025-04-05 01:55:22,917 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:22] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-05 01:55:23,393 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:23] "GET /signin HTTP/1.1" 200 -
+2025-04-05 01:55:24,019 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:24] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-05 01:55:24,648 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:24] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-05 01:55:25,141 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:25] "[36mGET /static/js/pages/op_auth_signin.min.js HTTP/1.1[0m" 304 -
+2025-04-05 01:55:25,183 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:25] "[36mGET /static/media/photos/Bg_login_page.avif HTTP/1.1[0m" 304 -
+2025-04-05 01:55:25,245 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:25] "[36mGET /static/js/plugins/jquery-validation/jquery.validate.min.js HTTP/1.1[0m" 304 -
+2025-04-05 01:55:25,310 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:25] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-05 01:55:25,339 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:25] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-04-05 01:55:25,382 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:25] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-04-05 01:55:25,403 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:25] "[36mGET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-04-05 01:55:25,425 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:25] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-04-05 01:55:25,435 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:25] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-05 01:55:35,971 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:35] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2025-04-05 01:55:36,617 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:36] "GET /index HTTP/1.1" 200 -
+2025-04-05 01:55:36,693 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:36] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-05 01:55:36,707 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:36] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-05 01:55:36,708 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:36] "GET /static/media/photos/placeholder.png HTTP/1.1" 200 -
+2025-04-05 01:55:36,710 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:36] "GET /static/media/photos/photo21@2x.jpg HTTP/1.1" 200 -
+2025-04-05 01:55:36,776 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:36] "GET /static/media/photos/photo13@2x.jpg HTTP/1.1" 200 -
+2025-04-05 01:55:36,825 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:36] "GET /static/media/photos/photo23@2x.jpg HTTP/1.1" 200 -
+2025-04-05 01:55:36,829 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:36] "GET /static/media/photos/re-1.png HTTP/1.1" 200 -
+2025-04-05 01:55:36,832 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:36] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-05 01:55:36,935 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:36] "GET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1" 200 -
+2025-04-05 01:55:36,937 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:36] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-05 01:55:36,991 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:36] "GET /static/js/pages/op_coming_soon.min.js HTTP/1.1" 200 -
+2025-04-05 01:55:37,113 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:37] "GET /static/media/photos/re-2.png HTTP/1.1" 200 -
+2025-04-05 01:55:37,180 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:37] "GET /static/media/photos/re-3.png HTTP/1.1" 200 -
+2025-04-05 01:55:37,229 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:37] "GET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1" 200 -
+2025-04-05 01:55:37,266 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:37] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-04-05 01:55:37,302 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:37] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-04-05 01:55:37,318 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:37] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-04-05 01:55:37,406 - INFO - 127.0.0.1 - - [05/Apr/2025 01:55:37] "GET /static/media/photos/photo17@2x.jpg HTTP/1.1" 200 -
+2025-04-05 01:57:01,170 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2025-04-05 01:57:01,171 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-04-05 01:57:01,172 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-04-05 01:57:01,173 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2025-04-05 01:57:01,173 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+2025-04-05 01:57:11,072 - INFO - Image classification results: [{'label': 'Grape___Black_rot', 'score': 0.9807454347610474}, {'label': 'Grape___healthy', 'score': 0.8228490352630615}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.6965424418449402}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.685350239276886}, {'label': 'Potato___Early_blight', 'score': 0.5624564290046692}]
+2025-04-05 01:57:11,081 - DEBUG - Normalized label: Grape___Black_rot to Grape   Black Rot
+2025-04-05 01:57:11,088 - DEBUG - Normalized label: Grape___healthy to Grape   Healthy
+2025-04-05 01:57:11,089 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape   Leaf Blight (Isariopsis Leaf Spot)
+2025-04-05 01:57:11,095 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-04-05 01:57:11,097 - DEBUG - Normalized label: Potato___Early_blight to Potato   Early Blight
+2025-04-05 01:57:11,098 - INFO - Detection and enhancement complete.
+2025-04-05 01:57:11,103 - INFO - 127.0.0.1 - - [05/Apr/2025 01:57:11] "POST /detect HTTP/1.1" 200 -
+2025-04-05 01:57:34,505 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2025-04-05 01:57:34,506 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-04-05 01:57:34,507 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-04-05 01:57:34,508 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2025-04-05 01:57:34,509 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+2025-04-05 01:57:36,991 - INFO - Image classification results: [{'label': 'Grape___Black_rot', 'score': 0.9807454347610474}, {'label': 'Grape___healthy', 'score': 0.8228490352630615}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.6965424418449402}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.685350239276886}, {'label': 'Potato___Early_blight', 'score': 0.5624564290046692}]
+2025-04-05 01:57:36,992 - DEBUG - Normalized label: Grape___Black_rot to Grape   Black Rot
+2025-04-05 01:57:36,993 - DEBUG - Normalized label: Grape___healthy to Grape   Healthy
+2025-04-05 01:57:36,994 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape   Leaf Blight (Isariopsis Leaf Spot)
+2025-04-05 01:57:36,994 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-04-05 01:57:36,995 - DEBUG - Normalized label: Potato___Early_blight to Potato   Early Blight
+2025-04-05 01:57:36,995 - INFO - Detection and enhancement complete.
+2025-04-05 01:57:36,999 - INFO - 127.0.0.1 - - [05/Apr/2025 01:57:36] "POST /detect HTTP/1.1" 200 -
+2025-04-05 01:57:44,903 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2025-04-05 01:57:44,903 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-04-05 01:57:44,904 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-04-05 01:57:44,905 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2025-04-05 01:57:44,906 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+2025-04-05 01:57:47,590 - INFO - Image classification results: [{'label': 'Grape___Black_rot', 'score': 0.9807454347610474}, {'label': 'Grape___healthy', 'score': 0.8228490352630615}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.6965424418449402}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.685350239276886}, {'label': 'Potato___Early_blight', 'score': 0.5624564290046692}]
+2025-04-05 01:57:47,591 - DEBUG - Normalized label: Grape___Black_rot to Grape   Black Rot
+2025-04-05 01:57:47,591 - DEBUG - Normalized label: Grape___healthy to Grape   Healthy
+2025-04-05 01:57:47,592 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape   Leaf Blight (Isariopsis Leaf Spot)
+2025-04-05 01:57:47,592 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-04-05 01:57:47,593 - DEBUG - Normalized label: Potato___Early_blight to Potato   Early Blight
+2025-04-05 01:57:47,593 - INFO - Detection and enhancement complete.
+2025-04-05 01:57:47,597 - INFO - 127.0.0.1 - - [05/Apr/2025 01:57:47] "POST /detect HTTP/1.1" 200 -
+2025-04-05 01:58:05,689 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2025-04-05 01:58:05,690 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-04-05 01:58:05,691 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-04-05 01:58:05,691 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2025-04-05 01:58:05,692 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+2025-04-05 01:58:08,302 - INFO - Image classification results: [{'label': 'Grape___Black_rot', 'score': 0.9807454347610474}, {'label': 'Grape___healthy', 'score': 0.8228490352630615}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.6965424418449402}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.685350239276886}, {'label': 'Potato___Early_blight', 'score': 0.5624564290046692}]
+2025-04-05 01:58:08,303 - DEBUG - Normalized label: Grape___Black_rot to Grape   Black Rot
+2025-04-05 01:58:08,304 - DEBUG - Normalized label: Grape___healthy to Grape   Healthy
+2025-04-05 01:58:08,305 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape   Leaf Blight (Isariopsis Leaf Spot)
+2025-04-05 01:58:08,305 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-04-05 01:58:08,306 - DEBUG - Normalized label: Potato___Early_blight to Potato   Early Blight
+2025-04-05 01:58:08,306 - INFO - Detection and enhancement complete.
+2025-04-05 01:58:08,309 - INFO - 127.0.0.1 - - [05/Apr/2025 01:58:08] "POST /detect HTTP/1.1" 200 -
+2025-04-05 02:07:37,039 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-05 02:07:37,354 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-04-05 02:07:38,311 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-04-05 02:07:38,318 - INFO - Image classification pipeline initialized.
+2025-04-05 02:07:38,321 - INFO - Disease descriptions loaded from JSON.
+2025-04-05 02:07:38,421 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 02:07:38,422 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 02:07:38,426 - INFO -  * Restarting with stat
+2025-04-05 02:07:50,315 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-05 02:07:50,777 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-04-05 02:07:51,338 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-04-05 02:07:51,338 - INFO - Image classification pipeline initialized.
+2025-04-05 02:07:51,338 - INFO - Disease descriptions loaded from JSON.
+2025-04-05 02:07:51,435 - WARNING -  * Debugger is active!
+2025-04-05 02:07:51,448 - INFO -  * Debugger PIN: 117-788-759
+2025-04-05 02:07:51,805 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:51] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-05 02:07:52,053 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:52] "GET /index HTTP/1.1" 200 -
+2025-04-05 02:07:52,588 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:52] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-05 02:07:52,596 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:52] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-05 02:07:52,629 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:52] "[36mGET /static/media/photos/placeholder.png HTTP/1.1[0m" 304 -
+2025-04-05 02:07:52,746 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:52] "[36mGET /static/media/photos/photo21@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-05 02:07:52,754 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:52] "[36mGET /static/media/photos/photo13@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-05 02:07:52,961 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:52] "[36mGET /static/media/photos/photo23@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-05 02:07:52,998 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:52] "[36mGET /static/media/photos/re-1.png HTTP/1.1[0m" 304 -
+2025-04-05 02:07:53,018 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:53] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-05 02:07:53,022 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:53] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-05 02:07:53,028 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:53] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-04-05 02:07:53,048 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:53] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-04-05 02:07:53,085 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:53] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-04-05 02:07:53,117 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:53] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-04-05 02:07:53,187 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:53] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-04-05 02:07:53,213 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:53] "[36mGET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1[0m" 304 -
+2025-04-05 02:07:53,232 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:53] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-05 02:07:53,261 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:53] "[36mGET /static/media/photos/re-2.png HTTP/1.1[0m" 304 -
+2025-04-05 02:07:53,275 - INFO - 127.0.0.1 - - [05/Apr/2025 02:07:53] "[36mGET /static/media/photos/re-3.png HTTP/1.1[0m" 304 -
+2025-04-05 02:08:06,303 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2025-04-05 02:08:06,306 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-04-05 02:08:06,307 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-04-05 02:08:06,307 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2025-04-05 02:08:06,308 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+2025-04-05 02:08:12,210 - INFO - Image classification results: [{'label': 'Grape___Black_rot', 'score': 0.9807454347610474}, {'label': 'Grape___healthy', 'score': 0.8228490352630615}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.6965424418449402}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.685350239276886}, {'label': 'Potato___Early_blight', 'score': 0.5624564290046692}]
+2025-04-05 02:08:12,210 - DEBUG - Normalized label: Grape___Black_rot to Grape   Black Rot
+2025-04-05 02:08:12,211 - DEBUG - Normalized label: Grape___healthy to Grape   Healthy
+2025-04-05 02:08:12,211 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape   Leaf Blight (Isariopsis Leaf Spot)
+2025-04-05 02:08:12,212 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-04-05 02:08:12,212 - DEBUG - Normalized label: Potato___Early_blight to Potato   Early Blight
+2025-04-05 02:08:12,213 - INFO - Detection and enhancement complete.
+2025-04-05 02:08:12,216 - INFO - 127.0.0.1 - - [05/Apr/2025 02:08:12] "POST /detect HTTP/1.1" 200 -
+2025-04-05 02:08:27,364 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2025-04-05 02:08:27,365 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-04-05 02:08:27,365 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-04-05 02:08:27,366 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2025-04-05 02:08:27,366 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+2025-04-05 02:08:29,842 - INFO - Image classification results: [{'label': 'Grape___Black_rot', 'score': 0.9807454347610474}, {'label': 'Grape___healthy', 'score': 0.8228490352630615}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.6965424418449402}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.685350239276886}, {'label': 'Potato___Early_blight', 'score': 0.5624564290046692}]
+2025-04-05 02:08:29,843 - DEBUG - Normalized label: Grape___Black_rot to Grape   Black Rot
+2025-04-05 02:08:29,844 - DEBUG - Normalized label: Grape___healthy to Grape   Healthy
+2025-04-05 02:08:29,844 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape   Leaf Blight (Isariopsis Leaf Spot)
+2025-04-05 02:08:29,845 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-04-05 02:08:29,846 - DEBUG - Normalized label: Potato___Early_blight to Potato   Early Blight
+2025-04-05 02:08:29,847 - INFO - Detection and enhancement complete.
+2025-04-05 02:08:29,851 - INFO - 127.0.0.1 - - [05/Apr/2025 02:08:29] "POST /detect HTTP/1.1" 200 -
+2025-04-05 02:09:01,566 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:01] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-05 02:09:06,962 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:06] "GET /index HTTP/1.1" 200 -
+2025-04-05 02:09:07,249 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,318 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,323 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/media/photos/placeholder.png HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,326 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/media/photos/photo21@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,535 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/media/photos/photo13@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,556 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/media/photos/photo23@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,560 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,573 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,625 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/media/photos/re-1.png HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,648 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,657 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,661 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,686 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,692 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,699 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,718 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/media/photos/re-2.png HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,800 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/media/photos/re-3.png HTTP/1.1[0m" 304 -
+2025-04-05 02:09:07,851 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:07] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-05 02:09:27,298 - DEBUG - tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Panasonic\x00'
+2025-04-05 02:09:27,298 - DEBUG - tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 156 - value: b'DMC-FZ10\x00'
+2025-04-05 02:09:27,299 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2025-04-05 02:09:27,299 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 165 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2025-04-05 02:09:27,300 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 173 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2025-04-05 02:09:27,300 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+2025-04-05 02:09:27,301 - DEBUG - tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 181 - value: b'Adobe Photoshop 7.0 CE\x00'
+2025-04-05 02:09:27,301 - DEBUG - tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 204 - value: b'2004:10:19 13:20:26\x00'
+2025-04-05 02:09:27,302 - DEBUG - tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+2025-04-05 02:09:27,302 - DEBUG - tag: unknown (50341) - type: undefined (7) Tag Location: 130 - Data Location: 224 - value: <table: 208 bytes>
+2025-04-05 02:09:27,303 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\xb0\x01\x00\x00'
+2025-04-05 02:09:29,392 - INFO - Image classification results: [{'label': 'Strawberry___Leaf_scorch', 'score': 0.9925256967544556}, {'label': 'Tomato___Septoria_leaf_spot', 'score': 0.6070094108581543}, {'label': 'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot', 'score': 0.5831923484802246}, {'label': 'Apple___Cedar_apple_rust', 'score': 0.5776548385620117}, {'label': 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'score': 0.5628113150596619}]
+2025-04-05 02:09:29,392 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-04-05 02:09:29,392 - DEBUG - Normalized label: Tomato___Septoria_leaf_spot to Tomato   Septoria Leaf Spot
+2025-04-05 02:09:29,392 - DEBUG - Normalized label: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot to Corn (Maize)   Cercospora Leaf Spot Gray Leaf Spot
+2025-04-05 02:09:29,392 - DEBUG - Normalized label: Apple___Cedar_apple_rust to Apple   Cedar Apple Rust
+2025-04-05 02:09:29,392 - DEBUG - Normalized label: Grape___Leaf_blight_(Isariopsis_Leaf_Spot) to Grape   Leaf Blight (Isariopsis Leaf Spot)
+2025-04-05 02:09:29,392 - INFO - Detection and enhancement complete.
+2025-04-05 02:09:29,392 - INFO - 127.0.0.1 - - [05/Apr/2025 02:09:29] "POST /detect HTTP/1.1" 200 -
+2025-04-05 02:11:13,152 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-05 02:11:13,647 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-04-05 02:11:14,399 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-04-05 02:11:14,399 - INFO - Image classification pipeline initialized.
+2025-04-05 02:11:14,447 - INFO - Disease descriptions loaded from JSON.
+2025-04-05 02:11:14,866 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-05 02:11:14,872 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 02:11:14,877 - INFO -  * Restarting with stat

@@ -89,35 +89,39 @@
                   </div>
                   <form id="uploadForm" method="post" enctype="multipart/form-data">
 
-                    <!-- <label for="image" id="upload-label" class="upload-btn">📁 Upload Plant Image</label> -->
                     <input class="form-control" type="file" id="image" accept="image/*" required
                       onchange="previewImage()" style="width: 45%; margin: 1.75rem auto; display: block;">
-
+                  
+                    <!-- Language Selector -->
+                    <div style="text-align: center; margin-bottom: 1rem;">
+                      <label for="language" class="fw-semibold me-2">Language:</label>
+                      <select id="language" class="form-select w-auto d-inline-block">
+                        <option value="en" selected>English</option>
+                        <option value="hi">Hindi</option>
+                        <option value="mr">Marathi</option>
+                      </select>
+                    </div>
+                  
                     <div class="mt-2">
                       <!-- Image Preview -->
                       <img id="imagePreview" class="img-fluid"
                         src="{{ url_for('static', filename='media/photos/placeholder.png') }}"
-                        alt="Uploaded Image Preview" style="display: block; /* Ensures it's treated as a block element */
-                        margin: 20px auto; /* Centers horizontally */
-                        width: 200px; /* Fixed size */
-                        height: 200px;
-                        object-fit: cover; /* Maintains aspect ratio */
-                        border-radius: 10px;
-                        border: 2px solid #ddd;">
-
+                        alt="Uploaded Image Preview" style="display: block; margin: 20px auto;
+                        width: 200px; height: 200px; object-fit: cover;
+                        border-radius: 10px; border: 2px solid #ddd;">
                     </div>
+                  
                     <button type="submit" class="btn btn-hero btn-primary" href="javascript:void(0)"
                       data-toggle="click-ripple">Detect Disease</button>
                   </form>
-                  <br>
-                  <br>
-
-
-                  <!-- Disease Information Section (Appears after clicking "Detect Disease") -->
+                  
+                  <br><br>
+                  
+                  <!-- Disease Information Section -->
                   <div id="results-container" class="container mt-4 p-4 rounded shadow-lg d-none">
                     <h3 class="text-center text-primary fw-bold" id="disease-name"></h3>
                     <p class="text-center text-secondary fw-semibold" id="disease-accuracy"></p>
-
+                  
                     <div class="row text-center mt-3">
                       <div class="col-md-3">
                         <div class="p-3 border rounded bg-white shadow-sm">
@@ -145,71 +149,62 @@
                       </div>
                     </div>
                   </div>
-
+                  
                   <script>
                     document.getElementById('uploadForm').onsubmit = async function (e) {
                       e.preventDefault();
                       const formData = new FormData();
+
                       const fileInput = document.getElementById('image');
+                      const langSelect = document.getElementById('language');
+                      const lang = langSelect.value;
+
                       formData.append('image', fileInput.files[0]);
+                      formData.append('lang', lang); // ✅ send the selected language
 
                       const response = await fetch('/detect', { method: 'POST', body: formData });
                       const result = await response.json();
                       displayResults(result.results);
                     };
 
-                    document.getElementById('uploadForm').onsubmit = async function (e) {
-                      e.preventDefault();
-                      const formData = new FormData();
-                      const fileInput = document.getElementById('image');
-                      formData.append('image', fileInput.files[0]);
-
-                      const response = await fetch('/detect', { method: 'POST', body: formData });
-                      const result = await response.json();
-                      displayResults(result.results);
-                    };
-
+                  
                     function displayResults(results) {
                       const resultsContainer = document.getElementById('results-container');
-
-                      // Reset animation styles for each element
                       resetAnimation("disease-description");
                       resetAnimation("disease-cause");
                       resetAnimation("disease-treatment");
                       resetAnimation("disease-prevention");
-
+                  
                       if (results && results.length > 0) {
-                        const result = results[0]; // Take only the first result
-
+                        const result = results[0]; // Only use the top result
+                        const lang = document.getElementById('language').value;
+                  
                         document.getElementById('disease-name').innerText = result.label;
                         document.getElementById('disease-accuracy').innerText = "Accuracy: " + (result.confidence || "N/A");
-                        document.getElementById('disease-description').innerText = result.description;
-                        document.getElementById('disease-cause').innerText = result.cause;
-                        document.getElementById('disease-treatment').innerText = result.treatment;
-                        document.getElementById('disease-prevention').innerText = result.prevention;
-
-                        // Show the results container
+                  
+                        document.getElementById('disease-description').innerText = result["description_" + lang] || result.description;
+                        document.getElementById('disease-cause').innerText = result["cause_" + lang] || result.cause;
+                        document.getElementById('disease-treatment').innerText = result["treatment_" + lang] || result.treatment;
+                        document.getElementById('disease-prevention').innerText = result["prevention_" + lang] || result.prevention;
+                  
                         resultsContainer.classList.remove('d-none');
-
-                        // Step 1: Smoothly scroll to the results container
+                  
                         setTimeout(() => {
                           const yOffset = resultsContainer.getBoundingClientRect().top + window.scrollY - (window.innerHeight / 2) + (resultsContainer.clientHeight / 2);
                           window.scrollTo({ top: yOffset, behavior: "smooth" });
-
-                          // Step 2: Sequentially show each section with a small delay
-                          setTimeout(() => fadeInElement("disease-description"), 500); // Show description after 500ms
-                          setTimeout(() => fadeInElement("disease-cause"), 1000); // Show cause after 1000ms
-                          setTimeout(() => fadeInElement("disease-treatment"), 1500); // Show treatment after 1500ms
-                          setTimeout(() => fadeInElement("disease-prevention"), 2000); // Show prevention after 2000ms
-
-                        }, 300); // Small delay before scrolling for better experience
+                  
+                          setTimeout(() => fadeInElement("disease-description"), 500);
+                          setTimeout(() => fadeInElement("disease-cause"), 1000);
+                          setTimeout(() => fadeInElement("disease-treatment"), 1500);
+                          setTimeout(() => fadeInElement("disease-prevention"), 2000);
+                  
+                        }, 300);
                       } else {
                         resultsContainer.innerHTML = '<p class="text-danger text-center fw-bold">No results found.</p>';
                         resultsContainer.classList.remove('d-none');
                       }
                     }
-
-                    // Function to fade in an element smoothly
+                  
                     function fadeInElement(elementId) {
                       const element = document.getElementById(elementId);
                       if (element) {
@@ -217,8 +212,7 @@
                         element.style.transform = "translateY(0)";
                       }
                     }
-
-                    // Function to reset animation (opacity & position) before every detection
+                  
                     function resetAnimation(elementId) {
                       const element = document.getElementById(elementId);
                       if (element) {
@@ -226,10 +220,8 @@
                         element.style.transform = "translateY(20px)";
                       }
                     }
-
-
-
                   </script>
+                  
 
                 </div>
               </div>

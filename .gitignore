@@ -5,3 +5,4 @@ venv/
 main.py
 main.2.py
 logs/
+logs/app.log
