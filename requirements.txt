@@ -36,4 +36,6 @@ Flask-SQLAlchemy
 Werkzeug
 flask_sqlalchemy
 pillow
+Flask-Mail
+
 

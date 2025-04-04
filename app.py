@@ -97,12 +97,7 @@ def logout():
 
 @app.route('/detect', methods=['POST'])
 def detect_disease():
-    if "user" not in session:
-        return jsonify({"error": "Unauthorized access"}), 401
-
-    if 'image' not in request.files:
-        return jsonify({"error": "No image provided"}), 400
-
+    
     image = request.files['image']
     temp_filename = os.path.join(app.config["UPLOAD_FOLDER"], f"{uuid.uuid4().hex}.jpg")
     image.save(temp_filename)
