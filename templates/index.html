@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="en" class="remember-theme">
-  <head>
-    <meta charset="utf-8">
-    <!--
+
+<head>
+  <meta charset="utf-8">
+  <!--
       Available classes for <html> element:
 
       'dark'                  Enable dark mode - Default dark mode preference can be set in app.js file (always saved and retrieved in localStorage afterwards):
@@ -11,292 +12,359 @@
       'remember-theme'        Remembers active color theme between pages using localStorage when set through
                                 - Theme helper buttons [data-toggle="theme"]
     -->
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    <title>
-      
+  <title>
+
     Agricultural AI Assistant
 
-    </title>
+  </title>
 
-    <meta name="description" content="Dashmix - Bootstrap 5 Admin Template &amp; UI Framework created by pixelcave">
-    <meta name="author" content="pixelcave">
-    <meta name="robots" content="index, follow">
+  <meta name="description" content="Dashmix - Bootstrap 5 Admin Template &amp; UI Framework created by pixelcave">
+  <meta name="author" content="pixelcave">
+  <meta name="robots" content="index, follow">
 
-    <!-- Open Graph Meta -->
-    <meta property="og:title" content="Dashmix - Bootstrap 5 Admin Template &amp; UI Framework">
-    <meta property="og:site_name" content="Dashmix">
-    <meta property="og:description" content="Dashmix - Bootstrap 5 Admin Template &amp; UI Framework created by pixelcave">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
+  <!-- Open Graph Meta -->
+  <meta property="og:title" content="Dashmix - Bootstrap 5 Admin Template &amp; UI Framework">
+  <meta property="og:site_name" content="Dashmix">
+  <meta property="og:description"
+    content="Dashmix - Bootstrap 5 Admin Template &amp; UI Framework created by pixelcave">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
 
-    <!-- Icons -->
-    <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-    <!-- Icons -->
-    <link rel="shortcut icon" href="{{ url_for('static', filename='media/favicons/favicon.png') }}">
-    <link rel="icon" type="image/png" sizes="192x192" href="{{ url_for('static', filename='media/favicons/favicon-192x192.png') }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='media/favicons/apple-touch-icon-180x180.png') }}">
-    <!-- END Icons -->
+  <!-- Icons -->
+  <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+  <!-- Icons -->
+  <link rel="shortcut icon" href="{{ url_for('static', filename='media/favicons/favicon.png') }}">
+  <link rel="icon" type="image/png" sizes="192x192"
+    href="{{ url_for('static', filename='media/favicons/favicon-192x192.png') }}">
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="{{ url_for('static', filename='media/favicons/apple-touch-icon-180x180.png') }}">
+  <!-- END Icons -->
 
-    <!-- Stylesheets -->
-    <!-- Dashmix framework -->
-    <link rel="stylesheet" id="css-main" href="{{ url_for('static', filename='css/dashmix.min.css') }}">
-
-
-    <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
-    <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/xwork.min.css"> -->
-    <!-- END Stylesheets -->
-
-    <!-- Load and set color theme + dark mode preference (blocking script to prevent flashing) -->
-    <script src="{{ url_for('static', filename='js/setTheme.js') }}"></script>
-
-  </head>
-
-  <body>
-    <!-- Page Container -->
-    <!--
-      Available classes for #page-container:
-
-      SIDEBAR & SIDE OVERLAY
-
-        'sidebar-r'                                 Right Sidebar and left Side Overlay (default is left Sidebar and right Side Overlay)
-        'sidebar-mini'                              Mini hoverable Sidebar (screen width > 991px)
-        'sidebar-o'                                 Visible Sidebar by default (screen width > 991px)
-        'sidebar-o-xs'                              Visible Sidebar by default (screen width < 992px)
-        'sidebar-dark'                              Dark themed sidebar
-
-        'side-overlay-hover'                        Hoverable Side Overlay (screen width > 991px)
-        'side-overlay-o'                            Visible Side Overlay by default
-
-        'enable-page-overlay'                       Enables a visible clickable Page Overlay (closes Side Overlay on click) when Side Overlay opens
-
-        'side-scroll'                               Enables custom scrolling on Sidebar and Side Overlay instead of native scrolling (screen width > 991px)
-
-      HEADER
-
-        ''                                          Static Header if no class is added
-        'page-header-fixed'                         Fixed Header
+  <!-- Stylesheets -->
+  <!-- Dashmix framework -->
+  <link rel="stylesheet" id="css-main" href="{{ url_for('static', filename='css/dashmix.min.css') }}">
 
 
-      FOOTER
+  <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
+  <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/xwork.min.css"> -->
+  <!-- END Stylesheets -->
 
-        ''                                          Static Footer if no class is added
-        'page-footer-fixed'                         Fixed Footer (please have in mind that the footer has a specific height when is fixed)
+  <!-- Load and set color theme + dark mode preference (blocking script to prevent flashing) -->
+  <script src="{{ url_for('static', filename='js/setTheme.js') }}"></script>
 
-      HEADER STYLE
-
-        ''                                          Classic Header style if no class is added
-        'page-header-dark'                          Dark themed Header
-        'page-header-glass'                         Light themed Header with transparency by default
-                                                    (absolute position, perfect for light images underneath - solid light background on scroll if the Header is also set as fixed)
-        'page-header-glass page-header-dark'         Dark themed Header with transparency by default
-                                                    (absolute position, perfect for dark images underneath - solid dark background on scroll if the Header is also set as fixed)
-
-      MAIN CONTENT LAYOUT
-
-        ''                                          Full width Main Content if no class is added
-        'main-content-boxed'                        Full width Main Content with a specific maximum width (screen width > 1200px)
-        'main-content-narrow'                       Full width Main Content with a percentage width (screen width > 1200px)
-    -->
-    <div id="page-container">
-
-      <!-- Main Container -->
-      <main id="main-container">
-        <!-- Page Content -->
-        <div class="bg-image" style="background-image: url('{{ url_for('static', filename='media/photos/photo17@2x.jpg') }}');">
-          <div class="hero bg-black-75">
-            <div class="hero-inner">
-              <div class="content content-full">
-                <div class="row justify-content-center">
-                  <div class="col-md-6 py-5 text-center">
-
-                        <div class="push">
-                            <a class="link-fx fw-bold fs-1" href="index.html">
-                            <span class="text-white">Agricultural </span><span class="text-primary"> AI Assistant</span>
-                            </a>
-                        </div>
-                
-                        <form id="uploadForm" method="post" enctype="multipart/form-data">                        
-                            
-                              <!-- <label class="form-label" for="dm-post-edit-image">Featured Image</label> -->
-                              <input class="form-control" type="file" id="image"accept="image/*" required>
-                              <div class="mt-2">
-                                <img class="img-fluid" src="assets/media/photos/photo19.jpg" alt="">
-                              </div>
-                          
-                            <button type="submit"class="btn btn-hero btn-primary" href="javascript:void(0)" data-toggle="click-ripple">Detect Disease</button>
-                        </form>
-                        <br>
-                        <br>
-
-                        
-                        <div class="block block-rounded">
-                          <div class="block-header block-header-default">
-                            <h3 class="block-title">Disease Information</h3>
-                          </div>
-                          <div id="results" style="
-                            max-height: 500px; /* Adjust height as needed */
-                            overflow-y: auto; /* Enables scrolling */
-                            margin-top: 20px; /* Adds space to prevent overlap */
-                            padding: 10px;
-                            "> </div>
-                        </div>
-                    <script>
-                        document.getElementById('uploadForm').onsubmit = async function (e) {
-                            e.preventDefault();
-                            const formData = new FormData();
-                            const fileInput = document.getElementById('image');
-                            formData.append('image', fileInput.files[0]);
-                            const response = await fetch('/detect', {method: 'POST', body: formData });
-                            const result = await response.json();
-                            displayResults(result.results);
-                        };
-                
-                        function displayResults(results) {
-                            const resultsDiv = document.getElementById('results');
-                            resultsDiv.innerHTML = '';  // Clear previous results
-                            if (results && results.length > 0) {
-                                results.slice(0, 2).forEach(result => {  // Only take the first two results
-                                    const resultHTML = `
-                                          <div class="block-content">
-                                            <table class="table table-borderless">
-                                              <tbody>
-                                                <tr class="table-active">
-                                                  <td class="d-none d-sm-table-cell">
-                                                      <a>${result.label}</a>
-                                                  </td>
-                                                </tr>
-                                                <tr>
-                                                  <td>
-                                                    <p>Confidence: ${result.confidence}</p>
-                                                    <p>Description: ${result.description}</p>
-                                                    <p>Cause: ${result.cause}</p>
-                                                    <p>Treatment: ${result.treatment}</p>
-                                                    <p>Prevention: ${result.prevention}</p>
-                                                  </td>
-                                                </tr>
-                                              </tbody>
-                                            </table>
-                                          </div>
-                                    `;
-                                    resultsDiv.innerHTML += resultHTML;
-                                });
-                            } else {
-                                resultsDiv.innerHTML = '<p>No results found.</p>';
-                            }
-                        }
-
-                    </script>
-
-                    
+  <style>
+    #disease-description,
+    #disease-cause,
+    #disease-treatment,
+    #disease-prevention {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+  </style>
 
 
+</head>
+
+<body>
+  <div id="page-container">
+
+    <!-- Main Container -->
+    <main id="main-container">
+      <!-- Page Content -->
+      <div class="bg-image"
+        style="background-image: url('{{ url_for('static', filename='media/photos/photo17@2x.jpg') }}');">
+        <div class="hero bg-black-75">
+          <div class="hero-inner">
+            <div class="content content-full">
+              <div class="row justify-content-center">
+                <div class="py-5 text-center" style="width: 90%;margin-top: 4.5rem;margin-bottom: 4rem;">
+                  <div class="push" style="margin: 0;">
+                    <a class="link-fx fw-bold fs-1" href="index">
+                      <span class="text-white">Agricultural </span><span class="text-primary"> AI Assistant</span>
+                    </a>
                   </div>
+                  <form id="uploadForm" method="post" enctype="multipart/form-data">
+
+                    <!-- <label for="image" id="upload-label" class="upload-btn">📁 Upload Plant Image</label> -->
+                    <input class="form-control" type="file" id="image" accept="image/*" required
+                      onchange="previewImage()" style="width: 45%; margin: 1.75rem auto; display: block;">
+
+                    <div class="mt-2">
+                      <!-- Image Preview -->
+                      <img id="imagePreview" class="img-fluid"
+                        src="{{ url_for('static', filename='media/photos/placeholder.png') }}"
+                        alt="Uploaded Image Preview" style="display: block; /* Ensures it's treated as a block element */
+                        margin: 20px auto; /* Centers horizontally */
+                        width: 200px; /* Fixed size */
+                        height: 200px;
+                        object-fit: cover; /* Maintains aspect ratio */
+                        border-radius: 10px;
+                        border: 2px solid #ddd;">
+
+                    </div>
+                    <button type="submit" class="btn btn-hero btn-primary" href="javascript:void(0)"
+                      data-toggle="click-ripple">Detect Disease</button>
+                  </form>
+                  <br>
+                  <br>
+
+
+                  <!-- Disease Information Section (Appears after clicking "Detect Disease") -->
+                  <div id="results-container" class="container mt-4 p-4 rounded shadow-lg d-none">
+                    <h3 class="text-center text-primary fw-bold" id="disease-name"></h3>
+                    <p class="text-center text-secondary fw-semibold" id="disease-accuracy"></p>
+
+                    <div class="row text-center mt-3">
+                      <div class="col-md-3">
+                        <div class="p-3 border rounded bg-white shadow-sm">
+                          <h5 class="fw-bold text-dark">Description</h5>
+                          <p id="disease-description" class="text-muted"></p>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="p-3 border rounded bg-white shadow-sm">
+                          <h5 class="fw-bold text-dark">Cause</h5>
+                          <p id="disease-cause" class="text-muted"></p>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="p-3 border rounded bg-white shadow-sm">
+                          <h5 class="fw-bold text-dark">Treatment</h5>
+                          <p id="disease-treatment" class="text-muted"></p>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="p-3 border rounded bg-white shadow-sm">
+                          <h5 class="fw-bold text-dark">Prevention</h5>
+                          <p id="disease-prevention" class="text-muted"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <script>
+                    document.getElementById('uploadForm').onsubmit = async function (e) {
+                      e.preventDefault();
+                      const formData = new FormData();
+                      const fileInput = document.getElementById('image');
+                      formData.append('image', fileInput.files[0]);
+
+                      const response = await fetch('/detect', { method: 'POST', body: formData });
+                      const result = await response.json();
+                      displayResults(result.results);
+                    };
+
+                    document.getElementById('uploadForm').onsubmit = async function (e) {
+                      e.preventDefault();
+                      const formData = new FormData();
+                      const fileInput = document.getElementById('image');
+                      formData.append('image', fileInput.files[0]);
+
+                      const response = await fetch('/detect', { method: 'POST', body: formData });
+                      const result = await response.json();
+                      displayResults(result.results);
+                    };
+
+                    function displayResults(results) {
+                      const resultsContainer = document.getElementById('results-container');
+
+                      // Reset animation styles for each element
+                      resetAnimation("disease-description");
+                      resetAnimation("disease-cause");
+                      resetAnimation("disease-treatment");
+                      resetAnimation("disease-prevention");
+
+                      if (results && results.length > 0) {
+                        const result = results[0]; // Take only the first result
+
+                        document.getElementById('disease-name').innerText = result.label;
+                        document.getElementById('disease-accuracy').innerText = "Accuracy: " + (result.confidence || "N/A");
+                        document.getElementById('disease-description').innerText = result.description;
+                        document.getElementById('disease-cause').innerText = result.cause;
+                        document.getElementById('disease-treatment').innerText = result.treatment;
+                        document.getElementById('disease-prevention').innerText = result.prevention;
+
+                        // Show the results container
+                        resultsContainer.classList.remove('d-none');
+
+                        // Step 1: Smoothly scroll to the results container
+                        setTimeout(() => {
+                          const yOffset = resultsContainer.getBoundingClientRect().top + window.scrollY - (window.innerHeight / 2) + (resultsContainer.clientHeight / 2);
+                          window.scrollTo({ top: yOffset, behavior: "smooth" });
+
+                          // Step 2: Sequentially show each section with a small delay
+                          setTimeout(() => fadeInElement("disease-description"), 500); // Show description after 500ms
+                          setTimeout(() => fadeInElement("disease-cause"), 1000); // Show cause after 1000ms
+                          setTimeout(() => fadeInElement("disease-treatment"), 1500); // Show treatment after 1500ms
+                          setTimeout(() => fadeInElement("disease-prevention"), 2000); // Show prevention after 2000ms
+
+                        }, 300); // Small delay before scrolling for better experience
+                      } else {
+                        resultsContainer.innerHTML = '<p class="text-danger text-center fw-bold">No results found.</p>';
+                        resultsContainer.classList.remove('d-none');
+                      }
+                    }
+
+                    // Function to fade in an element smoothly
+                    function fadeInElement(elementId) {
+                      const element = document.getElementById(elementId);
+                      if (element) {
+                        element.style.opacity = "1";
+                        element.style.transform = "translateY(0)";
+                      }
+                    }
+
+                    // Function to reset animation (opacity & position) before every detection
+                    function resetAnimation(elementId) {
+                      const element = document.getElementById(elementId);
+                      if (element) {
+                        element.style.opacity = "0";
+                        element.style.transform = "translateY(20px)";
+                      }
+                    }
+
+
+
+                  </script>
+
                 </div>
               </div>
-              <a href="{{ url_for('logout') }}" class="btn btn-danger" style="position: absolute; top: 20px; right: 20px;">
-                Sign Out
-            </a>
             </div>
+            <a href="{{ url_for('logout') }}" class="btn btn-danger"
+              style="position: absolute; top: 20px; right: 20px;">
+              Sign Out
+            </a>
           </div>
         </div>
+      </div>
 
 
-<!-- Grid Section -->
-<div class="container py-5" style="max-width: 1200px; margin: auto;"> <!-- Increased padding and width -->
-  <h1 class="text-center fw-bold display-5">What is Agricultural AI Assistant?</h1>
+      <!-- Grid Section -->
+      <div class="container py-5" style="max-width: 1200px; margin: auto;"> <!-- Increased padding and width -->
+        <h1 class="text-center fw-bold display-5">What is Agricultural AI Assistant?</h1>
 
-  <p class="text-center lead px-md-5"> <!-- Centered and widened text -->
-    The Agricultural AI Assistant is an innovative web application that leverages artificial intelligence to help farmers and agricultural professionals detect plant diseases efficiently. By analyzing uploaded plant images, it provides precise diagnoses, along with insights on disease causes, symptoms, treatments, and prevention strategies. The system also integrates weather conditions and soil quality analysis, ensuring a comprehensive approach to plant health management. This technology empowers farmers with real-time, data-driven solutions, leading to healthier crops and more sustainable farming practices.
-  </p>
-  
-  <h4 class="text-center mt-5">Common Plant Diseases</h4> <!-- Added a subtitle -->
-  
-  <div class="row g-4 mt-3"> <!-- Adjusted spacing -->
-    <!-- Story -->
-    <div class="col-lg-4">
-      <a class="block block-rounded block-link-pop h-100 mb-0" href="#">
-        <img class="img-fluid w-100 rounded" src="{{ url_for('static', filename='media/photos/photo21@2x.jpg') }}" alt="Apple Black Rot" style="max-height: 200px; object-fit: cover;"> <!-- Larger image -->
-        <div class="block-content p-4"> <!-- More padding for readability -->
-          <h5 class="mb-2">Apple</h5> 
-          <p class="fs-sm text-primary font-weight-bold">Black Rot</p>
-          <p class="small"> 
-            A fungal disease that causes dark, sunken lesions on leaves and branches. Infected fruits develop concentric rings of rot, reducing yield and quality. Regular pruning and fungicide application help control its spread.
-          </p>
+        <p class="text-center lead px-md-5"> <!-- Centered and widened text -->
+          The Agricultural AI Assistant is an innovative web application that leverages artificial intelligence to help
+          farmers and agricultural professionals detect plant diseases efficiently. By analyzing uploaded plant images,
+          it provides precise diagnoses, along with insights on disease causes, symptoms, treatments, and prevention
+          strategies. The system also integrates weather conditions and soil quality analysis, ensuring a comprehensive
+          approach to plant health management. This technology empowers farmers with real-time, data-driven solutions,
+          leading to healthier crops and more sustainable farming practices.
+        </p>
+
+        <h4 class="text-center mt-5">Common Plant Diseases</h4> <!-- Added a subtitle -->
+
+        <div class="row g-4 mt-3"> <!-- Adjusted spacing -->
+          <!-- Story -->
+          <div class="col-lg-4">
+            <a class="block block-rounded block-link-pop h-100 mb-0" href="#">
+              <img class="img-fluid w-100 rounded" src="{{ url_for('static', filename='media/photos/photo21@2x.jpg') }}"
+                alt="Apple Black Rot" style="max-height: 200px; object-fit: cover;"> <!-- Larger image -->
+              <div class="block-content p-4"> <!-- More padding for readability -->
+                <h5 class="mb-2">Apple</h5>
+                <p class="fs-sm text-primary font-weight-bold">Black Rot</p>
+                <p class="small">
+                  A fungal disease that causes dark, sunken lesions on leaves and branches. Infected fruits develop
+                  concentric rings of rot, reducing yield and quality. Regular pruning and fungicide application help
+                  control its spread.
+                </p>
+              </div>
+            </a>
+          </div>
+          <!-- END Story -->
+
+          <!-- Story -->
+          <div class="col-lg-4">
+            <a class="block block-rounded block-link-pop h-100 mb-0" href="#">
+              <img class="img-fluid w-100 rounded" src="{{ url_for('static', filename='media/photos/photo13@2x.jpg') }}"
+                alt="Grape Esca" style="max-height: 200px; object-fit: cover;">
+              <div class="block-content p-4">
+                <h5 class="mb-2">Grape</h5>
+                <p class="fs-sm text-primary font-weight-bold">Esca (Black Measles)</p>
+                <p class="small">
+                  A complex fungal disease affecting grapevines. Symptoms include leaf necrosis, wood discoloration, and
+                  reduced fruit quality. Severe cases weaken vines, leading to economic losses. Vineyard management
+                  plays a crucial role in prevention.
+                </p>
+              </div>
+            </a>
+          </div>
+          <!-- END Story -->
+
+          <!-- Story -->
+          <div class="col-lg-4">
+            <a class="block block-rounded block-link-pop h-100 mb-0" href="#">
+              <img class="img-fluid w-100 rounded" src="{{ url_for('static', filename='media/photos/photo23@2x.jpg') }}"
+                alt="Orange Citrus Greening" style="max-height: 200px; object-fit: cover;">
+              <div class="block-content p-4">
+                <h5 class="mb-2">Orange</h5>
+                <p class="fs-sm text-primary font-weight-bold">Huanglongbing (Citrus Greening)</p>
+                <p class="small">
+                  A bacterial disease causing yellowing leaves, stunted growth, and bitter, misshapen fruit. Spread by
+                  insect vectors, it threatens citrus orchards globally. Early detection and strict disease management
+                  are essential.
+                </p>
+              </div>
+            </a>
+          </div>
+          <!-- END Story -->
         </div>
-      </a>
-    </div>
-    <!-- END Story -->
 
-    <!-- Story -->
-    <div class="col-lg-4">
-      <a class="block block-rounded block-link-pop h-100 mb-0" href="#">
-        <img class="img-fluid w-100 rounded" src="{{ url_for('static', filename='media/photos/photo13@2x.jpg') }}" alt="Grape Esca" style="max-height: 200px; object-fit: cover;">
-        <div class="block-content p-4">
-          <h5 class="mb-2">Grape</h5>
-          <p class="fs-sm text-primary font-weight-bold">Esca (Black Measles)</p>
-          <p class="small">
-            A complex fungal disease affecting grapevines. Symptoms include leaf necrosis, wood discoloration, and reduced fruit quality. Severe cases weaken vines, leading to economic losses. Vineyard management plays a crucial role in prevention.
-          </p>
-        </div>
-      </a>
-    </div>
-    <!-- END Story -->
+        <p class="text-center mt-5">
+          By leveraging AI-powered solutions, farmers can take proactive steps in disease prevention and crop
+          protection, ensuring healthier plants and higher yields.
+        </p>
+      </div>
+      <!-- END Grid Section -->
 
-    <!-- Story -->
-    <div class="col-lg-4">
-      <a class="block block-rounded block-link-pop h-100 mb-0" href="#">
-        <img class="img-fluid w-100 rounded" src="{{ url_for('static', filename='media/photos/photo23@2x.jpg') }}" alt="Orange Citrus Greening" style="max-height: 200px; object-fit: cover;">
-        <div class="block-content p-4">
-          <h5 class="mb-2">Orange</h5>
-          <p class="fs-sm text-primary font-weight-bold">Huanglongbing (Citrus Greening)</p>
-          <p class="small">
-            A bacterial disease causing yellowing leaves, stunted growth, and bitter, misshapen fruit. Spread by insect vectors, it threatens citrus orchards globally. Early detection and strict disease management are essential.
-          </p>
-        </div>
-      </a>
-    </div>
-    <!-- END Story -->
+
+
+
+      <!-- END Page Content -->
+    </main>
+    <!-- END Main Container -->
   </div>
+  <!-- END Page Container -->
 
-  <p class="text-center mt-5">
-    By leveraging AI-powered solutions, farmers can take proactive steps in disease prevention and crop protection, ensuring healthier plants and higher yields.
-  </p>
-</div>
-<!-- END Grid Section -->
-
-
-        
-
-        <!-- END Page Content -->
-      </main>
-      <!-- END Main Container -->
-    </div>
-    <!-- END Page Container -->
-
-    <!--
+  <!--
       Dashmix JS
 
       Core libraries and functionality
       webpack is putting everything together at assets/_js/main/app.js
     -->
-    <script src="{{ url_for('static', filename='js/dashmix.app.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/dashmix.app.min.js') }}"></script>
 
-    <!-- jQuery (required for jQuery Countdown plugin) -->
-    <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
-    
-    <!-- Page JS Plugins -->
-    <script src="{{ url_for('static', filename='js/plugins/jquery-countdown/jquery.countdown.min.js') }}"></script>
-    
-    <!-- Page JS Code -->
-    <script src="{{ url_for('static', filename='js/pages/op_coming_soon.min.js') }}"></script>
-    
-  </body>
+  <!-- jQuery (required for jQuery Countdown plugin) -->
+  <script src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
+
+  <!-- Page JS Plugins -->
+  <script src="{{ url_for('static', filename='js/plugins/jquery-countdown/jquery.countdown.min.js') }}"></script>
+
+  <!-- Page JS Code -->
+  <script src="{{ url_for('static', filename='js/pages/op_coming_soon.min.js') }}"></script>
+
+  <!-- Show the uploaded image -->
+  <script>
+    document.getElementById('image').addEventListener('change', function (event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          const imgPreview = document.getElementById('imagePreview');
+          imgPreview.src = e.target.result; // Set the image source
+          imgPreview.style.display = 'block'; // Show image preview
+        };
+        reader.readAsDataURL(file); // Convert to base64 URL
+      }
+    });
+  </script>
+
+
+
+</body>
+
 </html>
-
-
-
-
-
-
