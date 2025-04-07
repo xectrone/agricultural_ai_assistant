@@ -8965,3 +8965,290 @@ werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'signup
  * Running on http://127.0.0.1:5000
 2025-04-05 02:11:14,872 - INFO - [33mPress CTRL+C to quit[0m
 2025-04-05 02:11:14,877 - INFO -  * Restarting with stat
+2025-04-06 15:33:02,105 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-06 15:33:02,415 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-04-06 15:33:02,415 - DEBUG - Attempting to acquire lock 2400830450304 on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\440f449cd30b16d8d1017d656ada205a41c390f7.lock
+2025-04-06 15:33:02,415 - DEBUG - Lock 2400830450304 acquired on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\440f449cd30b16d8d1017d656ada205a41c390f7.lock
+2025-04-06 15:33:02,668 - DEBUG - https://huggingface.co:443 "GET /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 3787
+2025-04-06 15:33:03,876 - DEBUG - Attempting to release lock 2400830450304 on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\440f449cd30b16d8d1017d656ada205a41c390f7.lock
+2025-04-06 15:33:03,876 - DEBUG - Lock 2400830450304 released on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\440f449cd30b16d8d1017d656ada205a41c390f7.lock
+2025-04-06 15:33:04,238 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/model.safetensors HTTP/11" 302 0
+2025-04-06 15:33:04,277 - DEBUG - Attempting to acquire lock 2400807489600 on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\39d14ca9cf7840ca8fe4ce5b76096a75f8aa181a49966bfee42b2a1772c088c6.lock
+2025-04-06 15:33:04,277 - DEBUG - Lock 2400807489600 acquired on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\39d14ca9cf7840ca8fe4ce5b76096a75f8aa181a49966bfee42b2a1772c088c6.lock
+2025-04-06 15:33:04,298 - DEBUG - Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+2025-04-06 15:33:04,549 - DEBUG - https://cdn-lfs-us-1.hf.co:443 "GET /repos/b6/89/b689518a73a9fbe6094c9efc373ae50bb785536e1ed754635ee0c4971c3529f6/39d14ca9cf7840ca8fe4ce5b76096a75f8aa181a49966bfee42b2a1772c088c6?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1743937386&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzkzNzM4Nn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2I2Lzg5L2I2ODk1MThhNzNhOWZiZTYwOTRjOWVmYzM3M2FlNTBiYjc4NTUzNmUxZWQ3NTQ2MzVlZTBjNDk3MWMzNTI5ZjYvMzlkMTRjYTljZjc4NDBjYThmZTRjZTViNzYwOTZhNzVmOGFhMTgxYTQ5OTY2YmZlZTQyYjJhMTc3MmMwODhjNj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=ge3u1iEVHEoeM9k~R9kV~YF~qQU4t41SPcnyEe4AVEfDYPLfcQJcZQjZ-BHiybOi0oVUNttTGcFpRDjXksTP7~B~qowL0hAMwvFMb2v2R3ELtfnOkWVmH55BztVAt-rRnta6p6z1lnEoZp4R8CsWxbGpg14lgmIPvIbCnm8yjW8P~R82p3eQrF5sYhX1r169X8~DAzypQ48rm85buN2GIpEUpRFnTvBo9LC1~OCT45Ip5vAHjxy0ETaFcZn2VbndBbDObqG69-OBW1KIssWs5SOgOKumnU1ZkASZP9xSKLPWnxDLr1FtTQHA5KaR6pCB-igQn9H8GUwxkubKqvfCtw__&Key-Pair-Id=K24J24Z295AEI9 HTTP/11" 200 343353176
+2025-04-06 15:34:41,932 - DEBUG - Attempting to release lock 2400807489600 on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\39d14ca9cf7840ca8fe4ce5b76096a75f8aa181a49966bfee42b2a1772c088c6.lock
+2025-04-06 15:34:41,937 - DEBUG - Lock 2400807489600 released on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\39d14ca9cf7840ca8fe4ce5b76096a75f8aa181a49966bfee42b2a1772c088c6.lock
+2025-04-06 15:34:44,175 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-04-06 15:34:44,175 - DEBUG - Attempting to acquire lock 2400838868560 on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\273d24924a8bd10227b532d603484f165dcb0b5d.lock
+2025-04-06 15:34:44,175 - DEBUG - Lock 2400838868560 acquired on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\273d24924a8bd10227b532d603484f165dcb0b5d.lock
+2025-04-06 15:34:44,409 - DEBUG - https://huggingface.co:443 "GET /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 325
+2025-04-06 15:34:44,443 - DEBUG - Attempting to release lock 2400838868560 on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\273d24924a8bd10227b532d603484f165dcb0b5d.lock
+2025-04-06 15:34:44,448 - DEBUG - Lock 2400838868560 released on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\273d24924a8bd10227b532d603484f165dcb0b5d.lock
+2025-04-06 15:34:44,496 - INFO - Image classification pipeline initialized.
+2025-04-06 15:34:44,535 - INFO - Disease descriptions loaded from JSON.
+2025-04-06 15:34:44,948 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-06 15:34:44,948 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-06 15:34:44,972 - INFO -  * Restarting with stat
+2025-04-06 15:35:03,463 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-06 15:35:03,787 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-04-06 15:35:04,435 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-04-06 15:35:04,455 - INFO - Image classification pipeline initialized.
+2025-04-06 15:35:04,458 - INFO - Disease descriptions loaded from JSON.
+2025-04-06 15:35:04,543 - WARNING -  * Debugger is active!
+2025-04-06 15:35:04,550 - INFO -  * Debugger PIN: 113-566-825
+2025-04-06 15:36:02,421 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:02] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-06 15:36:03,124 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:03] "GET /signin HTTP/1.1" 200 -
+2025-04-06 15:36:03,557 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:03] "GET /static/js/setTheme.js HTTP/1.1" 200 -
+2025-04-06 15:36:03,619 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:03] "GET /static/css/dashmix.min.css HTTP/1.1" 200 -
+2025-04-06 15:36:03,775 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:03] "GET /static/js/plugins/jquery-validation/jquery.validate.min.js HTTP/1.1" 200 -
+2025-04-06 15:36:03,775 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:03] "GET /static/js/dashmix.app.min.js HTTP/1.1" 200 -
+2025-04-06 15:36:03,779 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:03] "GET /static/js/lib/jquery.min.js HTTP/1.1" 200 -
+2025-04-06 15:36:03,961 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:03] "GET /static/js/pages/op_auth_signin.min.js HTTP/1.1" 200 -
+2025-04-06 15:36:04,109 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:04] "GET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1" 200 -
+2025-04-06 15:36:04,124 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:04] "GET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1" 200 -
+2025-04-06 15:36:04,164 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:04] "GET /static/media/photos/Bg_login_page.avif HTTP/1.1" 200 -
+2025-04-06 15:36:04,266 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:04] "GET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1" 200 -
+2025-04-06 15:36:04,282 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:04] "GET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 -
+2025-04-06 15:36:04,519 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:04] "GET /static/media/favicons/favicon.png HTTP/1.1" 200 -
+2025-04-06 15:36:15,797 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:15] "GET /signin HTTP/1.1" 200 -
+2025-04-06 15:36:15,851 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:15] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-06 15:36:15,857 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:15] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:15,863 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:15] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:15,867 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:15] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:15,926 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:15] "[36mGET /static/js/plugins/jquery-validation/jquery.validate.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:15,935 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:15] "[36mGET /static/js/pages/op_auth_signin.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:15,998 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:15] "[36mGET /static/media/photos/Bg_login_page.avif HTTP/1.1[0m" 304 -
+2025-04-06 15:36:16,012 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:16] "GET /static/media/favicons/favicon.png HTTP/1.1" 200 -
+2025-04-06 15:36:16,872 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:16] "GET /signin HTTP/1.1" 200 -
+2025-04-06 15:36:16,904 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:16] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-06 15:36:16,912 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:16] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:16,920 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:16] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:16,938 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:16] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:16,954 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:16] "[36mGET /static/js/plugins/jquery-validation/jquery.validate.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:16,964 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:16] "[36mGET /static/js/pages/op_auth_signin.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:16,995 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:16] "[36mGET /static/media/photos/Bg_login_page.avif HTTP/1.1[0m" 304 -
+2025-04-06 15:36:17,008 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:17] "GET /static/media/favicons/favicon.png HTTP/1.1" 200 -
+2025-04-06 15:36:17,030 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:17] "GET /signin HTTP/1.1" 200 -
+2025-04-06 15:36:17,066 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:17] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-06 15:36:17,073 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:17] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:17,075 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:17] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:17,089 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:17] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:17,105 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:17] "[36mGET /static/js/plugins/jquery-validation/jquery.validate.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:17,109 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:17] "[36mGET /static/js/pages/op_auth_signin.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:17,156 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:17] "[36mGET /static/media/photos/Bg_login_page.avif HTTP/1.1[0m" 304 -
+2025-04-06 15:36:17,169 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:17] "GET /static/media/favicons/favicon.png HTTP/1.1" 200 -
+2025-04-06 15:36:36,227 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2025-04-06 15:36:36,370 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "GET /index HTTP/1.1" 200 -
+2025-04-06 15:36:36,408 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:36,411 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-06 15:36:36,426 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:36,429 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:36:36,509 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "GET /static/js/pages/op_coming_soon.min.js HTTP/1.1" 200 -
+2025-04-06 15:36:36,526 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "GET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1" 200 -
+2025-04-06 15:36:36,578 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "GET /static/media/photos/re-1.png HTTP/1.1" 200 -
+2025-04-06 15:36:36,625 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "GET /static/media/photos/re-2.png HTTP/1.1" 200 -
+2025-04-06 15:36:36,628 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "GET /static/media/photos/photo13@2x.jpg HTTP/1.1" 200 -
+2025-04-06 15:36:36,631 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "GET /static/media/photos/photo23@2x.jpg HTTP/1.1" 200 -
+2025-04-06 15:36:36,636 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "GET /static/media/photos/photo21@2x.jpg HTTP/1.1" 200 -
+2025-04-06 15:36:36,638 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "GET /static/media/photos/placeholder.png HTTP/1.1" 200 -
+2025-04-06 15:36:36,779 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "GET /static/media/photos/re-3.png HTTP/1.1" 200 -
+2025-04-06 15:36:36,782 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "GET /static/media/photos/photo17@2x.jpg HTTP/1.1" 200 -
+2025-04-06 15:36:36,856 - INFO - 127.0.0.1 - - [06/Apr/2025 15:36:36] "GET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1" 200 -
+2025-04-06 15:38:29,403 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:29] "GET /index HTTP/1.1" 200 -
+2025-04-06 15:38:29,574 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:29] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-06 15:38:29,576 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:29] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-06 15:38:29,592 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:29] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:38:29,611 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:29] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:38:29,660 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:29] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:38:29,667 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:29] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:38:29,671 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:29] "[36mGET /static/media/photos/photo21@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:38:29,679 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:29] "[36mGET /static/media/photos/photo13@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:38:29,694 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:29] "[36mGET /static/media/photos/photo23@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:38:29,706 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:29] "[36mGET /static/media/photos/re-1.png HTTP/1.1[0m" 304 -
+2025-04-06 15:38:29,734 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:29] "GET /static/media/photos/placeholder2.png HTTP/1.1" 200 -
+2025-04-06 15:38:29,750 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:29] "[36mGET /static/media/photos/re-2.png HTTP/1.1[0m" 304 -
+2025-04-06 15:38:29,777 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:29] "[36mGET /static/media/photos/re-3.png HTTP/1.1[0m" 304 -
+2025-04-06 15:38:29,858 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:29] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:38:30,487 - INFO - 127.0.0.1 - - [06/Apr/2025 15:38:30] "GET /static/media/favicons/favicon.png HTTP/1.1" 200 -
+2025-04-06 15:40:52,093 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:52] "GET /index HTTP/1.1" 200 -
+2025-04-06 15:40:52,158 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:52] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-06 15:40:52,172 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:52] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-06 15:40:52,186 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:52] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:40:52,224 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:52] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:40:52,233 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:52] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:40:52,246 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:52] "[36mGET /static/media/photos/placeholder2.png HTTP/1.1[0m" 304 -
+2025-04-06 15:40:52,260 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:52] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:40:52,271 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:52] "[36mGET /static/media/photos/photo21@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:40:52,301 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:52] "[36mGET /static/media/photos/photo23@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:40:52,303 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:52] "[36mGET /static/media/photos/photo13@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:40:52,312 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:52] "[36mGET /static/media/photos/re-1.png HTTP/1.1[0m" 304 -
+2025-04-06 15:40:52,341 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:52] "[36mGET /static/media/photos/re-2.png HTTP/1.1[0m" 304 -
+2025-04-06 15:40:52,349 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:52] "[36mGET /static/media/photos/re-3.png HTTP/1.1[0m" 304 -
+2025-04-06 15:40:52,424 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:52] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:40:53,167 - INFO - 127.0.0.1 - - [06/Apr/2025 15:40:53] "GET /static/media/favicons/favicon.png HTTP/1.1" 200 -
+2025-04-06 15:41:14,143 - INFO - 127.0.0.1 - - [06/Apr/2025 15:41:14] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-06 15:43:47,916 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:47] "GET /index HTTP/1.1" 200 -
+2025-04-06 15:43:48,033 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,039 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,068 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,154 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,179 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,189 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,207 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/media/photos/placeholder2.png HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,222 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/media/photos/photo21@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,273 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/media/photos/photo13@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,307 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/media/photos/photo23@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,338 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/media/photos/re-1.png HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,368 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/media/photos/re-3.png HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,370 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/media/photos/re-2.png HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,390 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,752 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,753 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,756 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-04-06 15:43:48,779 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:48] "[36mGET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1[0m" 304 -
+2025-04-06 15:43:49,753 - INFO - 127.0.0.1 - - [06/Apr/2025 15:43:49] "GET /static/media/favicons/favicon.png HTTP/1.1" 200 -
+2025-04-06 15:44:19,514 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "GET /index HTTP/1.1" 200 -
+2025-04-06 15:44:19,575 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,582 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,610 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,623 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,701 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,705 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,707 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/media/photos/placeholder2.png HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,712 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/media/photos/photo21@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,725 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/media/photos/photo13@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,741 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/media/photos/photo23@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,763 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/media/photos/re-1.png HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,783 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/media/photos/re-2.png HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,800 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,815 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/media/photos/re-3.png HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,900 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,918 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-04-06 15:44:19,921 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:19] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-04-06 15:44:20,032 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:20] "[36mGET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1[0m" 304 -
+2025-04-06 15:44:21,531 - INFO - 127.0.0.1 - - [06/Apr/2025 15:44:21] "GET /static/media/favicons/favicon.png HTTP/1.1" 200 -
+2025-04-07 10:48:13,298 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-07 10:48:14,711 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-04-07 10:48:22,072 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-04-07 10:48:22,706 - INFO - Image classification pipeline initialized.
+2025-04-07 10:48:22,761 - INFO - Disease descriptions loaded from JSON.
+2025-04-07 10:48:23,952 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-07 10:48:23,952 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 10:48:23,958 - INFO -  * Restarting with stat
+2025-04-07 10:48:57,167 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-04-07 10:48:58,320 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-04-07 10:49:00,322 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-04-07 10:49:00,335 - INFO - Image classification pipeline initialized.
+2025-04-07 10:49:00,372 - INFO - Disease descriptions loaded from JSON.
+2025-04-07 10:49:00,547 - WARNING -  * Debugger is active!
+2025-04-07 10:49:00,557 - INFO -  * Debugger PIN: 113-566-825
+2025-04-07 10:49:00,859 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:00] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-07 10:49:01,154 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:01] "GET /signin HTTP/1.1" 200 -
+2025-04-07 10:49:01,670 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:01] "GET /static/js/setTheme.js HTTP/1.1" 200 -
+2025-04-07 10:49:01,702 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:01] "GET /static/css/dashmix.min.css HTTP/1.1" 200 -
+2025-04-07 10:49:01,855 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:01] "GET /static/js/dashmix.app.min.js HTTP/1.1" 200 -
+2025-04-07 10:49:01,892 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:01] "GET /static/js/plugins/jquery-validation/jquery.validate.min.js HTTP/1.1" 200 -
+2025-04-07 10:49:01,912 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:01] "GET /static/js/lib/jquery.min.js HTTP/1.1" 200 -
+2025-04-07 10:49:01,985 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:01] "GET /static/js/pages/op_auth_signin.min.js HTTP/1.1" 200 -
+2025-04-07 10:49:02,130 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:02] "GET /static/media/photos/Bg_login_page.avif HTTP/1.1" 200 -
+2025-04-07 10:49:02,335 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:02] "GET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 -
+2025-04-07 10:49:02,339 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:02] "GET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1" 200 -
+2025-04-07 10:49:02,350 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:02] "GET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1" 200 -
+2025-04-07 10:49:02,461 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:02] "GET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1" 200 -
+2025-04-07 10:49:10,296 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:10] "POST /signin HTTP/1.1" 200 -
+2025-04-07 10:49:10,342 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:10] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-07 10:49:10,357 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:10] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-07 10:49:10,382 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:10] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:49:10,387 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:10] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:49:10,423 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:10] "[36mGET /static/js/plugins/jquery-validation/jquery.validate.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:49:10,430 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:10] "[36mGET /static/js/pages/op_auth_signin.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:49:10,507 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:10] "[36mGET /static/media/photos/Bg_login_page.avif HTTP/1.1[0m" 304 -
+2025-04-07 10:49:10,511 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:10] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:49:10,558 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:10] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:49:10,574 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:10] "[36mGET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:49:10,625 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:10] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:49:25,543 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:25] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2025-04-07 10:49:25,709 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:25] "GET /index HTTP/1.1" 200 -
+2025-04-07 10:49:25,773 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:25] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-07 10:49:25,773 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:25] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-07 10:49:25,831 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:25] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:49:25,842 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:25] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:49:25,864 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:25] "GET /static/media/photos/placeholder2.png HTTP/1.1" 200 -
+2025-04-07 10:49:25,875 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:25] "GET /static/media/photos/photo13@2x.jpg HTTP/1.1" 200 -
+2025-04-07 10:49:25,877 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:25] "GET /static/media/photos/photo21@2x.jpg HTTP/1.1" 200 -
+2025-04-07 10:49:25,929 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:25] "GET /static/media/photos/re-1.png HTTP/1.1" 200 -
+2025-04-07 10:49:25,931 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:25] "GET /static/media/photos/photo23@2x.jpg HTTP/1.1" 200 -
+2025-04-07 10:49:25,943 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:25] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:49:26,030 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:26] "GET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1" 200 -
+2025-04-07 10:49:26,031 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:26] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:49:26,081 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:26] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:49:26,146 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:26] "GET /static/media/photos/photo17@2x.jpg HTTP/1.1" 200 -
+2025-04-07 10:49:26,159 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:26] "GET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1" 200 -
+2025-04-07 10:49:26,224 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:26] "GET /static/js/pages/op_coming_soon.min.js HTTP/1.1" 200 -
+2025-04-07 10:49:26,239 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:26] "GET /static/media/photos/re-2.png HTTP/1.1" 200 -
+2025-04-07 10:49:26,245 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:26] "GET /static/media/photos/re-3.png HTTP/1.1" 200 -
+2025-04-07 10:49:34,718 - INFO - 127.0.0.1 - - [07/Apr/2025 10:49:34] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,122 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "GET /index HTTP/1.1" 200 -
+2025-04-07 10:50:10,214 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,263 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,271 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/media/photos/placeholder2.png HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,372 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/media/photos/photo21@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,502 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/media/photos/photo23@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,529 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/media/photos/photo13@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,600 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/media/photos/re-1.png HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,680 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,686 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,704 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,706 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,742 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,746 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,805 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,811 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,823 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,846 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/media/photos/re-2.png HTTP/1.1[0m" 304 -
+2025-04-07 10:50:10,856 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:10] "[36mGET /static/media/photos/re-3.png HTTP/1.1[0m" 304 -
+2025-04-07 10:50:12,020 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:12] "GET /static/media/favicons/favicon.png HTTP/1.1" 200 -
+2025-04-07 10:50:29,069 - INFO - 127.0.0.1 - - [07/Apr/2025 10:50:29] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-07 10:53:50,438 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:50] "GET /index HTTP/1.1" 200 -
+2025-04-07 10:53:50,593 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:50] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-07 10:53:50,620 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:50] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-07 10:53:50,652 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:50] "[36mGET /static/media/photos/placeholder2.png HTTP/1.1[0m" 304 -
+2025-04-07 10:53:50,667 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:50] "[36mGET /static/media/photos/photo21@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-07 10:53:50,775 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:50] "[36mGET /static/media/photos/photo13@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-07 10:53:50,901 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:50] "[36mGET /static/media/photos/photo23@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-07 10:53:51,005 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:51] "[36mGET /static/media/photos/re-1.png HTTP/1.1[0m" 304 -
+2025-04-07 10:53:51,174 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:51] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:53:51,218 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:51] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:53:51,265 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:51] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:53:51,324 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:51] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-07 10:53:51,413 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:51] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:53:51,491 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:51] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:53:51,526 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:51] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:53:51,611 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:51] "[36mGET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:53:51,656 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:51] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:53:51,682 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:51] "[36mGET /static/media/photos/re-2.png HTTP/1.1[0m" 304 -
+2025-04-07 10:53:51,707 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:51] "[36mGET /static/media/photos/re-3.png HTTP/1.1[0m" 304 -
+2025-04-07 10:53:52,773 - INFO - 127.0.0.1 - - [07/Apr/2025 10:53:52] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-04-07 10:54:22,659 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:22] "GET /index HTTP/1.1" 200 -
+2025-04-07 10:54:23,039 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,068 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/media/photos/photo21@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,099 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/media/photos/placeholder2.png HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,116 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,209 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/media/photos/photo13@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,225 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/media/photos/photo23@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,435 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,437 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/media/photos/re-1.png HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,491 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,507 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,513 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,537 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/media/photos/re-2.png HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,591 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/media/photos/re-3.png HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,627 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,671 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,685 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,714 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:54:23,727 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1[0m" 304 -
+2025-04-07 10:54:26,812 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:26] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -

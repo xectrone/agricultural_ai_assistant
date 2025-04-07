@@ -64,6 +64,20 @@
       transform: translateY(20px);
       transition: opacity 0.6s ease-out, transform 0.6s ease-out;
     }
+
+    .custom-upload {
+      width: 45%;
+      margin: 1.75rem auto;
+      display: block;
+    }
+
+    /* Responsive width for tablets and below */
+    @media (max-width: 768px) {
+      .custom-upload {
+        width: 90%;
+      }
+    }
+
   </style>
 
 
@@ -89,8 +103,8 @@
                   </div>
                   <form id="uploadForm" method="post" enctype="multipart/form-data">
 
-                    <input class="form-control" type="file" id="image" accept="image/*" required
-                      onchange="previewImage()" style="width: 45%; margin: 1.75rem auto; display: block;">
+                    <input class="form-control custom-upload" type="file" id="image" accept="image/*" required
+                      onchange="previewImage()">
                   
                     <!-- Language Selector -->
                     <div style="text-align: center; margin-bottom: 1rem;">
@@ -103,12 +117,15 @@
                     </div>
                   
                     <div class="mt-2">
-                      <!-- Image Preview -->
                       <img id="imagePreview" class="img-fluid"
-                        src="{{ url_for('static', filename='media/photos/placeholder.png') }}"
-                        alt="Uploaded Image Preview" style="display: block; margin: 20px auto;
-                        width: 200px; height: 200px; object-fit: cover;
-                        border-radius: 10px; border: 2px solid #ddd;">
+                        src="{{ url_for('static', filename='media/photos/placeholder2.png') }}"
+                        alt="Uploaded Image Preview" style="display: block; /* Ensures it's treated as a block element */
+                        margin: 20px auto; /* Centers horizontally */
+                        width: 220px; /* Fixed size */
+                        height: 220px;
+                        object-fit: cover; /* Maintains aspect ratio */
+                        border-radius: 10px;
+                        border: 2px solid #ddd;">
                     </div>
                   
                     <button type="submit" class="btn btn-hero btn-primary" href="javascript:void(0)"
