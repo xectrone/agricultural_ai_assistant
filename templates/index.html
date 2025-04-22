@@ -243,10 +243,92 @@
                 </div>
               </div>
             </div>
+
             <a href="{{ url_for('logout') }}" class="btn btn-danger"
-              style="position: absolute; top: 20px; right: 20px;">
+            style="position: absolute; top: 20px; right: 20px;">
+            Sign Out
+            </a>
+          
+          <!-- 🔹 Top-right buttons container -->
+          <div style="position: absolute; top: 20px; right: 20px; display: flex; gap: 12px; align-items: center;">
+            <!-- Info button -->
+            <button type="button" class="btn btn-info rounded-circle"
+              style="width: 40px; height: 40px;"
+              data-bs-toggle="modal" data-bs-target="#infoModal">
+              i
+            </button>
+
+            <!-- Sign Out button -->
+            <a href="{{ url_for('logout') }}" class="btn btn-danger">
               Sign Out
             </a>
+          </div>
+
+
+
+            <!-- 🔹 Info Modal -->
+            <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="infoModalLabel">Agricultural AI Assistant</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body" style="white-space: pre-wrap;">        
+You can use this app by uploading image of the plant and then the app will detect the disease and give you disease description, cause, treatment, and preventions.
+
+🌱 Plants:
+1. Apple
+2. Blueberry
+3. Cherry (including sour)
+4. Corn (maize)
+5. Grape
+6. Orange
+7. Peach
+8. Pepper, bell
+9. Potato
+10. Raspberry
+11. Soybean
+12. Squash
+13. Strawberry
+14. Tomato
+
+🦠 Diseases (and health status):
+1. Apple scab
+2. Black rot
+3. Cedar apple rust
+4. Powdery mildew
+5. Cercospora leaf spot / Gray leaf spot
+6. Common rust
+7. Northern Leaf Blight
+8. Black rot (Grape)
+9. Esca (Black Measles)
+10. Leaf blight (Isariopsis Leaf Spot)
+11. Haunglongbing (Citrus greening)
+12. Bacterial spot
+13. Early blight
+14. Late blight
+15. Leaf scorch
+16. Leaf Mold
+17. Septoria leaf spot
+18. Spider mites (Two-spotted spider mite)
+19. Target Spot
+20. Tomato Yellow Leaf Curl Virus
+21. Tomato mosaic virus
+22. Algal spot
+23. Brown blight
+24. Gray blight
+25. Helopeltis
+26. Red spot
+27. Healthy
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -332,7 +414,7 @@
         <div class="row g-4 mt-3"> <!-- Adjusted spacing -->
           <!-- Story -->
           <div class="col-lg-4">
-            <a class="block block-rounded block-link-pop h-100 mb-0" href="https://pmkisan.gov.in/">
+            <a class="block block-rounded block-link-pop h-100 mb-0" href="https://pmkisan.gov.in/" target="_blank">
               <img class="img-fluid w-100 rounded" src="{{ url_for('static', filename='media/photos/re-1.png') }}"
                 alt="Apple Black Rot" style="max-height: 200px; object-fit: cover;"> <!-- Larger image -->
               <div class="block-content p-4"> <!-- More padding for readability -->
@@ -347,7 +429,7 @@
 
           <!-- Story -->
           <div class="col-lg-4">
-            <a class="block block-rounded block-link-pop h-100 mb-0" href="https://www.cabi.org/plantwiseplus/">
+            <a class="block block-rounded block-link-pop h-100 mb-0" href="https://www.cabi.org/plantwiseplus/" target="_blank">
               <img class="img-fluid w-100 rounded" src="{{ url_for('static', filename='media/photos/re-2.png') }}"
                 alt="Grape Esca" style="max-height: 200px; object-fit: cover;">
               <div class="block-content p-4">
@@ -362,7 +444,7 @@
 
           <!-- Story -->
           <div class="col-lg-4">
-            <a class="block block-rounded block-link-pop h-100 mb-0" href="http://agroclimate.org/">
+            <a class="block block-rounded block-link-pop h-100 mb-0" href="http://agroclimate.org/" target="_blank">
               <img class="img-fluid w-100 rounded" src="{{ url_for('static', filename='media/photos/re-3.png') }}"
                 alt="Orange Citrus Greening" style="max-height: 200px; object-fit: cover;">
               <div class="block-content p-4">
