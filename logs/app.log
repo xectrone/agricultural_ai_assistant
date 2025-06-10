@@ -9252,3 +9252,222 @@ werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'signup
 2025-04-07 10:54:23,714 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
 2025-04-07 10:54:23,727 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:23] "[36mGET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1[0m" 304 -
 2025-04-07 10:54:26,812 - INFO - 127.0.0.1 - - [07/Apr/2025 10:54:26] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-06-10 09:45:05,066 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-10 09:45:06,726 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-06-10 09:45:06,746 - DEBUG - Attempting to acquire lock 1893949698352 on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\440f449cd30b16d8d1017d656ada205a41c390f7.lock
+2025-06-10 09:45:06,751 - DEBUG - Lock 1893949698352 acquired on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\440f449cd30b16d8d1017d656ada205a41c390f7.lock
+2025-06-10 09:45:07,665 - DEBUG - https://huggingface.co:443 "GET /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 3787
+2025-06-10 09:45:09,262 - DEBUG - Attempting to release lock 1893949698352 on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\440f449cd30b16d8d1017d656ada205a41c390f7.lock
+2025-06-10 09:45:09,271 - DEBUG - Lock 1893949698352 released on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\440f449cd30b16d8d1017d656ada205a41c390f7.lock
+2025-06-10 09:45:10,374 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/model.safetensors HTTP/11" 302 0
+2025-06-10 09:45:10,406 - DEBUG - Attempting to acquire lock 1893950727952 on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\39d14ca9cf7840ca8fe4ce5b76096a75f8aa181a49966bfee42b2a1772c088c6.lock
+2025-06-10 09:45:10,406 - DEBUG - Lock 1893950727952 acquired on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\39d14ca9cf7840ca8fe4ce5b76096a75f8aa181a49966bfee42b2a1772c088c6.lock
+2025-06-10 09:45:10,422 - DEBUG - Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+2025-06-10 09:45:10,844 - DEBUG - https://cdn-lfs-us-1.hf.co:443 "GET /repos/b6/89/b689518a73a9fbe6094c9efc373ae50bb785536e1ed754635ee0c4971c3529f6/39d14ca9cf7840ca8fe4ce5b76096a75f8aa181a49966bfee42b2a1772c088c6?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1749532508&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0OTUzMjUwOH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2I2Lzg5L2I2ODk1MThhNzNhOWZiZTYwOTRjOWVmYzM3M2FlNTBiYjc4NTUzNmUxZWQ3NTQ2MzVlZTBjNDk3MWMzNTI5ZjYvMzlkMTRjYTljZjc4NDBjYThmZTRjZTViNzYwOTZhNzVmOGFhMTgxYTQ5OTY2YmZlZTQyYjJhMTc3MmMwODhjNj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=aC-dU5XDKvGAfNzumI1irGMqEJUAd8P0AxchNe6dKIhAWDiuVWyIDd2eE3S4gLKfwhN0ANcXXvtlUk0x1tUsEajR~2ljb11GIAiwyzzLcOl7WrQoKxadosU8lb1bE1aFvJQBqkvkRBkQ6tukV5R-Bx6LTZNgNYvFvg0wBunXkwd8wEk59OaLDXxxn4UI70FH5nSr7HUfULS1SYOJmIKWGTrWx~csmOkEep4l33jTxXAb41f5V03E51vDEcCeGrhggil0Tlw6RcA9Of3RKFtlURDu5rPKhy61MGoqmSMAvXdiLfUSkAdzPl~TMsbU03T6FuOsKewKJXRf9A-B-2A7JA__&Key-Pair-Id=K24J24Z295AEI9 HTTP/11" 200 343353176
+2025-06-10 09:46:49,779 - DEBUG - Attempting to release lock 1893950727952 on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\39d14ca9cf7840ca8fe4ce5b76096a75f8aa181a49966bfee42b2a1772c088c6.lock
+2025-06-10 09:46:49,783 - DEBUG - Lock 1893950727952 released on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\39d14ca9cf7840ca8fe4ce5b76096a75f8aa181a49966bfee42b2a1772c088c6.lock
+2025-06-10 09:46:51,371 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-06-10 09:46:51,371 - DEBUG - Attempting to acquire lock 1893949697296 on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\273d24924a8bd10227b532d603484f165dcb0b5d.lock
+2025-06-10 09:46:51,691 - DEBUG - Lock 1893949697296 acquired on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\273d24924a8bd10227b532d603484f165dcb0b5d.lock
+2025-06-10 09:46:51,950 - DEBUG - https://huggingface.co:443 "GET /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 325
+2025-06-10 09:46:52,031 - DEBUG - Attempting to release lock 1893949697296 on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\273d24924a8bd10227b532d603484f165dcb0b5d.lock
+2025-06-10 09:46:52,033 - DEBUG - Lock 1893949697296 released on C:\Users\prase\.cache\huggingface\hub\.locks\models--Abhiram4--PlantDiseaseDetectorVit2\273d24924a8bd10227b532d603484f165dcb0b5d.lock
+2025-06-10 09:46:52,249 - INFO - Image classification pipeline initialized.
+2025-06-10 09:46:52,371 - INFO - Disease descriptions loaded from JSON.
+2025-06-10 09:46:53,113 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-10 09:46:53,113 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-10 09:46:53,132 - INFO -  * Restarting with stat
+2025-06-10 09:47:17,003 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-10 09:47:17,371 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-06-10 09:47:19,346 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-06-10 09:47:19,362 - INFO - Image classification pipeline initialized.
+2025-06-10 09:47:19,371 - INFO - Disease descriptions loaded from JSON.
+2025-06-10 09:47:19,458 - WARNING -  * Debugger is active!
+2025-06-10 09:47:19,466 - INFO -  * Debugger PIN: 932-360-278
+2025-06-10 09:48:55,769 - INFO - 127.0.0.1 - - [10/Jun/2025 09:48:55] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-10 09:48:56,803 - INFO - 127.0.0.1 - - [10/Jun/2025 09:48:56] "GET /signin HTTP/1.1" 200 -
+2025-06-10 09:48:57,722 - INFO - 127.0.0.1 - - [10/Jun/2025 09:48:57] "GET /static/css/dashmix.min.css HTTP/1.1" 200 -
+2025-06-10 09:48:57,817 - INFO - 127.0.0.1 - - [10/Jun/2025 09:48:57] "GET /static/js/setTheme.js HTTP/1.1" 200 -
+2025-06-10 09:48:57,950 - INFO - 127.0.0.1 - - [10/Jun/2025 09:48:57] "GET /static/js/dashmix.app.min.js HTTP/1.1" 200 -
+2025-06-10 09:48:58,254 - INFO - 127.0.0.1 - - [10/Jun/2025 09:48:58] "GET /static/js/lib/jquery.min.js HTTP/1.1" 200 -
+2025-06-10 09:48:58,707 - INFO - 127.0.0.1 - - [10/Jun/2025 09:48:58] "GET /static/js/pages/op_auth_signin.min.js HTTP/1.1" 200 -
+2025-06-10 09:48:58,772 - INFO - 127.0.0.1 - - [10/Jun/2025 09:48:58] "GET /static/js/plugins/jquery-validation/jquery.validate.min.js HTTP/1.1" 200 -
+2025-06-10 09:49:00,020 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:00] "GET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1" 200 -
+2025-06-10 09:49:00,020 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:00] "GET /static/media/photos/Bg_login_page.avif HTTP/1.1" 200 -
+2025-06-10 09:49:00,040 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:00] "GET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1" 200 -
+2025-06-10 09:49:00,139 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:00] "GET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1" 200 -
+2025-06-10 09:49:00,186 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:00] "GET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1" 200 -
+2025-06-10 09:49:00,311 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:00] "GET /static/media/favicons/favicon.png HTTP/1.1" 200 -
+2025-06-10 09:49:09,165 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2025-06-10 09:49:09,425 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "GET /index HTTP/1.1" 200 -
+2025-06-10 09:49:09,477 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-06-10 09:49:09,484 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-06-10 09:49:09,551 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "GET /static/media/photos/photo21@2x.jpg HTTP/1.1" 200 -
+2025-06-10 09:49:09,557 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "GET /static/media/photos/placeholder2.png HTTP/1.1" 200 -
+2025-06-10 09:49:09,595 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-06-10 09:49:09,611 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-06-10 09:49:09,629 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 09:49:09,687 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 09:49:09,688 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "GET /static/media/photos/photo13@2x.jpg HTTP/1.1" 200 -
+2025-06-10 09:49:09,692 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "GET /static/media/photos/re-1.png HTTP/1.1" 200 -
+2025-06-10 09:49:09,746 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "GET /static/media/photos/photo23@2x.jpg HTTP/1.1" 200 -
+2025-06-10 09:49:09,774 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 09:49:09,805 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "GET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1" 200 -
+2025-06-10 09:49:09,943 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "GET /static/js/pages/op_coming_soon.min.js HTTP/1.1" 200 -
+2025-06-10 09:49:09,946 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "GET /static/media/photos/re-2.png HTTP/1.1" 200 -
+2025-06-10 09:49:09,996 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:09] "GET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1" 200 -
+2025-06-10 09:49:10,037 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:10] "GET /static/media/photos/photo17@2x.jpg HTTP/1.1" 200 -
+2025-06-10 09:49:10,040 - INFO - 127.0.0.1 - - [10/Jun/2025 09:49:10] "GET /static/media/photos/re-3.png HTTP/1.1" 200 -
+2025-06-10 09:50:17,064 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-10 09:50:17,080 - DEBUG - STREAM b'sRGB' 41 1
+2025-06-10 09:50:17,080 - DEBUG - STREAM b'gAMA' 54 4
+2025-06-10 09:50:17,080 - DEBUG - STREAM b'pHYs' 70 9
+2025-06-10 09:50:17,080 - DEBUG - STREAM b'IDAT' 91 65445
+2025-06-10 09:50:22,474 - INFO - Image classification results: [{'label': 'Strawberry___Leaf_scorch', 'score': 0.8900790810585022}, {'label': 'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot', 'score': 0.7812398076057434}, {'label': 'Corn_(maize)___Northern_Leaf_Blight', 'score': 0.7342333197593689}, {'label': 'Corn_(maize)___Common_rust_', 'score': 0.6832808256149292}, {'label': 'Potato___healthy', 'score': 0.6424912214279175}]
+2025-06-10 09:50:22,474 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-06-10 09:50:22,474 - DEBUG - Normalized label: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot to Corn (Maize)   Cercospora Leaf Spot Gray Leaf Spot
+2025-06-10 09:50:22,474 - DEBUG - Normalized label: Corn_(maize)___Northern_Leaf_Blight to Corn (Maize)   Northern Leaf Blight
+2025-06-10 09:50:22,474 - DEBUG - Normalized label: Corn_(maize)___Common_rust_ to Corn (Maize)   Common Rust 
+2025-06-10 09:50:22,474 - DEBUG - Normalized label: Potato___healthy to Potato   Healthy
+2025-06-10 09:50:22,474 - INFO - Detection and enhancement complete.
+2025-06-10 09:50:22,493 - INFO - 127.0.0.1 - - [10/Jun/2025 09:50:22] "POST /detect HTTP/1.1" 200 -
+2025-06-10 11:38:02,063 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-10 11:38:03,276 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-06-10 11:38:06,501 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-06-10 11:38:06,573 - INFO - Image classification pipeline initialized.
+2025-06-10 11:38:06,588 - INFO - Disease descriptions loaded from JSON.
+2025-06-10 11:38:07,013 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-10 11:38:07,015 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-10 11:38:07,020 - INFO -  * Restarting with stat
+2025-06-10 11:38:35,815 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-10 11:38:38,383 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-06-10 11:38:39,761 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-06-10 11:38:39,802 - INFO - Image classification pipeline initialized.
+2025-06-10 11:38:39,835 - INFO - Disease descriptions loaded from JSON.
+2025-06-10 11:38:40,080 - WARNING -  * Debugger is active!
+2025-06-10 11:38:40,100 - INFO -  * Debugger PIN: 932-360-278
+2025-06-10 11:38:40,495 - INFO - 127.0.0.1 - - [10/Jun/2025 11:38:40] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-10 11:38:40,607 - INFO - 127.0.0.1 - - [10/Jun/2025 11:38:40] "GET /signin HTTP/1.1" 200 -
+2025-06-10 11:38:41,075 - INFO - 127.0.0.1 - - [10/Jun/2025 11:38:41] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-06-10 11:38:41,097 - INFO - 127.0.0.1 - - [10/Jun/2025 11:38:41] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-06-10 11:38:41,117 - INFO - 127.0.0.1 - - [10/Jun/2025 11:38:41] "[36mGET /static/js/plugins/jquery-validation/jquery.validate.min.js HTTP/1.1[0m" 304 -
+2025-06-10 11:38:41,131 - INFO - 127.0.0.1 - - [10/Jun/2025 11:38:41] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-06-10 11:38:41,164 - INFO - 127.0.0.1 - - [10/Jun/2025 11:38:41] "[36mGET /static/js/pages/op_auth_signin.min.js HTTP/1.1[0m" 304 -
+2025-06-10 11:38:41,166 - INFO - 127.0.0.1 - - [10/Jun/2025 11:38:41] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-06-10 11:38:41,318 - INFO - 127.0.0.1 - - [10/Jun/2025 11:38:41] "[36mGET /static/media/photos/Bg_login_page.avif HTTP/1.1[0m" 304 -
+2025-06-10 11:38:41,467 - INFO - 127.0.0.1 - - [10/Jun/2025 11:38:41] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 11:38:41,470 - INFO - 127.0.0.1 - - [10/Jun/2025 11:38:41] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 11:38:41,471 - INFO - 127.0.0.1 - - [10/Jun/2025 11:38:41] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 11:38:41,477 - INFO - 127.0.0.1 - - [10/Jun/2025 11:38:41] "[36mGET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 11:39:05,860 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:05] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2025-06-10 11:39:05,911 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:05] "GET /index HTTP/1.1" 200 -
+2025-06-10 11:39:05,964 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:05] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-06-10 11:39:05,977 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:05] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-06-10 11:39:05,988 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:05] "[36mGET /static/media/photos/placeholder2.png HTTP/1.1[0m" 304 -
+2025-06-10 11:39:05,995 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:05] "[36mGET /static/media/photos/photo21@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-10 11:39:06,073 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:06] "[36mGET /static/media/photos/photo13@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-10 11:39:06,075 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:06] "[36mGET /static/media/photos/photo23@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-10 11:39:06,086 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:06] "[36mGET /static/media/photos/re-1.png HTTP/1.1[0m" 304 -
+2025-06-10 11:39:06,091 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:06] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-06-10 11:39:06,114 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:06] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-06-10 11:39:06,126 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:06] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 11:39:06,132 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:06] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-06-10 11:39:06,228 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:06] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 11:39:06,313 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:06] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 11:39:06,329 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:06] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-10 11:39:06,375 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:06] "[36mGET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 11:39:06,380 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:06] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-06-10 11:39:06,452 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:06] "[36mGET /static/media/photos/re-3.png HTTP/1.1[0m" 304 -
+2025-06-10 11:39:06,485 - INFO - 127.0.0.1 - - [10/Jun/2025 11:39:06] "[36mGET /static/media/photos/re-2.png HTTP/1.1[0m" 304 -
+2025-06-10 15:01:33,201 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-10 15:01:33,789 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-06-10 15:01:37,428 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-06-10 15:01:37,444 - INFO - Image classification pipeline initialized.
+2025-06-10 15:01:37,732 - INFO - Disease descriptions loaded from JSON.
+2025-06-10 15:01:38,155 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-10 15:01:38,156 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-10 15:01:38,172 - INFO -  * Restarting with stat
+2025-06-10 15:02:06,148 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-10 15:02:06,876 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-06-10 15:02:08,524 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-06-10 15:02:08,537 - INFO - Image classification pipeline initialized.
+2025-06-10 15:02:08,595 - INFO - Disease descriptions loaded from JSON.
+2025-06-10 15:02:08,780 - WARNING -  * Debugger is active!
+2025-06-10 15:02:08,816 - INFO -  * Debugger PIN: 932-360-278
+2025-06-10 15:03:48,235 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-10 15:03:48,773 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:48] "GET /signin HTTP/1.1" 200 -
+2025-06-10 15:03:50,027 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:50] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-06-10 15:03:50,086 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:50] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-06-10 15:03:50,091 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:50] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-06-10 15:03:50,301 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:50] "[36mGET /static/js/pages/op_auth_signin.min.js HTTP/1.1[0m" 304 -
+2025-06-10 15:03:50,433 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:50] "[36mGET /static/media/photos/Bg_login_page.avif HTTP/1.1[0m" 304 -
+2025-06-10 15:03:50,473 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:50] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-06-10 15:03:50,513 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:50] "[36mGET /static/js/plugins/jquery-validation/jquery.validate.min.js HTTP/1.1[0m" 304 -
+2025-06-10 15:03:50,611 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:50] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 15:03:50,640 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:50] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 15:03:50,697 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:50] "[36mGET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 15:03:50,704 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:50] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 15:03:57,994 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:57] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2025-06-10 15:03:58,079 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "GET /index HTTP/1.1" 200 -
+2025-06-10 15:03:58,152 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,168 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,171 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/media/photos/photo21@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,221 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/media/photos/placeholder2.png HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,276 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/media/photos/photo13@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,285 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/media/photos/re-1.png HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,286 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/media/photos/photo23@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,301 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,395 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,437 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,496 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,532 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,549 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,568 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,571 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,617 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,627 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/media/photos/re-2.png HTTP/1.1[0m" 304 -
+2025-06-10 15:03:58,703 - INFO - 127.0.0.1 - - [10/Jun/2025 15:03:58] "[36mGET /static/media/photos/re-3.png HTTP/1.1[0m" 304 -
+2025-06-10 15:04:35,960 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-10 15:04:35,962 - DEBUG - STREAM b'sRGB' 41 1
+2025-06-10 15:04:35,967 - DEBUG - STREAM b'sBIT' 54 4
+2025-06-10 15:04:36,005 - DEBUG - b'sBIT' 54 4 (unknown)
+2025-06-10 15:04:36,010 - DEBUG - STREAM b'IDAT' 70 8192
+2025-06-10 15:04:41,316 - INFO - Image classification results: [{'label': 'Apple___Cedar_apple_rust', 'score': 0.9777824878692627}, {'label': 'Apple___Black_rot', 'score': 0.9089150428771973}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.7876613140106201}, {'label': 'Apple___Apple_scab', 'score': 0.679123044013977}, {'label': 'Tomato___Bacterial_spot', 'score': 0.5855613350868225}]
+2025-06-10 15:04:41,316 - DEBUG - Normalized label: Apple___Cedar_apple_rust to Apple   Cedar Apple Rust
+2025-06-10 15:04:41,316 - DEBUG - Normalized label: Apple___Black_rot to Apple   Black Rot
+2025-06-10 15:04:41,316 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-06-10 15:04:41,316 - DEBUG - Normalized label: Apple___Apple_scab to Apple   Apple Scab
+2025-06-10 15:04:41,332 - DEBUG - Normalized label: Tomato___Bacterial_spot to Tomato   Bacterial Spot
+2025-06-10 15:04:41,332 - INFO - Detection and enhancement complete.
+2025-06-10 15:04:41,346 - INFO - 127.0.0.1 - - [10/Jun/2025 15:04:41] "POST /detect HTTP/1.1" 200 -
+2025-06-10 15:05:00,935 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-10 15:05:00,936 - DEBUG - STREAM b'sRGB' 41 1
+2025-06-10 15:05:00,936 - DEBUG - STREAM b'sBIT' 54 4
+2025-06-10 15:05:00,936 - DEBUG - b'sBIT' 54 4 (unknown)
+2025-06-10 15:05:00,936 - DEBUG - STREAM b'IDAT' 70 8192
+2025-06-10 15:05:01,976 - INFO - Image classification results: [{'label': 'Apple___Cedar_apple_rust', 'score': 0.9777824878692627}, {'label': 'Apple___Black_rot', 'score': 0.9089150428771973}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.7876613140106201}, {'label': 'Apple___Apple_scab', 'score': 0.679123044013977}, {'label': 'Tomato___Bacterial_spot', 'score': 0.5855613350868225}]
+2025-06-10 15:05:01,989 - DEBUG - Normalized label: Apple___Cedar_apple_rust to Apple   Cedar Apple Rust
+2025-06-10 15:05:01,990 - DEBUG - Normalized label: Apple___Black_rot to Apple   Black Rot
+2025-06-10 15:05:01,991 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-06-10 15:05:01,992 - DEBUG - Normalized label: Apple___Apple_scab to Apple   Apple Scab
+2025-06-10 15:05:01,993 - DEBUG - Normalized label: Tomato___Bacterial_spot to Tomato   Bacterial Spot
+2025-06-10 15:05:01,994 - INFO - Detection and enhancement complete.
+2025-06-10 15:05:01,998 - INFO - 127.0.0.1 - - [10/Jun/2025 15:05:01] "POST /detect HTTP/1.1" 200 -
+2025-06-10 15:05:53,172 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-10 15:05:53,172 - DEBUG - STREAM b'sRGB' 41 1
+2025-06-10 15:05:53,176 - DEBUG - STREAM b'sBIT' 54 4
+2025-06-10 15:05:53,177 - DEBUG - b'sBIT' 54 4 (unknown)
+2025-06-10 15:05:53,178 - DEBUG - STREAM b'IDAT' 70 8192
+2025-06-10 15:05:55,340 - INFO - Image classification results: [{'label': 'Apple___Cedar_apple_rust', 'score': 0.9777824878692627}, {'label': 'Apple___Black_rot', 'score': 0.9089150428771973}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.7876613140106201}, {'label': 'Apple___Apple_scab', 'score': 0.679123044013977}, {'label': 'Tomato___Bacterial_spot', 'score': 0.5855613350868225}]
+2025-06-10 15:05:55,340 - DEBUG - Normalized label: Apple___Cedar_apple_rust to Apple   Cedar Apple Rust
+2025-06-10 15:05:55,340 - DEBUG - Normalized label: Apple___Black_rot to Apple   Black Rot
+2025-06-10 15:05:55,340 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-06-10 15:05:55,340 - DEBUG - Normalized label: Apple___Apple_scab to Apple   Apple Scab
+2025-06-10 15:05:55,340 - DEBUG - Normalized label: Tomato___Bacterial_spot to Tomato   Bacterial Spot
+2025-06-10 15:05:55,340 - INFO - Detection and enhancement complete.
+2025-06-10 15:05:55,352 - INFO - 127.0.0.1 - - [10/Jun/2025 15:05:55] "POST /detect HTTP/1.1" 200 -
+2025-06-10 15:06:26,531 - INFO - 127.0.0.1 - - [10/Jun/2025 15:06:26] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-06-10 15:06:27,180 - INFO - 127.0.0.1 - - [10/Jun/2025 15:06:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
