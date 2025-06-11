@@ -9471,3 +9471,116 @@ werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'signup
 2025-06-10 15:05:55,352 - INFO - 127.0.0.1 - - [10/Jun/2025 15:05:55] "POST /detect HTTP/1.1" 200 -
 2025-06-10 15:06:26,531 - INFO - 127.0.0.1 - - [10/Jun/2025 15:06:26] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
 2025-06-10 15:06:27,180 - INFO - 127.0.0.1 - - [10/Jun/2025 15:06:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-11 14:10:09,185 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-11 14:10:09,794 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-06-11 14:10:12,031 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-06-11 14:10:12,077 - INFO - Image classification pipeline initialized.
+2025-06-11 14:10:12,144 - INFO - Disease descriptions loaded from JSON.
+2025-06-11 14:10:12,950 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-11 14:10:12,951 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-11 14:10:12,966 - INFO -  * Restarting with stat
+2025-06-11 14:10:39,969 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-11 14:10:42,193 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-06-11 14:10:43,695 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-06-11 14:10:43,705 - INFO - Image classification pipeline initialized.
+2025-06-11 14:10:43,723 - INFO - Disease descriptions loaded from JSON.
+2025-06-11 14:10:43,872 - WARNING -  * Debugger is active!
+2025-06-11 14:10:43,972 - INFO -  * Debugger PIN: 932-360-278
+2025-06-11 14:10:44,814 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:44] "GET /index HTTP/1.1" 200 -
+2025-06-11 14:10:45,224 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/media/photos/placeholder2.png HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,226 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/media/photos/photo21@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,239 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,247 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,298 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/media/photos/photo23@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,301 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/media/photos/photo13@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,367 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,384 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,388 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,405 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,428 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/media/photos/re-1.png HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,439 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/media/photos/re-2.png HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,476 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/media/photos/re-3.png HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,476 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,580 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,585 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,591 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 14:10:45,763 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:45] "[36mGET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 14:10:46,502 - INFO - 127.0.0.1 - - [11/Jun/2025 14:10:46] "[36mGET /static/media/favicons/favicon.png HTTP/1.1[0m" 304 -
+2025-06-11 14:11:08,011 - INFO - Image classification results: [{'label': 'Apple___Cedar_apple_rust', 'score': 0.959510862827301}, {'label': 'Apple___Black_rot', 'score': 0.8960641026496887}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.8425852060317993}, {'label': 'Apple___Apple_scab', 'score': 0.8029481172561646}, {'label': 'Apple___healthy', 'score': 0.578757643699646}]
+2025-06-11 14:11:08,024 - DEBUG - Normalized label: Apple___Cedar_apple_rust to Apple   Cedar Apple Rust
+2025-06-11 14:11:08,024 - DEBUG - Normalized label: Apple___Black_rot to Apple   Black Rot
+2025-06-11 14:11:08,024 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-06-11 14:11:08,024 - DEBUG - Normalized label: Apple___Apple_scab to Apple   Apple Scab
+2025-06-11 14:11:08,024 - DEBUG - Normalized label: Apple___healthy to Apple   Healthy
+2025-06-11 14:11:08,024 - INFO - Detection and enhancement complete.
+2025-06-11 14:11:08,224 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:08] "POST /detect HTTP/1.1" 200 -
+2025-06-11 14:11:14,140 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:14] "GET /get-history HTTP/1.1" 200 -
+2025-06-11 14:11:17,447 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:17] "GET /signin HTTP/1.1" 200 -
+2025-06-11 14:11:17,525 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:17] "[36mGET /static/js/plugins/jquery-validation/jquery.validate.min.js HTTP/1.1[0m" 304 -
+2025-06-11 14:11:17,537 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:17] "[36mGET /static/js/pages/op_auth_signin.min.js HTTP/1.1[0m" 304 -
+2025-06-11 14:11:17,664 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:17] "[36mGET /static/media/photos/Bg_login_page.avif HTTP/1.1[0m" 304 -
+2025-06-11 14:11:17,719 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:17] "[36mGET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 14:11:19,237 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:19] "GET /signup HTTP/1.1" 200 -
+2025-06-11 14:11:19,275 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:19] "[33mGET /assets/js/dashmix.app.min.js HTTP/1.1[0m" 404 -
+2025-06-11 14:11:19,310 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:19] "[33mGET /assets/js/lib/jquery.min.js HTTP/1.1[0m" 404 -
+2025-06-11 14:11:19,315 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:19] "[33mGET /assets/js/pages/op_auth_signup.min.js HTTP/1.1[0m" 404 -
+2025-06-11 14:11:19,329 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:19] "[33mGET /assets/js/plugins/jquery-validation/jquery.validate.min.js HTTP/1.1[0m" 404 -
+2025-06-11 14:11:19,341 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:19] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-06-11 14:11:19,345 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:19] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-06-11 14:11:19,502 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:19] "[36mGET /static/media/photos/Bg_login_page.avif HTTP/1.1[0m" 304 -
+2025-06-11 14:11:19,517 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:19] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 14:11:19,536 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:19] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 14:11:19,536 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:19] "[36mGET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,160 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[32mPOST /signup HTTP/1.1[0m" 302 -
+2025-06-11 14:11:50,207 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "GET /index HTTP/1.1" 200 -
+2025-06-11 14:11:50,288 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,297 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,302 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/media/photos/placeholder2.png HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,318 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/media/photos/photo21@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,376 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/media/photos/photo23@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,398 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,403 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,409 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/media/photos/photo13@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,423 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,512 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,516 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/media/photos/re-1.png HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,522 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,546 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,551 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,559 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,569 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,574 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/media/photos/re-2.png HTTP/1.1[0m" 304 -
+2025-06-11 14:11:50,582 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:50] "[36mGET /static/media/photos/re-3.png HTTP/1.1[0m" 304 -
+2025-06-11 14:11:57,429 - INFO - 127.0.0.1 - - [11/Jun/2025 14:11:57] "GET /get-history HTTP/1.1" 200 -
+2025-06-11 14:12:04,917 - INFO - Image classification results: [{'label': 'Apple___Cedar_apple_rust', 'score': 0.959510862827301}, {'label': 'Apple___Black_rot', 'score': 0.8960641026496887}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.8425852060317993}, {'label': 'Apple___Apple_scab', 'score': 0.8029481172561646}, {'label': 'Apple___healthy', 'score': 0.578757643699646}]
+2025-06-11 14:12:04,917 - DEBUG - Normalized label: Apple___Cedar_apple_rust to Apple   Cedar Apple Rust
+2025-06-11 14:12:04,917 - DEBUG - Normalized label: Apple___Black_rot to Apple   Black Rot
+2025-06-11 14:12:04,917 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-06-11 14:12:04,917 - DEBUG - Normalized label: Apple___Apple_scab to Apple   Apple Scab
+2025-06-11 14:12:04,917 - DEBUG - Normalized label: Apple___healthy to Apple   Healthy
+2025-06-11 14:12:04,917 - INFO - Detection and enhancement complete.
+2025-06-11 14:12:05,136 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:05] "POST /detect HTTP/1.1" 200 -
+2025-06-11 14:12:09,418 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:09] "GET /get-history HTTP/1.1" 200 -
+2025-06-11 14:12:23,021 - INFO - Image classification results: [{'label': 'Apple___Cedar_apple_rust', 'score': 0.959510862827301}, {'label': 'Apple___Black_rot', 'score': 0.8960641026496887}, {'label': 'Strawberry___Leaf_scorch', 'score': 0.8425852060317993}, {'label': 'Apple___Apple_scab', 'score': 0.8029481172561646}, {'label': 'Apple___healthy', 'score': 0.578757643699646}]
+2025-06-11 14:12:23,022 - DEBUG - Normalized label: Apple___Cedar_apple_rust to Apple   Cedar Apple Rust
+2025-06-11 14:12:23,022 - DEBUG - Normalized label: Apple___Black_rot to Apple   Black Rot
+2025-06-11 14:12:23,022 - DEBUG - Normalized label: Strawberry___Leaf_scorch to Strawberry   Leaf Scorch
+2025-06-11 14:12:23,022 - DEBUG - Normalized label: Apple___Apple_scab to Apple   Apple Scab
+2025-06-11 14:12:23,022 - DEBUG - Normalized label: Apple___healthy to Apple   Healthy
+2025-06-11 14:12:23,029 - INFO - Detection and enhancement complete.
+2025-06-11 14:12:23,319 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:23] "POST /detect HTTP/1.1" 200 -
+2025-06-11 14:12:28,467 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:28] "GET /get-history HTTP/1.1" 200 -
+2025-06-11 14:12:38,413 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-06-11 14:12:38,469 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "GET /signin HTTP/1.1" 200 -
+2025-06-11 14:12:38,545 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-06-11 14:12:38,619 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-06-11 14:12:38,646 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-06-11 14:12:38,673 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-06-11 14:12:38,726 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "[36mGET /static/js/plugins/jquery-validation/jquery.validate.min.js HTTP/1.1[0m" 304 -
+2025-06-11 14:12:38,739 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "[36mGET /static/js/pages/op_auth_signin.min.js HTTP/1.1[0m" 304 -
+2025-06-11 14:12:38,784 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "[36mGET /static/media/photos/Bg_login_page.avif HTTP/1.1[0m" 304 -
+2025-06-11 14:12:38,825 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 14:12:38,847 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 14:12:38,850 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 14:12:38,869 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "[36mGET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
