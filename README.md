@@ -39,6 +39,7 @@ A web and Android-based plant disease detection system using AI and Computer Vis
 * 🌐 **Multilingual Support**: English, Hindi, Marathi
 * 🧰 **Logs** for debugging (`logs/app.log`)
 
+
 ## 🏗️ Tech Stack
 
 | Component       | Technology                         |
@@ -48,6 +49,7 @@ A web and Android-based plant disease detection system using AI and Computer Vis
 | Model Inference | HuggingFace Transformers (ViT)     |
 | Database        | SQLite (via Flask SQLAlchemy)      |
 | Deployment      | [Render.com](https://render.com/)  |
+
 
 ## 🔌 How it Works
 
@@ -90,6 +92,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
+
 ### 📱 Android App
 
 You can find the companion Android app repository here:
@@ -120,6 +123,7 @@ You can find the companion Android app repository here:
 /logs/app.log            # Logging for debug
 ```
 
+
 ## 🚀 Deployment
 
 Deployed on [Render](https://render.com/) at:
@@ -136,7 +140,6 @@ https://agricultural-ai-assistant.onrender.com
 * 🔍 Search plants/diseases dynamically
 * 🗣️ Voice output support for disease reports
 
----
 
 ## 📄 License
 
