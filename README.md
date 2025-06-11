@@ -15,10 +15,10 @@ A web and Android-based plant disease detection system using AI and Computer Vis
 
 ## 🎓 Academic Information
 
-  🏫 **Final Year Project (2025)**
-  🎓 BE Computer Engineering
-  🏢 Gokhale Education Society's R. H. Sapat College of Engineering, Nashik
-  📚 Savitribai Phule Pune University (SPPU)
+* 🏫 **Final Year Project (2025)**
+* 🎓 BE Computer Engineering
+* 🏢 Gokhale Education Society's R. H. Sapat College of Engineering, Nashik
+* 📚 Savitribai Phule Pune University (SPPU)
 
 ---
 
