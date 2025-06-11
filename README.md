@@ -1,13 +1,14 @@
 # 🌿 Agricultural AI Assistant
-
-![Kotlin](https://img.shields.io/badge/Kotlin-1.8.10-blue.svg)
-![Compose](https://img.shields.io/badge/Compose-1.4.0-green.svg)
-![Hilt](https://img.shields.io/badge/Hilt-2.45-brightgreen.svg)
-![Room](https://img.shields.io/badge/Room-2.5.0-blue.svg)
-[![Android API](https://img.shields.io/badge/Android%20API-26%2B-brightgreen)](https://developer.android.com/studio/releases/platforms)
-![Version](https://img.shields.io/badge/Version-1.0.10-brightgreen.svg)
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)  
+![Flask](https://img.shields.io/badge/Flask-2.3.3-lightgrey.svg)  
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0.30-orange.svg)  
+![HuggingFace Transformers](https://img.shields.io/badge/Transformers-ViT-yellow.svg)  
+![Multilingual](https://img.shields.io/badge/Multilingual-English%2C%20Hindi%2C%20Marathi-brightgreen.svg)  
+![Deployment](https://img.shields.io/badge/Hosted_on-Render-blue.svg)  
+![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg)
 
 A web and Android-based plant disease detection system using AI and Computer Vision. Users can upload or capture images of plants to get instant disease diagnosis along with cause, treatment, and prevention — all in English, Hindi, or Marathi.
+
 
 ---
 
@@ -27,14 +28,16 @@ A web and Android-based plant disease detection system using AI and Computer Vis
 
 ---
 
-## 👩‍💻 Team Members
 
-| Name                | Email                                                                        | GitHub                                                           |
-| ------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| **Bhushan Malekar** | [xectrone@gmail.com](mailto:xectrone@gmail.com)      | [@xectrone](https://github.com/xectrone) |
-| **Srushty Borkar**  | [borkar.srushty@ges-coengg.org](mailto:borkar.srushty@ges-coengg.org)        | [github.com/srushtyborkar](https://github.com/srushtyborkar)     |
-| **Prasen Mhaskar**  | [prasenmhaskar13092003@gmail.com](mailto:prasenmhaskar13092003@gmail.com) | [@Prasen45](https://github.com/Prasen45)     |
-| **Anand Dhomase**   | [21\_anand.dhomase@ges-coengg.org](mailto:21_anand.dhomase@ges-coengg.org)   | [github.com/ananddhomase](https://github.com/ananddhomase)       |
+## 👨‍💻 Project Contributors
+
+
+| 👤 Name         | 📧 Email                          | 🌐 GitHub Profile                                                                                                           |
+| --------------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Bhushan Malekar | `xectrone@gmail.com`              | [![@xectrone](https://img.shields.io/badge/GitHub-@xectrone-blue?logo=github)](https://github.com/xectrone)                 |
+| Srushty Borkar  | `1002borkarsr@gmail.com`   | [![@cygnusart](https://img.shields.io/badge/GitHub-@cygnusart-green?logo=github)](https://github.com/srushtyborkar) |
+| Prasen Mhaskar  | `prasenmhaskar45@gmail.com` | [![@Prasen45](https://img.shields.io/badge/GitHub-@Prasen45-purple?logo=github)](https://github.com/Prasen45)               |
+| Anand Dhomase   | `21_anand.dhomase@ges-coengg.org` | [![@ananddhomase](https://img.shields.io/badge/GitHub-@ananddhomase-orange?logo=github)](https://github.com/ananddhomase)   |
 
 ---
 
