@@ -9584,3 +9584,53 @@ werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'signup
 2025-06-11 14:12:38,847 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
 2025-06-11 14:12:38,850 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
 2025-06-11 14:12:38,869 - INFO - 127.0.0.1 - - [11/Jun/2025 14:12:38] "[36mGET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 16:57:18,399 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-11 16:57:20,293 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-06-11 16:57:22,434 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-06-11 16:57:22,444 - INFO - Image classification pipeline initialized.
+2025-06-11 16:57:22,511 - INFO - Disease descriptions loaded from JSON.
+2025-06-11 16:57:23,168 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-11 16:57:23,170 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-11 16:57:23,190 - INFO -  * Restarting with stat
+2025-06-11 16:57:59,668 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-11 16:58:00,339 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/config.json HTTP/11" 200 0
+2025-06-11 16:58:02,890 - DEBUG - https://huggingface.co:443 "HEAD /Abhiram4/PlantDiseaseDetectorVit2/resolve/main/preprocessor_config.json HTTP/11" 200 0
+2025-06-11 16:58:02,906 - INFO - Image classification pipeline initialized.
+2025-06-11 16:58:02,956 - INFO - Disease descriptions loaded from JSON.
+2025-06-11 16:58:03,320 - WARNING -  * Debugger is active!
+2025-06-11 16:58:03,356 - INFO -  * Debugger PIN: 932-360-278
+2025-06-11 16:58:03,749 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:03] "[32mGET / HTTP/1.1[0m" 302 -
+2025-06-11 16:58:03,892 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:03] "GET /signin HTTP/1.1" 200 -
+2025-06-11 16:58:04,353 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:04] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-06-11 16:58:04,430 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:04] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-06-11 16:58:04,450 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:04] "[36mGET /static/js/pages/op_auth_signin.min.js HTTP/1.1[0m" 304 -
+2025-06-11 16:58:04,470 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:04] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-06-11 16:58:04,475 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:04] "[36mGET /static/js/plugins/jquery-validation/jquery.validate.min.js HTTP/1.1[0m" 304 -
+2025-06-11 16:58:04,478 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:04] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-06-11 16:58:04,654 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:04] "[36mGET /static/media/photos/Bg_login_page.avif HTTP/1.1[0m" 304 -
+2025-06-11 16:58:04,806 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:04] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 16:58:04,808 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:04] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 16:58:04,848 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:04] "[36mGET /static/fonts/fontawesome/fa-solid-900.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 16:58:04,932 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:04] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 16:58:13,968 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:13] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2025-06-11 16:58:15,829 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:15] "GET /index HTTP/1.1" 200 -
+2025-06-11 16:58:15,950 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:15] "[36mGET /static/css/dashmix.min.css HTTP/1.1[0m" 304 -
+2025-06-11 16:58:15,953 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:15] "[36mGET /static/media/photos/placeholder2.png HTTP/1.1[0m" 304 -
+2025-06-11 16:58:15,973 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:15] "[36mGET /static/js/setTheme.js HTTP/1.1[0m" 304 -
+2025-06-11 16:58:16,056 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:16] "[36mGET /static/media/photos/photo21@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-11 16:58:16,063 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:16] "[36mGET /static/media/photos/photo13@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-11 16:58:16,065 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:16] "[36mGET /static/js/dashmix.app.min.js HTTP/1.1[0m" 304 -
+2025-06-11 16:58:16,074 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:16] "[36mGET /static/media/photos/photo23@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-11 16:58:16,085 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:16] "[36mGET /static/js/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-06-11 16:58:16,162 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:16] "[36mGET /static/js/plugins/jquery-countdown/jquery.countdown.min.js HTTP/1.1[0m" 304 -
+2025-06-11 16:58:16,245 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:16] "[36mGET /static/js/pages/op_coming_soon.min.js HTTP/1.1[0m" 304 -
+2025-06-11 16:58:16,288 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:16] "[36mGET /static/fonts/inter/inter-v18-latin-700.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 16:58:16,296 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:16] "[36mGET /static/fonts/inter/inter-v18-latin-regular.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 16:58:16,353 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:16] "[36mGET /static/fonts/inter/inter-v18-latin-600.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 16:58:16,361 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:16] "[36mGET /static/media/photos/photo17@2x.jpg HTTP/1.1[0m" 304 -
+2025-06-11 16:58:16,368 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:16] "[36mGET /static/fonts/inter/inter-v18-latin-300.woff2 HTTP/1.1[0m" 304 -
+2025-06-11 16:58:16,373 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:16] "[36mGET /static/media/photos/re-1.png HTTP/1.1[0m" 304 -
+2025-06-11 16:58:16,375 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:16] "[36mGET /static/media/photos/re-2.png HTTP/1.1[0m" 304 -
+2025-06-11 16:58:16,386 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:16] "[36mGET /static/media/photos/re-3.png HTTP/1.1[0m" 304 -
+2025-06-11 16:58:22,883 - INFO - 127.0.0.1 - - [11/Jun/2025 16:58:22] "GET /get-history HTTP/1.1" 200 -

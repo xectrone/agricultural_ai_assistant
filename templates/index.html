@@ -95,7 +95,7 @@
       font-size: 20px;
       max-width: 700px;
       margin: 0 auto 40px;
-      color: #555;
+      color: #96a1b6;
     }
 
     .stats-container {
@@ -122,7 +122,7 @@
 
     .stat p {
       font-size: 18px;
-      color: #444;
+      color: #96a1b6;
     }
 
     @media (max-width: 600px) {
@@ -212,6 +212,34 @@
       /* Optional: Set color of each option */
       #language option {
         color: #0665d0;
+      }
+
+      .ai-numbers-section {
+        background-color: #f8f9fa;
+        color: #000;
+      }
+
+      .ai-numbers-section .stat {
+        background-color: #ffffff;
+        color: #000;
+      }
+
+      /* Dark Mode Support */
+      @media (prefers-color-scheme: dark) {
+        .ai-numbers-section {
+          background-color: #121212;
+          color: #ffffff;
+        }
+
+        .ai-numbers-section .stat {
+          background-color: #1f1f1f;
+          color: #ffffff;
+        }
+
+        .ai-numbers-section img {
+          filter: brightness(0.9) contrast(1.2);
+          /* Optional for icon consistency */
+        }
       }
   </style>
 
@@ -534,7 +562,7 @@
                   historyPanelOpen = false;
                 }
               }
-              
+
 
               function updateHistorySidebar(history) {
                 const listContainer = document.getElementById("historyList");
@@ -755,7 +783,7 @@
         </div>
         <!-- END Grid Section -->
 
-        <section class="section" style="margin-top: 60px;">
+        <section class="section ai-numbers-section py-5" style="margin-top: 60px;">
           <h2>Agricultural AI Assistant in Numbers</h2>
           <p>
             Powered by deep learning and computer vision, the AI Assistant detects crop diseases instantly and
@@ -764,7 +792,7 @@
 
           <div class="stats-container">
             <div class="stat">
-              <img src="https://img.icons8.com/ios-filled/100/clock--v1.png" alt="Diagnosis Time">
+              <img src="https://img.icons8.com/fluency/96/clock.png" alt="Diagnosis Time" width="50">
               <h3>1.2 sec</h3>
               <p>Get your crop diagnosed in just 2.2 seconds.</p>
             </div>
@@ -856,11 +884,6 @@
             </div>
             <!-- END Story -->
           </div>
-
-          <p class="text-center mt-5">
-            By leveraging AI-powered solutions, farmers can take proactive steps in disease prevention and crop
-            protection, ensuring healthier plants and higher yields.
-          </p>
         </div>
         <!-- END Grid Section -->
 
@@ -906,6 +929,32 @@
     });
   </script>
 
+
+  <footer class="bg-dark text-white " style="padding: 50px;">
+    <div class="container">
+      <div class="row text-center text-md-start align-items-center">
+
+        <!-- Left: Project Info -->
+        <div class="col-md-6 mb-3">
+          <h5 class="text-uppercase fw-bold">Agricultural AI Assistant</h5>
+          <p class="mb-1 small">
+            By leveraging AI-powered solutions, farmers can take proactive steps in disease prevention and crop
+            protection, ensuring healthier plants and higher yields.
+          </p>
+          <p class="text-muted small mb-0">© 2025 Agricultural AI Assistant. All rights reserved.</p>
+        </div>
+
+        <!-- Right: Download Button -->
+        <div class="col-md-6 mb-3 text-md-end">
+          <a href="https://drive.usercontent.google.com/download?id=1m_54ogPYhDe4Hd6fZRy0ghef0ps7QZZO&export=download&authuser=0"
+            class="btn btn-success" target="_blank" rel="noopener">
+            📥 Download App
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
 
 
 </body>
