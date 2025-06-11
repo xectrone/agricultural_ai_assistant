@@ -47,6 +47,9 @@
   <!-- Dashmix framework -->
   <link rel="stylesheet" id="css-main" href="{{ url_for('static', filename='css/dashmix.min.css') }}">
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
 
   <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
   <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/xwork.min.css"> -->
@@ -78,6 +81,138 @@
       }
     }
 
+    .section {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .section h2 {
+      font-size: 45px;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      font-size: 20px;
+      max-width: 700px;
+      margin: 0 auto 40px;
+      color: #555;
+    }
+
+    .stats-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 50px;
+    }
+
+    .stat {
+      max-width: 160px;
+    }
+
+    .stat img {
+      height: 60px;
+      margin-bottom: 10px;
+    }
+
+    .stat h3 {
+      font-size: 24px;
+      margin: 10px 0 5px;
+      color: #000;
+    }
+
+    .stat p {
+      font-size: 18px;
+      color: #444;
+    }
+
+    @media (max-width: 600px) {
+      .stats-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      /* General card styling */
+      .block {
+        transition: transform 0.3s ease;
+      }
+
+      .block:hover {
+        transform: translateY(-5px);
+      }
+
+      /* Media Queries for responsiveness */
+      @media (max-width: 992px) {
+
+        /* Tablets and below */
+        .block-content {
+          padding: 1.2rem;
+        }
+
+        .block img {
+          max-height: 180px;
+        }
+      }
+
+      @media (max-width: 768px) {
+
+        /* Mobile landscape */
+        .block-content {
+          padding: 1rem;
+        }
+
+        .block img {
+          max-height: 160px;
+        }
+      }
+
+      @media (max-width: 576px) {
+
+        /* Mobile portrait */
+        .col-lg-4 {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+
+        .block {
+          margin-bottom: 20px;
+        }
+
+        .block-content {
+          padding: 0.8rem;
+        }
+
+        .block img {
+          max-height: 150px;
+        }
+
+        h5 {
+          font-size: 1.1rem;
+        }
+
+        .fs-sm {
+          font-size: 0.9rem;
+        }
+
+        .small {
+          font-size: 0.85rem;
+        }
+      }
+
+      /* Change the text color of the select dropdown */
+      #language {
+        color: #0665d0 !important;
+        border-color: #0665d0;
+      }
+
+      /* Style the dropdown arrow (for WebKit browsers) */
+      #language::-webkit-scrollbar-thumb {
+        background-color: #0665d0;
+      }
+
+      /* Optional: Set color of each option */
+      #language option {
+        color: #0665d0;
+      }
   </style>
 
 
@@ -105,7 +240,7 @@
 
                     <input class="form-control custom-upload" type="file" id="image" accept="image/*" required
                       onchange="previewImage()">
-                  
+
                     <!-- Language Selector -->
                     <div style="text-align: center; margin-bottom: 1rem;">
                       <label for="language" class="fw-semibold me-2" style="color: #0665d0;">Language:</label>
@@ -115,7 +250,7 @@
                         <option value="mr">Marathi</option>
                       </select>
                     </div>
-                  
+
                     <div class="mt-2">
                       <img id="imagePreview" class="img-fluid"
                         src="{{ url_for('static', filename='media/photos/placeholder2.png') }}"
@@ -127,101 +262,179 @@
                         border-radius: 10px;
                         border: 2px solid #ddd;">
                     </div>
-                  
+
                     <button type="submit" class="btn btn-hero btn-primary" href="javascript:void(0)"
                       data-toggle="click-ripple">Detect Disease</button>
                   </form>
-                  
+
+                  <!-- Fullscreen Loader Overlay -->
+                  <div id="loaderOverlay" style="
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: none; 
+  align-items: center;
+  justify-content: center;
+">
+                    <div class="text-center text-white">
+                      <div class="spinner-border text-light" role="status" style="width: 4rem; height: 4rem;">
+                        <span class="visually-hidden">Loading...</span>
+                      </div>
+                      <p class="mt-3 fs-5">Processing image... Please wait</p>
+                    </div>
+                  </div>
+
+
+
                   <br><br>
-                  
+
                   <!-- Disease Information Section -->
                   <div id="results-container" class="container mt-4 p-4 rounded shadow-lg d-none">
                     <h3 class="text-center text-primary fw-bold" id="disease-name"></h3>
                     <p class="text-center text-secondary fw-semibold" id="disease-accuracy"></p>
-                  
-                    <div class="row text-center mt-3">
-                      <div class="col-md-3">
-                        <div class="p-3 border rounded bg-white shadow-sm">
-                          <h5 class="fw-bold text-dark">Description</h5>
-                          <p id="disease-description" class="text-muted"></p>
+
+                    <!-- Centered and 85% Width Box -->
+                    <div class="container mt-4">
+                      <div class="p-4 rounded shadow mx-auto" style="background-color: #f8f9fa; width: 85%;">
+
+                        <div class="row text-center">
+                          <!-- Description -->
+                          <div class="col-12 mb-3">
+                            <div class="p-4 border rounded bg-white shadow-sm d-flex align-items-start gap-3">
+                              <i class="bi bi-info-circle-fill fs-3 text-primary"></i>
+                              <div class="text-start">
+                                <h5 class="fw-bold text-dark mb-1">Description</h5>
+                                <p id="disease-description" class="text-muted mb-0">
+                                  <!-- Description goes here -->
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Cause -->
+                          <div class="col-12 mb-3">
+                            <div class="p-4 border rounded bg-white shadow-sm d-flex align-items-start gap-3">
+                              <i class="bi bi-exclamation-triangle-fill fs-3 text-danger"></i>
+                              <div class="text-start">
+                                <h5 class="fw-bold text-dark mb-1">Cause</h5>
+                                <p id="disease-cause" class="text-muted mb-0">
+                                  <!-- Cause goes here -->
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Treatment -->
+                          <div class="col-12 mb-3">
+                            <div class="p-4 border rounded bg-white shadow-sm d-flex align-items-start gap-3">
+                              <i class="bi bi-prescription fs-3 text-success"></i>
+                              <div class="text-start">
+                                <h5 class="fw-bold text-dark mb-1">Treatment</h5>
+                                <p id="disease-treatment" class="text-muted mb-0">
+                                  <!-- Treatment goes here -->
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Prevention -->
+                          <div class="col-12 mb-0">
+                            <div class="p-4 border rounded bg-white shadow-sm d-flex align-items-start gap-3">
+                              <i class="bi bi-shield-check fs-3 text-info"></i>
+                              <div class="text-start">
+                                <h5 class="fw-bold text-dark mb-1">Prevention</h5>
+                                <p id="disease-prevention" class="text-muted mb-0">
+                                  <!-- Prevention goes here -->
+                                </p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="p-3 border rounded bg-white shadow-sm">
-                          <h5 class="fw-bold text-dark">Cause</h5>
-                          <p id="disease-cause" class="text-muted"></p>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="p-3 border rounded bg-white shadow-sm">
-                          <h5 class="fw-bold text-dark">Treatment</h5>
-                          <p id="disease-treatment" class="text-muted"></p>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="p-3 border rounded bg-white shadow-sm">
-                          <h5 class="fw-bold text-dark">Prevention</h5>
-                          <p id="disease-prevention" class="text-muted"></p>
-                        </div>
+
                       </div>
                     </div>
+
+
                   </div>
-                  
+
                   <script>
+
+                    // Hide loader on page load just in case
+                    window.onload = function () {
+                      document.getElementById('loaderOverlay').style.display = 'none';
+                    };
                     document.getElementById('uploadForm').onsubmit = async function (e) {
                       e.preventDefault();
-                      const formData = new FormData();
 
+                      // ✅ Show the loader
+                      document.getElementById('loaderOverlay').style.display = 'flex';
+
+                      const formData = new FormData();
                       const fileInput = document.getElementById('image');
                       const langSelect = document.getElementById('language');
                       const lang = langSelect.value;
 
                       formData.append('image', fileInput.files[0]);
-                      formData.append('lang', lang); // ✅ send the selected language
+                      formData.append('lang', lang);
 
-                      const response = await fetch('/detect', { method: 'POST', body: formData });
-                      const result = await response.json();
-                      displayResults(result.results);
+                      try {
+                        const response = await fetch('/detect', {
+                          method: 'POST',
+                          body: formData
+                        });
+
+                        const result = await response.json();
+                        displayResults(result.results, result.history);
+                      } catch (error) {
+                        alert("Something went wrong during detection.");
+                      } finally {
+                        // ✅ Hide loader after processing is done
+                        document.getElementById('loaderOverlay').style.display = 'none';
+                      }
                     };
 
-                  
-                    function displayResults(results) {
+
+
+                    function displayResults(results, history = []) {
                       const resultsContainer = document.getElementById('results-container');
                       resetAnimation("disease-description");
                       resetAnimation("disease-cause");
                       resetAnimation("disease-treatment");
                       resetAnimation("disease-prevention");
-                  
+
                       if (results && results.length > 0) {
                         const result = results[0]; // Only use the top result
                         const lang = document.getElementById('language').value;
-                  
+
                         document.getElementById('disease-name').innerText = result.label;
                         document.getElementById('disease-accuracy').innerText = "Accuracy: " + (result.confidence || "N/A");
-                  
+
                         document.getElementById('disease-description').innerText = result["description_" + lang] || result.description;
                         document.getElementById('disease-cause').innerText = result["cause_" + lang] || result.cause;
                         document.getElementById('disease-treatment').innerText = result["treatment_" + lang] || result.treatment;
                         document.getElementById('disease-prevention').innerText = result["prevention_" + lang] || result.prevention;
-                  
+
                         resultsContainer.classList.remove('d-none');
-                  
+
                         setTimeout(() => {
                           const yOffset = resultsContainer.getBoundingClientRect().top + window.scrollY - (window.innerHeight / 2) + (resultsContainer.clientHeight / 2);
                           window.scrollTo({ top: yOffset, behavior: "smooth" });
-                  
+
                           setTimeout(() => fadeInElement("disease-description"), 500);
                           setTimeout(() => fadeInElement("disease-cause"), 1000);
                           setTimeout(() => fadeInElement("disease-treatment"), 1500);
                           setTimeout(() => fadeInElement("disease-prevention"), 2000);
-                  
                         }, 300);
                       } else {
                         resultsContainer.innerHTML = '<p class="text-danger text-center fw-bold">No results found.</p>';
                         resultsContainer.classList.remove('d-none');
                       }
                     }
-                  
+
+
                     function fadeInElement(elementId) {
                       const element = document.getElementById(elementId);
                       if (element) {
@@ -229,7 +442,7 @@
                         element.style.transform = "translateY(0)";
                       }
                     }
-                  
+
                     function resetAnimation(elementId) {
                       const element = document.getElementById(elementId);
                       if (element) {
@@ -238,31 +451,166 @@
                       }
                     }
                   </script>
-                  
+
 
                 </div>
               </div>
             </div>
 
-            <a href="{{ url_for('logout') }}" class="btn btn-danger"
-            style="position: absolute; top: 20px; right: 20px;">
-            Sign Out
-            </a>
-          
-          <!-- 🔹 Top-right buttons container -->
-          <div style="position: absolute; top: 20px; right: 20px; display: flex; gap: 12px; align-items: center;">
-            <!-- Info button -->
-            <button type="button" class="btn btn-info rounded-circle"
-              style="width: 40px; height: 40px;"
-              data-bs-toggle="modal" data-bs-target="#infoModal">
-              i
-            </button>
+            <!-- Top-right Profile Dropdown -->
+            <!-- Profile Dropdown Button (top-right) -->
+            <div class="dropdown" style="position: absolute;top: 22px;right: 70px;">
+              <button class="btn btn-primary dropdown-toggle" type="button" id="profileDropdown"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Profile
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+                <li><button class="dropdown-item" onclick="toggleHistoryPanel()">History</button></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-danger" href="{{ url_for('logout') }}">Sign Out</a></li>
+              </ul>
+            </div>
 
-            <!-- Sign Out button -->
-            <a href="{{ url_for('logout') }}" class="btn btn-danger">
-              Sign Out
-            </a>
-          </div>
+
+            <!-- History Sidebar Panel (Hidden by default) -->
+            <div id="historyPanel" class="bg-light border-start shadow" style="
+            position: fixed;
+            top: 0;
+            right: -350px;
+            width: 350px;
+            height: 100vh;
+            overflow-y: auto;
+            z-index: 9998;
+            padding: 1rem;
+            transition: right 0.4s ease-in-out;
+            overflow-y: auto;
+          ">
+
+              <!-- Close Button -->
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <button onclick="toggleHistoryPanel()" class="btn-close" aria-label="Close"></button>
+                <button class="btn btn-sm btn-danger" onclick="clearHistory()">Clear History</button>
+              </div>
+
+
+              <h5 class="text-primary mb-3">Your History</h5>
+
+              <!-- List of past detections -->
+              <ul class="list-group mb-4" id="historyList"></ul>
+
+              <!-- Details will appear below -->
+              <div id="historyDetail" style="display: block;">
+                <!-- <img id="historyImage" class="img-fluid mb-2 rounded" src="" alt="Disease Image"> -->
+                <h6 id="historyLabel" class="fw-bold text-success"></h6>
+                <p><strong>Confidence:</strong> <span id="historyConfidence"></span></p>
+                <p><strong>Description:</strong> <span id="historyDescription"></span></p>
+                <p><strong>Cause:</strong> <span id="historyCause"></span></p>
+                <p><strong>Treatment:</strong> <span id="historyTreatment"></span></p>
+                <p><strong>Prevention:</strong> <span id="historyPrevention"></span></p>
+              </div>
+            </div>
+
+
+            <script>
+              let historyPanelOpen = false;
+
+              function toggleHistoryPanel() {
+                const panel = document.getElementById('historyPanel');
+
+                if (!historyPanelOpen) {
+                  panel.style.right = '0'; // Slide in
+                  historyPanelOpen = true;
+
+                  // Fetch history from the server
+                  fetch('/get-history')  // We will create this route
+                    .then(response => response.json())
+                    .then(data => {
+                      updateHistorySidebar(data.history); // 🧠 Pass only when user asks
+                    });
+                } else {
+                  panel.style.right = '-350px'; // Slide out
+                  historyPanelOpen = false;
+                }
+              }
+              
+
+              function updateHistorySidebar(history) {
+                const listContainer = document.getElementById("historyList");
+                const detailContainer = document.getElementById("historyDetail");
+
+                listContainer.innerHTML = "";
+                detailContainer.innerHTML = ""; // clear previous detail blocks
+
+                history.forEach((item, index) => {
+                  const resultId = `entry-${index}`;
+
+                  // 🟦 1. Create List Item
+                  const listItem = document.createElement("li");
+                  listItem.classList.add("list-group-item", "list-group-item-action");
+                  listItem.textContent = `${item.label} (${item.timestamp})`;
+                  listItem.style.cursor = "pointer";
+
+                  listItem.addEventListener("click", () => {
+                    const target = document.getElementById(resultId);
+                    if (target) {
+                      target.scrollIntoView({ behavior: "smooth", block: "start" });
+                    }
+                  });
+
+                  listContainer.appendChild(listItem);
+
+                  // 🟩 2. Create Detail Block
+                  const detailBlock = document.createElement("div");
+                  detailBlock.id = resultId;
+                  detailBlock.classList.add("mb-4", "p-3", "border", "rounded", "bg-white");
+
+                  detailBlock.innerHTML = `
+      <h6 class="fw-bold text-success">${item.label}</h6>
+      <p><strong>Confidence:</strong> ${item.confidence}%</p>
+      <p><strong>Description:</strong> ${item.description}</p>
+      <p><strong>Cause:</strong> ${item.cause}</p>
+      <p><strong>Treatment:</strong> ${item.treatment}</p>
+      <p><strong>Prevention:</strong> ${item.prevention}</p>
+    `;
+
+                  detailContainer.appendChild(detailBlock);
+                });
+              }
+
+
+
+              function clearHistory() {
+                if (!confirm("Are you sure you want to delete your entire history?")) return;
+
+                fetch("/clear-history", { method: "POST" })
+                  .then(response => response.json())
+                  .then(data => {
+                    if (data.success) {
+                      // Clear UI
+                      document.getElementById("historyList").innerHTML = "";
+                      document.getElementById("historyDetail").style.display = "none";
+                      alert("History cleared successfully.");
+                    } else {
+                      alert("Failed to clear history.");
+                    }
+                  });
+              }
+            </script>
+
+
+
+
+
+            <!-- 🔹 Top-right buttons container -->
+            <div style="position: absolute; top: 20px; right: 20px; display: flex; gap: 12px; align-items: center;">
+              <!-- Info button -->
+              <button type="button" class="btn btn-info rounded-circle" style="width: 40px; height: 40px;"
+                data-bs-toggle="modal" data-bs-target="#infoModal">
+                i
+              </button>
+            </div>
 
 
 
@@ -274,53 +622,54 @@
                     <h5 class="modal-title" id="infoModalLabel">Agricultural AI Assistant</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div class="modal-body" style="white-space: pre-wrap;">        
-You can use this app by uploading image of the plant and then the app will detect the disease and give you disease description, cause, treatment, and preventions.
+                  <div class="modal-body" style="white-space: pre-wrap;">
+                    You can use this app by uploading image of the plant and then the app will detect the disease and
+                    give you disease description, cause, treatment, and preventions.
 
-🌱 Plants:
-1. Apple
-2. Blueberry
-3. Cherry (including sour)
-4. Corn (maize)
-5. Grape
-6. Orange
-7. Peach
-8. Pepper, bell
-9. Potato
-10. Raspberry
-11. Soybean
-12. Squash
-13. Strawberry
-14. Tomato
+                    🌱 Plants:
+                    1. Apple
+                    2. Blueberry
+                    3. Cherry (including sour)
+                    4. Corn (maize)
+                    5. Grape
+                    6. Orange
+                    7. Peach
+                    8. Pepper, bell
+                    9. Potato
+                    10. Raspberry
+                    11. Soybean
+                    12. Squash
+                    13. Strawberry
+                    14. Tomato
 
-🦠 Diseases (and health status):
-1. Apple scab
-2. Black rot
-3. Cedar apple rust
-4. Powdery mildew
-5. Cercospora leaf spot / Gray leaf spot
-6. Common rust
-7. Northern Leaf Blight
-8. Black rot (Grape)
-9. Esca (Black Measles)
-10. Leaf blight (Isariopsis Leaf Spot)
-11. Haunglongbing (Citrus greening)
-12. Bacterial spot
-13. Early blight
-14. Late blight
-15. Leaf scorch
-16. Leaf Mold
-17. Septoria leaf spot
-18. Spider mites (Two-spotted spider mite)
-19. Target Spot
-20. Tomato Yellow Leaf Curl Virus
-21. Tomato mosaic virus
-22. Algal spot
-23. Brown blight
-24. Gray blight
-25. Helopeltis
-26. Red spot
-27. Healthy
+                    🦠 Diseases (and health status):
+                    1. Apple scab
+                    2. Black rot
+                    3. Cedar apple rust
+                    4. Powdery mildew
+                    5. Cercospora leaf spot / Gray leaf spot
+                    6. Common rust
+                    7. Northern Leaf Blight
+                    8. Black rot (Grape)
+                    9. Esca (Black Measles)
+                    10. Leaf blight (Isariopsis Leaf Spot)
+                    11. Haunglongbing (Citrus greening)
+                    12. Bacterial spot
+                    13. Early blight
+                    14. Late blight
+                    15. Leaf scorch
+                    16. Leaf Mold
+                    17. Septoria leaf spot
+                    18. Spider mites (Two-spotted spider mite)
+                    19. Target Spot
+                    20. Tomato Yellow Leaf Curl Virus
+                    21. Tomato mosaic virus
+                    22. Algal spot
+                    23. Brown blight
+                    24. Gray blight
+                    25. Helopeltis
+                    26. Red spot
+                    27. Healthy
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -404,71 +753,121 @@ You can use this app by uploading image of the plant and then the app will detec
           </div>
           <!-- END Story -->
         </div>
-      <!-- END Grid Section -->
+        <!-- END Grid Section -->
 
-      <!-- Grid Section -->
-      <div class="container py-5" style="max-width: 1200px; margin: auto;"> <!-- Increased padding and width -->
+        <section class="section" style="margin-top: 60px;">
+          <h2>Agricultural AI Assistant in Numbers</h2>
+          <p>
+            Powered by deep learning and computer vision, the AI Assistant detects crop diseases instantly and
+            supports smarter, sustainable farming.
+          </p>
 
-        <h4 class="text-center mt-5">Farmer’s Resource Hub</h4> <!-- Added a subtitle -->
+          <div class="stats-container">
+            <div class="stat">
+              <img src="https://img.icons8.com/ios-filled/100/clock--v1.png" alt="Diagnosis Time">
+              <h3>1.2 sec</h3>
+              <p>Get your crop diagnosed in just 2.2 seconds.</p>
+            </div>
 
-        <div class="row g-4 mt-3"> <!-- Adjusted spacing -->
-          <!-- Story -->
-          <div class="col-lg-4">
-            <a class="block block-rounded block-link-pop h-100 mb-0" href="https://pmkisan.gov.in/" target="_blank">
-              <img class="img-fluid w-100 rounded" src="{{ url_for('static', filename='media/photos/re-1.png') }}"
-                alt="Apple Black Rot" style="max-height: 200px; object-fit: cover;"> <!-- Larger image -->
-              <div class="block-content p-4"> <!-- More padding for readability -->
-                <h5 class="mb-2">PM Kisan Samman Nidhi</h5>
-                <p class="small">
-                  PM Kisan Samman Nidhi is a government scheme that provides direct financial support to small and marginal farmers in India. Under this scheme, eligible farmers receive ₹6,000 annually in three equal installments, directly credited to their bank accounts. It aims to ensure financial stability and support agricultural growth.
-                </p>
-              </div>
-            </a>
+            <div class="stat">
+              <img src="https://img.icons8.com/color/100/vegetarian-food.png" alt="Crop Support">
+              <h3>14+</h3>
+              <p>Supports disease detection for 14 unique plants.</p>
+            </div>
+
+            <div class="stat">
+              <img src="https://plantix.net/en/assets/img/icons/fact-treatment.svg" alt="Diseases Covered">
+              <h3>27+</h3>
+              <p>Find the right treatment for 27+ plant diseases.</p>
+            </div>
+
+            <div class="stat">
+              <img src="https://img.icons8.com/fluency/100/statistics.png" alt="Model Accuracy">
+              <h3>96.8%</h3>
+              <p>Model accuracy ensures highly reliable detection.</p>
+            </div>
           </div>
-          <!-- END Story -->
+        </section>
 
-          <!-- Story -->
-          <div class="col-lg-4">
-            <a class="block block-rounded block-link-pop h-100 mb-0" href="https://www.cabi.org/plantwiseplus/" target="_blank">
-              <img class="img-fluid w-100 rounded" src="{{ url_for('static', filename='media/photos/re-2.png') }}"
-                alt="Grape Esca" style="max-height: 200px; object-fit: cover;">
-              <div class="block-content p-4">
-                <h5 class="mb-2">CABI Plantwise</h5>
-                <p class="small">
-                  CABI Plantwise is a global initiative that provides farmers with reliable information on plant health and pest management. It offers a vast knowledge bank, expert advice, and digital tools to help diagnose plant diseases and improve crop productivity. The platform empowers farmers with science-based solutions to protect their crops and enhance yields.
-                </p>
-              </div>
-            </a>
-          </div>
-          <!-- END Story -->
 
-          <!-- Story -->
-          <div class="col-lg-4">
-            <a class="block block-rounded block-link-pop h-100 mb-0" href="http://agroclimate.org/" target="_blank">
-              <img class="img-fluid w-100 rounded" src="{{ url_for('static', filename='media/photos/re-3.png') }}"
-                alt="Orange Citrus Greening" style="max-height: 200px; object-fit: cover;">
-              <div class="block-content p-4">
-                <h5 class="mb-2">Agro Climate</h5>
-                <p class="small">
-                  Agro Climate is a valuable resource that provides farmers with climate-based farming recommendations to enhance crop productivity. It offers real-time weather updates, risk assessment tools, and adaptive strategies for different climatic conditions. By leveraging scientific data, it helps farmers make informed decisions and mitigate risks caused by changing weather patterns.
-                </p>
-              </div>
-            </a>
+
+        <!-- Grid Section -->
+        <div class="container py-5" style="max-width: 1200px; margin: auto;"> <!-- Increased padding and width -->
+
+          <h4 class="text-center" style="font-size: 40px;">Farmer’s Resource Hub</h4> <!-- Added a subtitle -->
+
+          <div class="row g-4 mt-3"> <!-- Adjusted spacing -->
+            <!-- Story -->
+            <div class="col-lg-4">
+              <a class="block block-rounded block-link-pop h-100 mb-0" href="https://pmkisan.gov.in/" target="_blank">
+                <img class="img-fluid w-100 rounded" src="{{ url_for('static', filename='media/photos/re-1.png') }}"
+                  alt="Apple Black Rot" style="max-height: 200px; object-fit: cover;"> <!-- Larger image -->
+                <div class="block-content p-4"> <!-- More padding for readability -->
+                  <h5 class="mb-2">PM Kisan Samman Nidhi</h5>
+                  <p class="small">
+                    PM Kisan Samman Nidhi is a government scheme that provides direct financial support to small and
+                    marginal farmers in India. Under this scheme, eligible farmers receive ₹6,000 annually in three
+                    equal installments, directly credited to their bank accounts. It aims to ensure financial stability
+                    and support agricultural growth.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <!-- END Story -->
+
+
+
+
+
+            <!-- Story -->
+            <div class="col-lg-4">
+              <a class="block block-rounded block-link-pop h-100 mb-0" href="https://www.cabi.org/plantwiseplus/"
+                target="_blank">
+                <img class="img-fluid w-100 rounded" src="{{ url_for('static', filename='media/photos/re-2.png') }}"
+                  alt="Grape Esca" style="max-height: 200px; object-fit: cover;">
+                <div class="block-content p-4">
+                  <h5 class="mb-2">CABI Plantwise</h5>
+                  <p class="small">
+                    CABI Plantwise is a global initiative that provides farmers with reliable information on plant
+                    health and pest management. It offers a vast knowledge bank, expert advice, and digital tools to
+                    help diagnose plant diseases and improve crop productivity. The platform empowers farmers with
+                    science-based solutions to protect their crops and enhance yields.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <!-- END Story -->
+
+            <!-- Story -->
+            <div class="col-lg-4">
+              <a class="block block-rounded block-link-pop h-100 mb-0" href="http://agroclimate.org/" target="_blank">
+                <img class="img-fluid w-100 rounded" src="{{ url_for('static', filename='media/photos/re-3.png') }}"
+                  alt="Orange Citrus Greening" style="max-height: 200px; object-fit: cover;">
+                <div class="block-content p-4">
+                  <h5 class="mb-2">Agro Climate</h5>
+                  <p class="small">
+                    Agro Climate is a valuable resource that provides farmers with climate-based farming recommendations
+                    to enhance crop productivity. It offers real-time weather updates, risk assessment tools, and
+                    adaptive strategies for different climatic conditions. By leveraging scientific data, it helps
+                    farmers make informed decisions and mitigate risks caused by changing weather patterns.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <!-- END Story -->
           </div>
-          <!-- END Story -->
+
+          <p class="text-center mt-5">
+            By leveraging AI-powered solutions, farmers can take proactive steps in disease prevention and crop
+            protection, ensuring healthier plants and higher yields.
+          </p>
         </div>
-
-        <p class="text-center mt-5">
-          By leveraging AI-powered solutions, farmers can take proactive steps in disease prevention and crop
-          protection, ensuring healthier plants and higher yields.
-        </p>
-      </div>
-      <!-- END Grid Section -->
+        <!-- END Grid Section -->
 
 
 
 
-      <!-- END Page Content -->
+        <!-- END Page Content -->
     </main>
     <!-- END Main Container -->
   </div>

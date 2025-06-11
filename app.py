@@ -5,6 +5,9 @@ from datetime import timedelta
 import os
 import uuid
 from detection import detect_plant_diseases
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
 
 app = Flask(__name__)
 app.secret_key = "your_secret_key"
@@ -146,6 +149,38 @@ def view_history():
 
     history = DetectionHistory.query.filter_by(user_email=session["user"]).order_by(DetectionHistory.timestamp.desc()).all()
     return render_template("history.html", history=history)
+
+@app.route("/get-history")
+def get_history():
+    if "user" not in session:
+        return jsonify({"history": []})
+
+    records = DetectionHistory.query.filter_by(user_email=session["user"]).order_by(DetectionHistory.timestamp.desc()).all()
+
+    history_data = []
+    for h in records:
+        history_data.append({
+            "label": h.label,
+            "confidence": h.confidence,
+            "description": h.description,
+            "cause": h.cause,
+            "treatment": h.treatment,
+            "prevention": h.prevention,
+            "timestamp": h.timestamp.replace(tzinfo=ZoneInfo("UTC")).astimezone(ZoneInfo("Asia/Kolkata")).strftime("%Y-%m-%d %I:%M %p"),
+        })
+
+    return jsonify({"history": history_data})
+
+
+@app.route("/clear-history", methods=["POST"])
+def clear_history():
+    if "user" not in session:
+        return jsonify({"success": False}), 403
+
+    DetectionHistory.query.filter_by(user_email=session["user"]).delete()
+    db.session.commit()
+    return jsonify({"success": True})
+
 
 
 if __name__ == "__main__":
