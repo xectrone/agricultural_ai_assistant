@@ -1,0 +1,27 @@
+<h2>Your Detection History</h2>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Disease</th>
+      <th>Confidence</th>
+      <th>Description</th>
+      <th>Cause</th>
+      <th>Treatment</th>
+      <th>Prevention</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in history %}
+      <tr>
+        <td>{{ item.timestamp }}</td>
+        <td>{{ item.label }}</td>
+        <td>{{ item.confidence }}</td>
+        <td>{{ item.description }}</td>
+        <td>{{ item.cause }}</td>
+        <td>{{ item.treatment }}</td>
+        <td>{{ item.prevention }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

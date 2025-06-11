@@ -22,6 +22,19 @@ class User(db.Model):
     email = db.Column(db.String(100), unique=True, nullable=False)
     password = db.Column(db.String(200), nullable=False)
 
+# In app.py (or models.py if separate)
+class DetectionHistory(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_email = db.Column(db.String(100), db.ForeignKey('user.email'), nullable=False)
+    label = db.Column(db.String(100), nullable=False)
+    confidence = db.Column(db.String(20), nullable=False)
+    description = db.Column(db.Text)
+    cause = db.Column(db.Text)
+    treatment = db.Column(db.Text)
+    prevention = db.Column(db.Text)
+    timestamp = db.Column(db.DateTime, default=db.func.current_timestamp())
+
+
 # Initialize Database
 with app.app_context():
     db.create_all()
@@ -107,7 +120,33 @@ def detect_disease():
     results = detect_plant_diseases(temp_filename, lang=lang)
     os.remove(temp_filename)
 
+    # Save result to DB
+    if "user" in session and isinstance(results, list) and results:
+        result = results[0]  # only saving top result
+        history = DetectionHistory(
+            user_email=session["user"],
+            label=result["label"],
+            confidence=result["confidence"],
+            description=result["description"],
+            cause=result["cause"],
+            treatment=result["treatment"],
+            prevention=result["prevention"]
+        )
+        db.session.add(history)
+        db.session.commit()
+
+
     return jsonify({"results": results})
+
+@app.route('/history')
+def view_history():
+    if "user" not in session:
+        flash("You must be logged in to view your history.", "warning")
+        return redirect(url_for("signin"))
+
+    history = DetectionHistory.query.filter_by(user_email=session["user"]).order_by(DetectionHistory.timestamp.desc()).all()
+    return render_template("history.html", history=history)
+
 
 if __name__ == "__main__":
     app.run(debug=True)  # Change to False in production
