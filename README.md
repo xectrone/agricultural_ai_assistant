@@ -9,6 +9,8 @@
 
 A web and Android-based plant disease detection system using AI and Computer Vision. Users can upload or capture images of plants to get instant disease diagnosis along with cause, treatment, and prevention — all in English, Hindi, or Marathi.
 
+---
+
 ## 🌐 Live Web App
 
 🚀 **Try it now**:  
@@ -18,10 +20,10 @@ A web and Android-based plant disease detection system using AI and Computer Vis
 
 ## 🎓 Academic Information
 
-> 🏫 **Final Year Project (2025)**
-> 🎓 BE Computer Engineering
-> 🏢 Gokhale Education Society's R. H. Sapat College of Engineering, Nashik
-> 📚 Savitribai Phule Pune University (SPPU)
+🏫 **Final Year Project (2025)**
+🎓 BE Computer Engineering
+🏢 Gokhale Education Society's R. H. Sapat College of Engineering, Nashik
+📚 Savitribai Phule Pune University (SPPU)
 
 ---
 
