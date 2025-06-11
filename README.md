@@ -1,11 +1,5 @@
 # 🌿 Agricultural AI Assistant
-![Python](https://img.shields.io/badge/Python-3.10-blue.svg)  
-![Flask](https://img.shields.io/badge/Flask-2.3.3-lightgrey.svg)  
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0.30-orange.svg)  
-![HuggingFace Transformers](https://img.shields.io/badge/Transformers-ViT-yellow.svg)  
-![Multilingual](https://img.shields.io/badge/Multilingual-English%2C%20Hindi%2C%20Marathi-brightgreen.svg)  
-![Deployment](https://img.shields.io/badge/Hosted_on-Render-blue.svg)  
-![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg)
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)  ![Flask](https://img.shields.io/badge/Flask-2.3.3-lightgrey.svg)  ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0.30-orange.svg)  ![HuggingFace Transformers](https://img.shields.io/badge/Transformers-ViT-yellow.svg)  ![Multilingual](https://img.shields.io/badge/Multilingual-English%2C%20Hindi%2C%20Marathi-brightgreen.svg)  ![Deployment](https://img.shields.io/badge/Hosted_on-Render-blue.svg)  ![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg)
 
 A web and Android-based plant disease detection system using AI and Computer Vision. Users can upload or capture images of plants to get instant disease diagnosis along with cause, treatment, and prevention — all in English, Hindi, or Marathi.
 
@@ -22,8 +16,11 @@ A web and Android-based plant disease detection system using AI and Computer Vis
 ## 🎓 Academic Information
 
 🏫 **Final Year Project (2025)**
+
 🎓 BE Computer Engineering
+
 🏢 Gokhale Education Society's R. H. Sapat College of Engineering, Nashik
+
 📚 Savitribai Phule Pune University (SPPU)
 
 ---
