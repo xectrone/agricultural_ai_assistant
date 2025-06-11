@@ -26,7 +26,12 @@ A web and Android-based plant disease detection system using AI and Computer Vis
 ## 👨‍💻 Project Contributors
 
 
-
+| 👤 Name         | 📧 Email                          | 🌐 GitHub Profile                                                                                                           |
+| --------------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Bhushan Malekar | `xectrone@gmail.com`              | [![@xectrone](https://img.shields.io/badge/GitHub-@xectrone-blue?logo=github)](https://github.com/xectrone)                 |
+| Srushty Borkar  | `1002borkarsr@gmail.com`   | [![@cygnusart](https://img.shields.io/badge/GitHub-@cygnusart-green?logo=github)](https://github.com/srushtyborkar) |
+| Prasen Mhaskar  | `prasenmhaskar45@gmail.com` | [![@Prasen45](https://img.shields.io/badge/GitHub-@Prasen45-purple?logo=github)](https://github.com/Prasen45)               |
+| Anand Dhomase   | `21_anand.dhomase@ges-coengg.org` | [![@ananddhomase](https://img.shields.io/badge/GitHub-@ananddhomase-orange?logo=github)](https://github.com/ananddhomase)   |
 
 ---
 
@@ -151,4 +156,4 @@ https://agricultural-ai-assistant.onrender.com
 
 ## 📄 License
 
-MIT License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
